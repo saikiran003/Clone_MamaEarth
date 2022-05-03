@@ -16,13 +16,18 @@ input{
     margin-bottom: 23px;
     padding: 10px;
 }
+.AfnameDiv,.AlnameDiv,.AmailDiv{
+    margin-bottom: 23px;
+}
 .Bmob,.Bfname,.Blname,.Bmail,.Bdob{
     width: 94%; 
     height:94%;
-    margin-bottom: 23px;
+  
 }
-.BmoB,.BfnamE,.BlnamE,.BmalE{
+.BfnamE,.BlnamE,.ABmaIL{
     color: red;
+    margin-top: -30px;
+    font-size: 12px;
 }
 
 .Bsignup>img{
@@ -38,10 +43,19 @@ input{
 }
 .BsignupButton{
     text-align: center;
-    padding-top: 12px;
+    padding-top: 10px;
     background-color: #00aeef;
     height: 30px;
     color: white;
     vertical-align: middle;
     cursor: pointer;
+}
+
+@media(max-width:765px){
+    .Bsignup{
+        width: 95%;
+    }
+    .BsignupButton{
+       width:98.9%
+    }
 }

@@ -1,18 +1,24 @@
-let mob = JSON.parse(localStorage.getItem('userMob'))
+let mob = JSON.parse(localStorage.getItem('mobRegistration'));
+let ArryOfuserdata = JSON.parse(localStorage.getItem('userData')) || []
+let mobbb = document.querySelector(".Bmob")
+mobbb.value = mob
 
 
-let fname = document.querySelector(".Bfname").innerText
-// fname = fname.innerText
-let lname = document.querySelector(".Blname").innerText
-let Emale = document.querySelector(".Bmail").innerText
-let gender = document.querySelectorAll(".Bgender")
-let dob = document.querySelector(".Bdob").innerText
+// let fname = document.querySelector(".Bfname").value
+// let lname = document.querySelector(".Blname").value
+// let Emale = document.querySelector(".Bmail").value
+// let gender = document.querySelectorAll(".Bgender")
+// let dob = document.querySelector(".Bdob").value;
 
 
-console.log(fname)
 document.querySelector(".BsignupButton").addEventListener("click",(event)=>{
 
-    fname = document.querySelector(".Bfname").innerText
+let fname = document.querySelector(".Bfname").value
+let lname = document.querySelector(".Blname").value
+let Email = document.querySelector(".Bmail").value
+let gender = document.querySelectorAll(".Bgender")
+let dob = document.querySelector(".Bdob").value
+console.log(fname)
 
     document.querySelector(".BfnamE").innerHTML = "";
     document.querySelector(".BlnamE").innerHTML = "";
@@ -21,27 +27,35 @@ document.querySelector(".BsignupButton").addEventListener("click",(event)=>{
     event.preventDefault();
     console.log('inEventListner')
     if(fname==""){
-       
         document.querySelector(".BfnamE").innerHTML = `<p>First name Required</p>`
     }else if(lname==""){
         console.log('lname')
         document.querySelector(".BlnamE").innerHTML = `<p>Last name Required</p>`
-    }else if(Emale==""){
-        document.querySelector(".BmalE").innerHTML = `<p>Valid Email Id is Required</p>`
-    }else if(gender.checked!=true){
-        document.querySelector(".BgendeR").innerHTML = `<p></p>`
+    }else if(Email==""){
+        document.querySelector(".ABmaIL").innerHTML = `<p>Valid Email Id is Required</p>`
     }else{
+        // console.log('storedata')
+        if(gender[0].checked){
+           Gender = 'Male'
+        }else if(gender[1].checked){
+            Gender = 'Female'
+        }else if(gender[2].checked){
+            Gender = 'Male'
+        }else{
+            Gender = 'Not Specified'
+        }
+
         let obj={
             fname,
             lname,
-            Emale,
-            gender,
+            Email,
+            Gender,
             dob,
             Mob:mob
         }
-        localStorage.setItem('userData',JSON.stringify(obj))
+        ArryOfuserdata.push(obj)
+        localStorage.setItem('userData',JSON.stringify(ArryOfuserdata))
         window.location.href="./otp.html"
     }
 })
-
 console.log('in')
