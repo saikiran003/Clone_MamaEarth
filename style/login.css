@@ -1,0 +1,33 @@
+.Alogin{
+   width: 500px;
+   border: solid red 2px;
+   
+   /* text-align: center; */
+  
+}
+.ALoginheading{
+    color: #00aeef;
+    text-align: center;
+    font-size: 20px;
+    margin: 14px 0px 0px;
+}
+.Aintero{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 23px 0px 0px;
+}
+.Aintero img{
+    height: 100%;
+}
+.Aintero>div:nth-child(1){
+    height:70px;
+    width:65px;
+}
+.Aintero div:nth-child(2){
+    height:70px;
+    width:220px;
+}
+.AloginForm{
+    
+}
