@@ -4,7 +4,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/a/l/almond-1_1.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Hair Oil Booster - 30 ml | Almond",
-      price: "₹349",
+      price: 349,
       category: "Hair",
       Rating: "5.0",
       description:
@@ -15,7 +15,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/r/i/rice1_1.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Hair Oil Booster - 30 ml | Rice",
-      price: "₹349",
+      price: 349,
       category: "Hair",
       Rating: "5.0",
       description:
@@ -26,7 +26,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/t/e/tea-tree-1_1.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Hair Oil Booster - 30 ml | Tea Tree",
-      price: "₹349",
+      price: 349,
       category: "Hair",
       Rating: "5.0",
       description:
@@ -37,7 +37,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/o/n/onion-hob_7.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Hair Oil Booster - 30 ml | Onion",
-      price: "₹349",
+      price: 349,
       category: "Hair",
       Rating: "5.0",
       description:
@@ -48,7 +48,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/s/k/skin-illuminate-face-cream.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Skin Illuminate Face Cream with Vitamin C and Turmeric for Radiant Skin – 80 g",
-      price: "₹249",
+      price: 249,
       category: "Hair",
       Rating: "4.9",
       description:
@@ -59,7 +59,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/a/l/aloevera-gel-moisturizer-1.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Aloe Vera Gel Moisturizer with Aloe Vera & Ashwagandha for a Youthful Glow - 100 g",
-      price: "₹499",
+      price: 499,
       category: "Hair",
       Rating: "4.8",
       description:
@@ -70,7 +70,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/a/l/aloe-vera-sunscreen-face-serum.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Aloe Vera Sunscreen Face Serum with Aloe Vera & Ashwagandha for UVA & B Protection - 30 ml",
-      price: "₹499",
+      price: 499,
       category: "Hair",
       Rating: "5.0",
       description:
@@ -81,7 +81,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-styling-cream.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Onion Hair Styling Cream for Men with Onion & Redensyl for Nourishment & Styling- 100 g",
-      price: "₹299",
+      price: 299,
       category: "Hair",
       Rating: "5.0",
       description:
@@ -92,7 +92,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/o/i/oil-free-face-wash_1.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Oil-Free Face Wash with Apple Cider Vinegar & Salicylic Acid for Acne-Prone Skin– 100 ml",
-      price: "₹249",
+      price: 249,
       category: "Face",
       Rating: "4.9",
       description:
@@ -103,7 +103,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/c/o/combo_3.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Aqua Glow Skin Refreshing Combo for Hydrated & Fresh Skin",
-      price: "₹1,098",
+      price: 1098,
       category: "Face",
       Rating: "4.8",
       description:
@@ -114,7 +114,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/c/h/charcoal-face-wash_1.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Charcoal Face Wash with Activated Charcoal and Coffee for Oil Control - 250ml",
-      price: "₹399",
+      price: 399,
       category: "Face",
       Rating: "5.0",
       description:
@@ -125,7 +125,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/a/q/aqua-glow-face-wash.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Aqua Glow Face Wash With Himalayan Thermal Water and Hyaluronic Acid for Intense Hydration - 100ml",
-      price: "₹399",
+      price: 399,
       category: "Face",
       Rating: "5.0",
       description:
@@ -136,7 +136,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/v/i/vitamin-c-underarm-scrub.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Vitamin C Underarm Scrub with Vitamin C and Turmeric for Brighter Underarms – 50 g",
-      price: "₹299",
+      price: 299,
       category: "Body",
       Rating: "5.0",
       description:
@@ -147,7 +147,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/p/e/perfume-1.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Mamaearth ME Eau De Parfum For a Fragrance As Unique As You - 50 ml",
-      price: "₹699",
+      price: 699,
       category: "Body",
       Rating: "5.0",
       description:
@@ -158,7 +158,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/u/b/ubtan-cold-cream-1.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Ubtan Nourishing Cold Cream with Turmeric & Saffron for Glowing Moisturization – 200 g",
-      price: "₹349",
+      price: 349,
       category: "Body",
       Rating: "4.9",
       description:
@@ -169,7 +169,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/c/o/combo_1.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Ubtan Body Care Combo",
-      price: "₹698",
+      price: 698,
       category: "Body",
       Rating: "5.0",
       description:
@@ -180,7 +180,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/_/f/_foaming-face-wash-for-kids_.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Foaming Face Wash For Kids With Aloe Vera & Coconut For Gentle Cleansing- 150 ml",
-      price: "₹349",
+      price: 349,
       category: "Baby",
       Rating: "5.0",
       description:
@@ -191,7 +191,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/_/f/_foaming-face-wash-for-kids_.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Foaming Face Wash For Kids With Aloe Vera & Coconut For Gentle Cleansing- 150 ml",
-      price: "₹349",
+      price: 349,
       category: "Baby",
       Rating: "5.0",
       description:
@@ -202,7 +202,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/d/i/diapers-xl-1.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Plant-Based Diaper Pants for Babies – 12-17 kg (Size XL - 30 Diapers)",
-      price: "₹699",
+      price: 699,
       category: "Baby",
       Rating: "5.0",
       description:
@@ -213,7 +213,7 @@ export const AllProducts = [
       image:
         "https://honasa-mamaearth-production.imgix.net/f/r/fruit-punch-toothpaste-with-props__1200x1200__tozwcvu6lphppoww.jpg?auto=compress&fit=scale&w=400&h=400",
       name: "Mamaearth Fruit Punch Toothpaste",
-      price: "₹149",
+      price: 149,
       category: "Baby",
       Rating: "5.0",
       description:

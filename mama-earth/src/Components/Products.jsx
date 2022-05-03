@@ -9,12 +9,24 @@ const Products = () => {
     setFilter(updatedProducts)
   }
   const handleSort = (e)=>{
-    // const value = e.target.value;
-    // if(value==="l2h")
-    // {
-    //   const updatedList = filter.sort((a,b)=>a-b)
-    //   setFilter(updatedList)
-    // }
+    const value = e.target.value;
+    console.log(value)
+    if(value==="l2h")
+    {
+      console.log("yes")
+      const updatedList = [...filter].sort((a,b)=>a.price-b.price)
+      setFilter(updatedList)
+    }
+    if(value==="h2l")
+    {
+      const updatedList = [...filter].sort((a,b)=>b.price - a.price)
+      setFilter(updatedList)
+    }
+    if(value==="rating")
+    {
+      const updatedList = [...filter].sort((a,b)=>b.Rating-a.Rating)
+      setFilter(updatedList)
+    }
   }
   return (
     <>
@@ -45,7 +57,7 @@ const Products = () => {
               <div className="grade">
                 <div className="golf">{item.Rating}</div>
               </div>
-              <div className="gun">{item.price}</div>
+              <div className="gun">₹{item.price}</div>
               <button className="gold">ADD TO CART</button>
             </div>
           );
