@@ -14,16 +14,18 @@
             <div>
                 <img src="https://mamaearth.in/static/mamaearth/login.svg" />
             </div>
-            <div>Get access to your orders, track
+            <div class="Atext">Get access to your orders, track
                 previous order & Redeem Mama
                 Cash
             </div>
         </div>
         <div>
             <form class="AloginForm">
-                <div>
-                    <input type="phone" placeholder="Phone Number" value="" class="ALoginInput" />
+                <div class="AinputDiv">
+                    <input type="number" placeholder="Phone Number" value="" class="ALoginInput" oninput="checkInput() " onfocus="checkInput()"/>
+                    <div class="Apopup"></div>
                 </div>
+                
                 <div>
                     By Continuing, you agree to Mamaearth's <span>terms and Conditions</span> and <span>Privacy Policy</span> 
                 </div>
@@ -32,7 +34,7 @@
                 </div>
             </form>
         </div>
-        <div>
+        <div class="AGuest">
             <a href="index.html">
                 CONTINUE AS A GUEST
             </a>
@@ -40,3 +42,4 @@
     </div>
 </body>
 </html>
+<script src="./scripts/login.js"></script>
