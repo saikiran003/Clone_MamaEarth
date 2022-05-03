@@ -61,7 +61,6 @@ export const BestSeller = [
         "price":"599",
         "sellerTag":"BEST SELLER",
         "category":"Face"
-
      },
 
      {
