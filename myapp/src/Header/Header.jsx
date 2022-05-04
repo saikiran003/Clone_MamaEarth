@@ -23,6 +23,9 @@ const Header = () => {
   const [style,setStyle] = useState("cont");
   const [baby,setBaby] = useState(false);
   const [beauty,setBeauty] = useState(false);
+  const [hair,setHair] = useState(false);
+  const [face,setFace] = useState(false);
+  const [body,setBody] = useState(false);
 
 
   const handleBaby = ()=>{
@@ -31,6 +34,18 @@ const Header = () => {
 
   const handleBeauty = ()=>{
     setBeauty(true);
+  }
+
+  const handleHair = ()=>{
+    setHair(true);
+  }
+
+  const handleFace = ()=>{
+    setFace(true);
+  }
+
+  const handleBody = ()=>{
+    setBody(true);
   }
 
   const handleCss = (e) => {
@@ -250,7 +265,7 @@ const Header = () => {
               </div>
 
               <div className="babyThird">
-                <p style={{fontSize:'2.43531202435312vh',color:'#00afef'}}>See All</p>
+                <p >See All</p>
                 
               </div>
               
@@ -259,21 +274,107 @@ const Header = () => {
           
         </li>
         <li className="nav-item">
-        <div className={style} onClick={handleCss}>
+        <div className={style} onClick={handleCss} onMouseOver={handleHair} onMouseLeave={()=>{setHair(!hair)}}>
         <Link  className="nav-link " to="/hair">HAIR</Link>      
           </div>
+
+          {hair&&(
+            <div className="babyHover">
+              <div className="babyFirst">
+                <p style={{fontSize:'2.43531202435312vh',color:'black'}}>Explore</p>
+                <p >New Launches</p>
+                <p>Best Sellers</p>
+                <p>Combos</p>
+                <p>Gift Packs</p>
+              </div>
+              <div className="babySecond">
+                <p style={{fontSize:'2.43531202435312vh',color:'black'}}>Hair</p>
+                <p >Shampoo </p>
+                <p>Conditioner </p>
+                <p>Hair Oil</p>
+                <p>Hair Mask</p>
+                <p>Hair Serum</p>
+              </div>
+
+              <div className="babyThird">
+                <p >See All</p>
+                
+              </div>
+              
+            </div>
+          )}
 
          
         </li>
         <li className="nav-item">
-        <div className={style} onClick={handleCss}>
+        <div className={style} onClick={handleCss}  onMouseOver={handleFace} onMouseLeave={()=>{setFace(!face)}}>
           <Link  className="nav-link " to="/face">FACE</Link>
           </div>
+
+
+          {face&&(
+            <div className="babyHover">
+              <div className="babyFirst">
+                <p style={{fontSize:'2.43531202435312vh',color:'black'}}>Explore</p>
+                <p >New Launches</p>
+                <p>Best Sellers</p>
+                <p>Combos</p>
+                <p>Gift Packs</p>
+              </div>
+              <div className="babySecond">
+                <p style={{fontSize:'2.43531202435312vh',color:'black'}}>Face</p>
+                <p >Face Wash </p>
+                <p>Face Mask </p>
+                <p>Face Cream</p>
+                <p>Face Serum</p>
+                <p>Face Scrub</p>
+                <p>Face Toner</p>
+                <p>Face Gel</p>
+                <p>Face Sheet Mask</p>
+                <p>Face Moisturiser</p>
+
+              </div>
+
+              <div className="babyThird">
+                <p >See All</p>
+                
+              </div>
+              
+            </div>
+          )}
+
         </li>
         <li className="nav-item">
-        <div className={style} onClick={handleCss}>
+        <div className={style} onClick={handleCss}  onMouseOver={handleBody} onMouseLeave={()=>{setBody(!body)}}>
           <Link  className="nav-link " to="/body">BODY</Link>
           </div>
+
+          {body&&(
+            <div className="babyHover">
+              <div className="babyFirst">
+                <p style={{fontSize:'2.43531202435312vh',color:'black'}}>Explore</p>
+                <p >New Launches</p>
+                <p>Best Sellers</p>
+                <p>Combos</p>
+                <p>Gift Packs</p>
+              </div>
+              <div className="babySecond">
+                <p style={{fontSize:'2.43531202435312vh',color:'black'}}>Body</p>
+                <p >Body Wash </p>
+                <p>Body Scrub </p>
+                <p>Hand Cream</p>
+                <p>Body Lotion</p>
+              </div>
+
+              <div className="babyThird">
+                <p >See All</p>
+                
+              </div>
+              
+            </div>
+          )}
+
+
         </li>
         <li className="nav-item">
         <div className={style} onClick={handleCss}>
