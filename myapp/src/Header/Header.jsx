@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import {Link} from "react-router-dom";
-// import {styles} from "navbar.modules";
+import "./Header.css";
+
+
 
 //     z-index: 1;
 // visibility: hidden;
@@ -18,6 +20,29 @@ import {Link} from "react-router-dom";
 // transform: translateX(50%);
 
 const Header = () => {
+  const [style,setStyle] = useState("cont");
+  const [baby,setBaby] = useState(false);
+  const [beauty,setBeauty] = useState(false);
+
+
+  const handleBaby = ()=>{
+    setBaby(true);
+  }
+
+  const handleBeauty = ()=>{
+    setBeauty(true);
+  }
+
+  const handleCss = (e) => {
+    e.target.style.color = "#00afef"
+    console.log("CSS")
+    setStyle("cont2")
+  }
+
+  const handleLeave=(e) => {
+    e.target.style.color="black"
+  }
+
   return (
     <div>
       <div >
@@ -87,7 +112,7 @@ const Header = () => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent"></div>
 
-        <div style={{ marginRight: "1rem" }}>
+        <div  style={{ marginRight: "1rem" }}>
           <ul className="navbar-nav mb-2 mb-lg-0 ">
             <li className="nav-item   ">
               <Link to="/cart"
@@ -163,40 +188,117 @@ const Header = () => {
     </nav>
     </div>
 
-    <div style={{backgroundColor:'white', borderTop: '1px solid whitesmoke'}} >
+    <div className="belowNavbar" style={{}} >
       <ul style={{fontSize:'2.13089802130898vh', fontWeight:'500', color:'gray', textDecoration:'none'}} className="nav justify-content-center">
         <li className="nav-item">
-          <Link style={{color:'black', textDecoration:'none'}} className="nav-link active" aria-current="page" to="/">HOME</Link>
+          <div className={style} onClick={handleCss}>
+          <Link  className="nav-link active" aria-current="page" to="/" >HOME</Link>
+          </div>
         </li>
         <li className="nav-item">
+        <div className={style} onClick={handleCss} onMouseOver={handleBaby} onMouseLeave={()=>{setBaby(!baby)}} >
           <Link className="nav-link" to="/baby">BABY</Link>
+          </div>
+          {baby&&(
+            <div className="babyHover">
+              <div className="babyFirst">
+                <p style={{fontSize:'2.43531202435312vh',color:'black'}}>Explore</p>
+                <p >New Launches</p>
+                <p>Best Sellers</p>
+                <p>Combos</p>
+                <p>Gift Packs</p>
+              </div>
+              <div className="babySecond">
+                <p style={{fontSize:'2.43531202435312vh',color:'black'}}>Baby</p>
+                <p >Baby Shampoo</p>
+                <p>Baby Oralcare</p>
+                <p>Baby Oil</p>
+                <p>Baby Skin</p>
+                <p>Baby Bath</p>
+              </div>
+
+              <div className="babyThird">
+                <p style={{fontSize:'2.43531202435312vh',color:'#00afef'}}>See All</p>
+                
+              </div>
+              
+            </div>
+          )}
+        </li>
+
+        <li className="nav-item">
+        <div className={style} onClick={handleCss}  onMouseOver={handleBeauty} onMouseLeave={()=>{setBeauty(!beauty)}}>
+        <Link  className="nav-link" to="/beauty">BEAUTY</Link>
+        </div>
+
+
+
+          {beauty&&(
+            <div className="babyHover">
+              <div className="babyFirst">
+                <p style={{fontSize:'2.43531202435312vh',color:'black'}}>Explore</p>
+                <p >New Launches</p>
+                <p>Best Sellers</p>
+                <p>Combos</p>
+                <p>Gift Packs</p>
+              </div>
+              <div className="babySecond">
+                <p style={{fontSize:'2.43531202435312vh',color:'black'}}>Beauty</p>
+                <p >Face </p>
+                <p>Hair </p>
+                <p>Body</p>
+              </div>
+
+              <div className="babyThird">
+                <p style={{fontSize:'2.43531202435312vh',color:'#00afef'}}>See All</p>
+                
+              </div>
+              
+            </div>
+          )}
+          
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/beauty">BEAUTY</Link>
+        <div className={style} onClick={handleCss}>
+        <Link  className="nav-link " to="/hair">HAIR</Link>      
+          </div>
+
+         
         </li>
         <li className="nav-item">
-          <Link className="nav-link " to="/hair">HAIR</Link>
+        <div className={style} onClick={handleCss}>
+          <Link  className="nav-link " to="/face">FACE</Link>
+          </div>
         </li>
         <li className="nav-item">
-          <Link className="nav-link " to="/face">FACE</Link>
+        <div className={style} onClick={handleCss}>
+          <Link  className="nav-link " to="/body">BODY</Link>
+          </div>
         </li>
         <li className="nav-item">
-          <Link className="nav-link " to="/body">BODY</Link>
+        <div className={style} onClick={handleCss}>
+          <Link  className="nav-link " to="/giftpacks">GIFT PACKS</Link>
+          </div>
         </li>
         <li className="nav-item">
-          <Link className="nav-link " to="/giftpacks">GIFT PACKS</Link>
+        <div className={style} onClick={handleCss}>
+          <Link  className="nav-link " to="/allproducts">ALL PRODUCTS</Link>
+          </div>
         </li>
         <li className="nav-item">
-          <Link className="nav-link " to="/allproducts">ALL PRODUCTS</Link>
+        <div className={style} onClick={handleCss}>
+          <Link  className="nav-link " to="/blog">BLOG</Link>
+          </div>
         </li>
         <li className="nav-item">
-          <Link className="nav-link " to="/blog">BLOG</Link>
+        <div className={style} onClick={handleCss}>
+          <Link  className="nav-link " to="/plantgoodness">PLANT GOODNESS</Link>
+          </div>
         </li>
         <li className="nav-item">
-          <Link className="nav-link " to="/plantgoodness">PLANT GOODNESS</Link>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link " to="storelocator">STORE LOCATOR</Link>
+        <div className={style} onMouseOver={handleCss} onMouseLeave={handleLeave}>
+          <Link  className="nav-link " to="storelocator">STORE LOCATOR</Link>
+          </div>
         </li>
       </ul>
     </div>
