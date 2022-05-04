@@ -1,4 +1,6 @@
 import React from "react";
+import {Link} from "react-router-dom";
+// import {styles} from "navbar.modules";
 
 //     z-index: 1;
 // visibility: hidden;
@@ -17,24 +19,26 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div>
+      <div >
+    <nav  className="navbar navbar-expand-lg navbar-light bg-white">
       <div
         style={{
           marginLeft: "5.856515373352855vw",
           marginRight: "5.856515373352855vw",
         }}
-        class="container-fluid"
+        className="container-fluid"
       >
-        <a class="navbar-brand" href="#">
+        <a className="navbar-brand" href="#">
           <img
             style={{ width: "10.248901903367496vw", height: "" }}
             alt="mamaearth"
-            class="logo"
+            className="logo"
             src="https://mamaearthp.imgix.net/wysiwyg/mamaearth-logo.png?auto=format&amp;fit=scale"
           />
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -42,14 +46,14 @@ const Header = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
-        <form class="d-flex">
+        <form className="d-flex">
           <input
             style={{ width: "36.603221083455345vw", height: "" }}
             type="text"
-            class="form-control"
+            className="form-control"
             placeholder="Search for products"
             aria-label="Search for products"
             aria-describedby="button-addon2"
@@ -60,7 +64,7 @@ const Header = () => {
               color: "white",
               border: "none",
             }}
-            class="btn btn-outline-secondary"
+            className="btn btn-outline-secondary"
             type="button"
             id="button-addon2"
           >
@@ -74,23 +78,23 @@ const Header = () => {
                 style={{ fill: "rgb(255, 255, 255)" }}
                 d="M0 6.318a6.282 6.282 0 003.744 5.652 7.006 7.006 0 007.025-.68l5.673 5.354a.871.871 0 001.133-.041.756.756 0 00.044-1.07l-5.673-5.354a6.022 6.022 0 00.219-7.469A6.894 6.894 0 004.676.29 6.354 6.354 0 000 6.318zM6.679 1.59a4.875 4.875 0 015.009 4.728 4.875 4.875 0 01-5.009 4.728A4.875 4.875 0 011.67 6.318 4.875 4.875 0 016.679 1.59z"
                 fill="#5c5c5c"
-                class="path-selector"
+                className="path-selector"
               ></path>
             </svg>
             Seacrh
           </button>
         </form>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent"></div>
 
         <div style={{ marginRight: "1rem" }}>
-          <ul class="navbar-nav mb-2 mb-lg-0 ">
-            <li class="nav-item   ">
-              <a
+          <ul className="navbar-nav mb-2 mb-lg-0 ">
+            <li className="nav-item   ">
+              <Link to="/cart"
                 style={{ marginRight: "3rem" }}
-                class="nav-link active  .me-10 "
+                className="nav-link active  .me-10 "
                 aria-current="page"
-                href="#"
+               
               >
                 <svg
                   style={{ marginRight: "1rem", color: "white" }}
@@ -114,46 +118,40 @@ const Header = () => {
                   ></path>
                 </svg>
                 Cart
-              </a>
+              </Link>
             </li>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+            <li  className="nav-item dropdown">
+              <Link to="/login"
+               style={{ fontsize: "0.0vh" }}
+                className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded=""
+                
               >
-                <svg
-                  style={{ fontsize: "2vh" }}
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 448 512"
-                >
-                  <path
-                    style={{ fill: "#00afef", stroke: "#00afef", fontSize: "" }}
-                    d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"
-                  />
-                </svg>
-              </a>
+      
+              
 
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <svg fill="none" height="22" width="22" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{display:'inline-block',verticalAlign:'middle', marginRight:"1rem"}} ><path style={{stroke: "#00afef",}} d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle style={{stroke: "#00afef",fontWeight:'300', }} cx="12" cy="7" r="4"></circle></svg>
+
+               Login
+             
+              </Link>
+
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Another action
                   </a>
                 </li>
                 <li>
-                  <hr class="dropdown-divider" />
+                  <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Something else here
                   </a>
                 </li>
@@ -163,6 +161,48 @@ const Header = () => {
         </div>
       </div>
     </nav>
+    </div>
+
+    <div style={{backgroundColor:'white', borderTop: '1px solid whitesmoke'}} >
+      <ul style={{fontSize:'2.13089802130898vh', fontWeight:'500', color:'gray', textDecoration:'none'}} className="nav justify-content-center">
+        <li className="nav-item">
+          <Link style={{color:'black', textDecoration:'none'}} className="nav-link active" aria-current="page" to="/">HOME</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/baby">BABY</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/beauty">BEAUTY</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link " to="/hair">HAIR</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link " to="/face">FACE</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link " to="/body">BODY</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link " to="/giftpacks">GIFT PACKS</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link " to="/allproducts">ALL PRODUCTS</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link " to="/blog">BLOG</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link " to="/plantgoodness">PLANT GOODNESS</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link " to="storelocator">STORE LOCATOR</Link>
+        </li>
+      </ul>
+    </div>
+    </div>
+     
+    
   );
 };
 
