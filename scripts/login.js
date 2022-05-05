@@ -25,7 +25,8 @@ const checkInput = ()=>{
                     var flag = true
                     mobileNumber.map((elem)=>{
                         if(elem.Mob==inputValue){
-                             flag = false
+                             flag = false;
+                             localStorage.setItem('triedToLoginUser',JSON.stringify(elem))
                             window.location.href="./otp.html"
                         }
                    

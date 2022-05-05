@@ -8,11 +8,14 @@ body{
 }
 
 .Alogin{
+    
    width: 400px;
-   border: solid red 2px;
+   /* border: solid red 2px; */
    margin: auto;
+   margin-top: 20px;
    padding: 15px;  
    color: rgba(119,119,119);
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .ALoginheading{
     color: #00aeef;
@@ -65,15 +68,17 @@ body{
     font-weight: 600;
     
 }
-input{
+.AinputDiv input{
     height: 100%;
     width: 97%;
     padding-left: 10px;
     transition: 0.5s;
 
 }
-input:focus{
-    border: solid  teal 2px;
+.AinputDiv input:focus{
+    outline: none;
+    border: none;
+    border: 2px solid #00aeef;
 }
 .AloginButton{
     text-align: center;

@@ -1,7 +1,7 @@
 .AotpPage{
     text-align: center;
     width: 400px;
-    border: solid red 2px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: auto;
     padding: 15px;  
     color: rgba(119,119,119);

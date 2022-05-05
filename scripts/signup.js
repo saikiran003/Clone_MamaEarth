@@ -4,12 +4,6 @@ let mobbb = document.querySelector(".Bmob")
 mobbb.value = mob
 
 
-// let fname = document.querySelector(".Bfname").value
-// let lname = document.querySelector(".Blname").value
-// let Emale = document.querySelector(".Bmail").value
-// let gender = document.querySelectorAll(".Bgender")
-// let dob = document.querySelector(".Bdob").value;
-
 
 document.querySelector(".BsignupButton").addEventListener("click",(event)=>{
 
@@ -54,8 +48,8 @@ console.log(fname)
             Mob:mob
         }
         ArryOfuserdata.push(obj)
-        localStorage.setItem('userData',JSON.stringify(ArryOfuserdata))
+        localStorage.setItem('userData',JSON.stringify(ArryOfuserdata));
+        localStorage.setItem('triedToLoginUser',JSON.stringify(obj))
         window.location.href="./otp.html"
     }
 })
-console.log('in')
