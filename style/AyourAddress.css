@@ -149,6 +149,34 @@ display: flex;
     background-color:#00aeef   ;
     color: white;
   }
+
+
+                                             /* address Available */
+
+
+                                                                     
+.showAddress{
+    width: 60%;
+}
+.AnoOfAddress{
+    margin-bottom: 15px;
+}
+.AnoOfAddress,.Aname,.Amobb{
+    text-align: left;
+    padding-left: 10px;
+}
+.AddressCont{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.AaddressContainer{
+    border: solid 1px rgb(193 193 193);
+    border-radius: 5px;
+}
+
+
   @media(max-width:1024px){
     .AinputDiv{
         grid-template-columns: repeat(1,1fr);
@@ -162,6 +190,9 @@ display: flex;
     }
     .AinputDiv3>div:nth-child(3)>input{
         width:97%
+    }
+    .showAddress{
+        width: 80%;
     }
     
   }

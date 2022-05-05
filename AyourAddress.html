@@ -13,6 +13,10 @@
 </head>
 <body>
     <div class="AprofileMainDiv">
+
+                              <!-- Active Clickable Div   (common) -->
+
+
            <div class="AclickableDivContainer">
             
                     <div class="AactivableDiv">
@@ -43,78 +47,93 @@
 
            <div class="AdescriptiveDiv">
                <div class="AaddressMainDiv">
-                   <!-- <div class="yourAddressMainDiv">
-                      <img class="AEmptyOrderList" src="https://mamaearth.in/static/mamaearth/location.svg" />
-                   </div>
-                   <div class="Anoorder">No Address Available</div>
-                   <div>
-                       <button class="AaddressButton" onclick="window.location.href=''  "> + ADD NEW ADDRESS </button>
-                   </div> -->
 
 
 
-                   <!-- <div class="AmainHead">New Delivery Address</div>
-                   <div class="AddressFormdiv">
-                       <form class="AaddressForm">
-                           <div class="AinputDiv">
-                               <div>
-                                   <input type="text" placeholder="First Name*" class="Afname" value="" />
-                               </div>
-                               <div>
-                                    <input type="text" placeholder="Last Name*" class="Alname" value="" />
-                               </div>
-                           </div>
-                           <div class="AinputDiv">
-                                 <div>
-                                    <input type="email" placeholder="Email ID*" class="Aemail" value="" />
-                                 </div>
-                                 <div>
-                                    <input type="tel" placeholder="Phone Number*" maxlength="10" class="Aphone"  value="" />
-                                 </div>
-                           </div>
-                           <div class="AinputDiv3">
-                                 <div>
-                                    <input type="number" placeholder="PIN code*" maxlength="6" class="Apincode" >
-                                 </div>
-                                 <div>
-                                    <input type="text" placeholder="City*" class="Acity" value="" />
-                                 </div>
-                                 <div>
-                                    <input type="text" placeholder="State*" class="Astate" value="" />
-                                 </div>
+                       <!-- SHow If NO prior address Available -->
+
+
+                  <div id="Anoaddress">
+        <div class="yourAddressMainDiv">
+            <img class="AEmptyOrderList" src="https://mamaearth.in/static/mamaearth/location.svg" />
+         </div>
+         <div class="Anoorder">No Address Available</div>
+         <div>
+             <button class="AaddressButton" onclick="AddAddress()  "> + ADD NEW ADDRESS </button>
+         </div>
+                  </div>
+
+                        <!-- ADDRESS FORM -->
+
+                  <div id="AaddressForm">
+                    <div class="AmainHead">New Delivery Address</div>
+                    <div class="AddressFormdiv">
+                        <form class="AaddressForm">
+                            <div class="AinputDiv">
+                                <div>
+                                    <input type="text" placeholder="First Name*" class="Afname" value="" />
+                                </div>
+                                <div>
+                                     <input type="text" placeholder="Last Name*" class="Alname" value="" />
+                                </div>
                             </div>
-
-                        <div>
-                            <input type="text" placeholder="Address (House Number, Building, Street, Area)*" class="Aaddress" value="" />
-                        </div>
-                        <div align="left">
-                            <p style="text-align: left;">Select the type of the Address</p>
-                            <div style="display: flex;">
-                                <span class="Aselection">Home</span>
-                                <span class="Aselection">Work</span>
-                                <span class="Aselection">Other</span>
+                            <div class="AinputDiv">
+                                  <div>
+                                     <input type="email" placeholder="Email ID*" class="Aemail" value="" />
+                                  </div>
+                                  <div>
+                                     <input type="tel" placeholder="Phone Number*" maxlength="10" class="Aphone"  value="" />
+                                  </div>
                             </div>
-                        </div>
-                        <div class="Acheckboxdiv">
-                            <input type="checkbox" class="Acheckbox">
-                            <span>Make this as my default address</span>
-                        </div>
-                        <div class="AbuttonDiv">
-                            <button class="AsaveAddress">SAVE ADDRESS</button>
-                            <button class="Acancel">Cancel</button>
-                        </div>
-                       </form>
-                   </div>-->
+                            <div class="AinputDiv3">
+                                  <div>
+                                     <input type="number" placeholder="PIN code*" maxlength="6" class="Apincode" >
+                                  </div>
+                                  <div>
+                                     <input type="text" placeholder="City*" class="Acity" value="" />
+                                  </div>
+                                  <div>
+                                     <input type="text" placeholder="State*" class="Astate" value="" />
+                                  </div>
+                             </div>
+                
+                         <div>
+                             <input type="text" placeholder="Address (House Number, Building, Street, Area)*" class="Aaddress" value="" />
+                         </div>
+                         <div align="left">
+                             <p style="text-align: left;">Select the type of the Address</p>
+                             <div style="display: flex;">
+                                 <span class="Aselection">Home</span>
+                                 <span class="Aselection">Work</span>
+                                 <span class="Aselection">Other</span>
+                             </div>
+                         </div>
+                         <div class="Acheckboxdiv">
+                             <input type="checkbox" class="Acheckbox">
+                             <span>Make this as my default address</span>
+                         </div>
+                         <div class="AbuttonDiv">
+                             <button class="AsaveAddress" onclick="saveAddress()">SAVE ADDRESS</button>
+                             <button class="Acancel">Cancel</button>
+                         </div>
+                        </form>
+                    </div>
+                  </div>
+
+
+                  <div class="showAddress">
+                          <!-- added from js -->
+                  </div>
+                  
 
 
 
-
-
-               </div> 
+              </div>
+            </div> 
                
-           </div>
-
     </div>
+
+    <!-- </div> -->
 
 
 
@@ -136,9 +155,6 @@
         foot.innerHTML=footer();
     console.log('footer')
 
-    // import {ActivableDiv} from "./components/AactivableDiv.js"
-    // let ActiveDiv = document.querySelector(".AclickableDivContainer")
-    // ActiveDiv.innerHTML = ActivableDiv();
 </script>
 
 <script src="./scripts/ActiveDivfunctionality.js"></script>

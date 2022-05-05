@@ -1,94 +1,105 @@
 let AddressArray = JSON.parse(localStorage.getItem('Address')) || [];
 let cont = document.querySelector(".AaddressMainDiv")
   if(AddressArray.length==0){
-    cont.innerHTML="";
-    cont.innerHTML=
-    `
-        <div class="yourAddressMainDiv">
-            <img class="AEmptyOrderList" src="https://mamaearth.in/static/mamaearth/location.svg" />
-       </div>
-       <div class="Anoorder">No Address Available</div>
-      <div>
-        <button class="AaddressButton" onclick="addressAdd()"> + ADD NEW ADDRESS </button>
-      </div>
-    `
+      document.querySelector(".showAddress").style.display="none"
+       document.querySelector("#AaddressForm").style.display="none"
+    //   document.querySelector("#AaddressForm").style.display="none"
+  }else{
+    document.querySelector(".showAddress").style.display="block"
+    document.querySelector("#Anoaddress").style.display="none"
+    document.querySelector("#AaddressForm").style.display="none"
+  
   }
 
-function addressAdd(){
-    cont.innerHTML="";
-    cont.innerHTML=
-    `
-    <div class="AmainHead">New Delivery Address</div>
-    <div class="AddressFormdiv">
-        <form class="AaddressForm">
-            <div class="AinputDiv">
-                <div>
-                    <input type="text" placeholder="First Name*" class="Afname" value="" />
-                </div>
-                <div>
-                     <input type="text" placeholder="Last Name*" class="Alname" value="" />
-                </div>
-            </div>
-            <div class="AinputDiv">
-                  <div>
-                     <input type="email" placeholder="Email ID*" class="Aemail" value="" />
-                  </div>
-                  <div>
-                     <input type="tel" placeholder="Phone Number*" maxlength="10" class="Aphone"  value="" />
-                  </div>
-            </div>
-            <div class="AinputDiv3">
-                  <div>
-                     <input type="number" placeholder="PIN code*" maxlength="6" class="Apincode" >
-                  </div>
-                  <div>
-                     <input type="text" placeholder="City*" class="Acity" value="" />
-                  </div>
-                  <div>
-                     <input type="text" placeholder="State*" class="Astate" value="" />
-                  </div>
-             </div>
-
-         <div>
-             <input type="text" placeholder="Address (House Number, Building, Street, Area)*" class="Aaddress" value="" />
-         </div>
-         <div align="left">
-             <p style="text-align: left;">Select the type of the Address</p>
-             <div style="display: flex;">
-                 <span class="Aselection">Home</span>
-                 <span class="Aselection">Work</span>
-                 <span class="Aselection">Other</span>
-             </div>
-         </div>
-         <div class="Acheckboxdiv">
-             <input type="checkbox" class="Acheckbox">
-             <span>Make this as my default address</span>
-         </div>
-         <div class="AbuttonDiv">
-             <button class="AsaveAddress" onclick="saveAddress()">SAVE ADDRESS</button>
-             <button class="Acancel">Cancel</button>
-         </div>
-        </form>
-    </div>
-</div>
-    `
-  }
-
-
-
-
-
-
-  let firstName = document.querySelector(".Afname").value
-  let lastName = document.querySelector(".Alname").value
-  let emeil = document.querySelector(".Aemail").value
-  let phone = document.querySelector(".Aphone").value
-  let pincode = document.querySelector(".Apincode").value
-  let city = document.querySelector(".Acity").value
-  let state = document.querySelector(".Astate").value
-  let Address = document.querySelector(".Aaddress").value
-  let defaultSet = document.querySelector(".Acheckbox")
-
-function saveAddress(){
-    
+function AddAddress(){
+    document.querySelector(".showAddress").style.display="none"
+    document.querySelector("#Anoaddress").style.display="none"
+    document.querySelector("#AaddressForm").style.display="block"
 }
+
+
+
+
+
+
+function saveAddress(event){
+
+    let firstName = document.querySelector(".Afname").value
+    let lastName = document.querySelector(".Alname").value
+    let email = document.querySelector(".Aemail").value
+    let phone = document.querySelector(".Aphone").value
+    let pincode = document.querySelector(".Apincode").value
+    let city = document.querySelector(".Acity").value
+    let state = document.querySelector(".Astate").value
+    let Address = document.querySelector(".Aaddress").value
+    let defaultSet = document.querySelector(".Acheckbox").value
+    if(firstName==""){
+        alert('First name required')
+        event.preventDefault(event)
+    }else if(lastName==""){
+        alert('Last name required')
+    }else if(email ==""){
+        alert('Valid email ID required')
+    }else if(phone==""){
+         alert('Valid phone number required')
+    }else if(pincode==""){
+        alert('Enter valid PIN Code')   
+    }else if(city==""){
+        alert('Required')
+    }else if(state==""){
+        alert('Valid phone number required')
+    }else if(Address==""){
+        alert('Address required')
+    }else{
+            
+        let obj={
+            firstName,
+            lastName,
+            email ,
+            phone,
+            pincode,
+            city,
+            state,
+            Address,
+        }
+        if(defaultSet.checked){
+            AddressArray.unshift(obj)
+        }else{
+            AddressArray.push(obj)
+        }
+    
+        localStorage.setItem('Address',JSON.stringify(AddressArray));
+        document.querySelector(".showAddress").style.display="block"
+        document.querySelector("#Anoaddress").style.display="none"
+        document.querySelector("#AaddressForm").style.display="none"
+    } 
+}
+
+
+showAddressFunction(AddressArray)
+
+function showAddressFunction(AddressArray){
+    AddressArray.map((elem,AddressArray)=>{
+        // console.log('map')
+        document.querySelector('.showAddress').innerHTML=
+        `
+        <div class="AnoOfAddress">${AddressArray.length}</div>
+        <div class="AaddressContainer">
+            <h4 class="Aname">${elem.firstName} ${elem.lastName}</h4>
+            <p class="AddressCont">${elem.Address} ${elem.city} ${elem.state}-${elem.pincode}</p>
+            <h4 class="Amobb">${elem.phone}</h4>
+        </div>
+        `
+    })
+
+
+    let btn = document.createElement('div')
+    btn.innerHTML=`
+    <button class="AaddressButton" style=" min-width:110px;margin-bottom:20px" onclick="AddAddress()  "> + ADD NEW ADDRESS </button>
+    `
+    document.querySelector(".AnoOfAddress").innerText=AddressArray.length + " "+"Saved Address"
+    document.querySelector(".showAddress").append(btn)
+}
+
+
+
