@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import { useDispatch } from "react-redux";
 import { AllProducts } from "../Data/Products";
+import { addItem } from "../redux/action";
 
 const Products = () => {
   const [filter,setFilter] = useState(AllProducts)
-  
+  const dispatch = useDispatch()
   const handleFilter = (cat)=>{
     const updatedProducts = AllProducts.filter((x)=>x.category===cat)
     setFilter(updatedProducts)
@@ -24,9 +26,13 @@ const Products = () => {
     }
     if(value==="rating")
     {
-      const updatedList = [...filter].sort((a,b)=>b.Rating-a.Rating)
+      const updatedList = [...filter].sort((a,b)=>b.rating-a.rating)
       setFilter(updatedList)
     }
+  }
+  const handleCart = (item)=>{
+    dispatch(addItem(item))
+    alert("Product has been added to cart")
   }
   return (
     <>
@@ -52,13 +58,13 @@ const Products = () => {
         {filter.map((item) => {
           return (
             <div className="ghost">
-              <img src={item.image} alt={item.name} className="glamour" />
+              <img src={item.pImg} alt={item.name} className="glamour" />
               <div className="grace">{item.name}</div>
               <div className="grade">
-                <div className="golf">{item.Rating}</div>
+                <div className="golf">{item.rating}</div>
               </div>
               <div className="gun">₹{item.price}</div>
-              <button className="gold">ADD TO CART</button>
+              <button className="gold" onClick={()=>handleCart(item)}>ADD TO CART</button>
             </div>
           );
         })}
