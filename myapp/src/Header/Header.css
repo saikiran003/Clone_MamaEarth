@@ -1,3 +1,7 @@
+#MainNav{
+    
+}
+
 .belowNavbar{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background-color:white; border-top: 1px solid whitesmoke
@@ -48,5 +52,51 @@
     margin-right:1vw
 }
 .babyThird>p{
-    font-size:2.43531202435312vh;color:#00afef
+    font-size:2.43531202435312vh;
+    color:#00afef ;
+}
+#cartAtRight{
+   
+    /* border: 1px solid red; */
+    margin-left: -7vw;
+    margin-top:-7.5vh;
+    position:absolute;
+    z-index: 1;
+    width:  32.913221083455345vw;
+    height: 100vh;
+    background-color:white;
+    justify-content: left;
+}
+#myCart{
+    margin-left:0px;
+    display: flex;
+    padding: 1vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#myCartSecond{
+    margin-left: 2vw;
+}
+#myCartSecond>p{
+    font-size:2.82648401826484vh;
+    color: #00afef;
+    font-weight: 500;
+
+}
+#myCart>div>i{
+    margin-top: 1vh;
+    font-size:2.82648401826484vh;
+    margin-left:2vw;
+    color: #00afef;
+}
+#myCartContent>img{
+    width: 15vw;
+    height: 30vh;
+    margin-top:3vh;
+}
+#shopNowBtn{
+    border: none;
+    padding: 0.5vh 1vw;
+    background-color:#00afef;
+    color: white;
+    border-radius: 3px;
 }
