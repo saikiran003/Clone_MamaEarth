@@ -10,6 +10,11 @@ const Header = () => {
   const [face, setFace] = useState(false);
   const [body, setBody] = useState(false);
   const [isCart, setIsCart] = useState(false);
+  const [underline, setUnderline] = useState("notUnderlined");
+
+  const hoverUnderline = ()=>{
+    setUnderline("underlined")
+  }
 
   const handleBaby = () => {
     setBaby(true);
@@ -31,8 +36,10 @@ const Header = () => {
     setBody(true);
   };
 
-  const showCart = () => {
+  const showCart = (e) => {
+    e.target.style.pointerEvents = 'none';
     setIsCart(true)
+
     console.log("clicked")
 
   }
@@ -57,6 +64,42 @@ const Header = () => {
 
   return (
     <div>
+
+<div id="firstLine">
+  <p className={underline} onMouseEnter={hoverUnderline} onMouseLeave={()=>{setUnderline("notUnderlined")}}>Asia's 1st Brand With MADE SAFE Certified Products</p>
+  <p className={underline} onMouseEnter={hoverUnderline} onMouseLeave={()=>{setUnderline("notUnderlined")}}  >Free Shipping Above 399 | COD Available | Extra 5% Off On Prepaid Orders | Shop Now</p>
+  <div> 
+    <Link to="/">
+                <svg
+                      fill="none"
+                      height="22"
+                      width="22"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      style={{
+                        display: "inline-block",
+                        verticalAlign: "middle",
+                        marginRight: "1rem",
+                      }}
+                    >
+                      <path
+                        style={{ stroke: "white" }}
+                        d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+                      ></path>
+                      <circle
+                        style={{ stroke: "white", fontWeight: "300" }}
+                        cx="12"
+                        cy="7"
+                        r="4"
+                      ></circle>
+                    </svg>
+                    </Link>
+                    </div>
+</div>
+
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-white">
           <div
@@ -229,23 +272,98 @@ const Header = () => {
                     aria-labelledby="navbarDropdown"
                   >
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Action
-                      </a>
+                      <Link to="/profile" className="dropdown-item" >
+                      <svg
+                      fill="none"
+                      height="22"
+                      width="22"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      style={{
+                        display: "inline-block",
+                        verticalAlign: "middle",
+                        marginRight: "1rem",
+                      }}
+                    >
+                      <path
+                        style={{ stroke: "#00afef" }}
+                        d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+                      ></path>
+                      <circle
+                        style={{ stroke: "#00afef", fontWeight: "300" }}
+                        cx="12"
+                        cy="7"
+                        r="4"
+                      ></circle>
+                    </svg>
+                    Your Profile
+                      </Link>
                     </li>
+
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Another action
-                      </a>
+                      <hr className="dropdown-divider" />
+                    </li>
+
+
+                    <li>
+                      <Link className="dropdown-item" to="/orders">
+                      <svg
+                      style={{ marginRight: "1rem", color: "white" }}
+                      id="shopping_cart_black_24dp"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        id="Path_17357"
+                        data-name="Path 17357"
+                        d="M0,0H24V24H0Z"
+                        fill="none"
+                      ></path>
+                      <path
+                        id="Path_17358"
+                        data-name="Path 17358"
+                        d="M15.55,13a1.991,1.991,0,0,0,1.75-1.03l3.58-6.49A1,1,0,0,0,20.01,4H5.21L4.27,2H1V4H3l3.6,7.59L5.25,14.03A2,2,0,0,0,7,17H19V15H7l1.1-2ZM6.16,6H18.31l-2.76,5H8.53ZM7,18a2,2,0,1,0,2,2A2,2,0,0,0,7,18Zm10,0a2,2,0,1,0,2,2A2,2,0,0,0,17,18Z"
+                        fill="#00aeef"
+                      ></path>
+                    </svg> Your Orders
+                      </Link>
                     </li>
                     <li>
                       <hr className="dropdown-divider" />
                     </li>
+
+
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Something else here
-                      </a>
+                      
+                      <Link className="dropdown-item" to="/address">
+                      <svg id="place_black_24dp" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><style></style></defs><path id="Path_17353" data-name="Path 17353" d="M0,0H24V24H0Z" fill="none"></path><path id="Path_17354" data-name="Path 17354" d="M12,12a2,2,0,1,1,2-2A2.006,2.006,0,0,1,12,12Zm6-1.8a6,6,0,1,0-12,0c0,2.34,1.95,5.44,6,9.14C16.05,15.64,18,12.54,18,10.2ZM12,2a7.955,7.955,0,0,1,8,8.2q0,4.98-8,11.8Q4.005,15.175,4,10.2A7.955,7.955,0,0,1,12,2Z" fill="#00aeef"></path></svg>
+                      Manage Address
+                      </Link>
                     </li>
+
+                    <li>
+                      <hr className="dropdown-divider" />
+                    </li>
+
+                    <li>
+                      <Link className="dropdown-item" to="/contactus">
+                      <svg id="call_black_24dp" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path id="Path_17355" data-name="Path 17355" d="M0,0H24V24H0Z" fill="none"></path><path id="Path_17356" data-name="Path 17356" d="M6.54,5a12.312,12.312,0,0,0,.45,2.59l-1.2,1.2A14.826,14.826,0,0,1,5.03,5H6.54M16.4,17.02a12.753,12.753,0,0,0,2.6.45v1.49a15.426,15.426,0,0,1-3.8-.75l1.2-1.19M7.5,3H4A1,1,0,0,0,3,4,17,17,0,0,0,20,21a1,1,0,0,0,1-1V16.51a1,1,0,0,0-1-1,11.407,11.407,0,0,1-3.57-.57.839.839,0,0,0-.31-.05,1.024,1.024,0,0,0-.71.29l-2.2,2.2a15.149,15.149,0,0,1-6.59-6.59l2.2-2.2a1,1,0,0,0,.25-1.02A11.36,11.36,0,0,1,8.5,4,1,1,0,0,0,7.5,3Z" fill="#00aeef"></path></svg>
+                      Contact Us
+                      </Link>
+                    </li>
+
+                    <li>
+                      <hr className="dropdown-divider" />
+                    </li>
+
+                    <button id="shopNowBtn">SHOP NOW</button>
+                      
+
                   </ul>
                 </li>
               </ul>

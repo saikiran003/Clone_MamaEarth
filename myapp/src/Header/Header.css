@@ -1,3 +1,23 @@
+#firstLine{
+    display: flex;
+    justify-content:space-around;
+    background-color:indianred;
+    height: 3.9vh;
+}
+#firstLine>p{
+    font-size: 1.82648401826484vh;
+    color: white;
+    margin-top: 0.3vh;
+    cursor: pointer;
+}
+.underlined{
+    text-decoration: underline;
+}
+
+.notUnderlined{
+
+}
+
 #MainNav{
     
 }
@@ -59,7 +79,7 @@
    
     /* border: 1px solid red; */
     margin-left: -7vw;
-    margin-top:-7.5vh;
+    margin-top:-11.9vh;
     position:absolute;
     z-index: 1;
     width:  32.913221083455345vw;
@@ -99,4 +119,7 @@
     background-color:#00afef;
     color: white;
     border-radius: 3px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
 }
