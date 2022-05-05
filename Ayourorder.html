@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/AyourOrder.css" />
+    <link rel="stylesheet" href="./style/ActivableDiv.css" />
+    <link rel="stylesheet" href="./style/Afooter.css" />
+    <script src="https://kit.fontawesome.com/45f2a34ad6.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="AprofileMainDiv">
+           <div class="AclickableDivContainer">
+                    <!-- ----enject component ------- -->
+                    <div class="AactivableDiv">
+                        <img src="https://img.icons8.com/windows/32/000000/administrator-male--v1.png"/>
+                           <p>Your Profile</p>
+                       </div>
+                       <div class="AactivableDiv">
+                        <img src="https://img.icons8.com/emoji/48/000000/coin-emoji.png"/>
+                        <p>Mama Cash</p>
+                       </div>
+                       <div class="AactivableDiv">
+                        <img src="https://img.icons8.com/ultraviolet/40/000000/shopping-cart-loaded--v1.png"/>
+                           <p>Your Orders</p>
+                       </div>
+                       <div class="AactivableDiv">
+                        <img src="https://img.icons8.com/ultraviolet/40/000000/place-marker--v1.png"/>
+                           <p>Manage Addresses</p>
+                       </div>
+                       <div class="AactivableDiv">
+                        <img src="https://img.icons8.com/tiny-color/16/000000/experimental-phone-tiny-color.png"/>
+                           <p>Contact Us</p>
+                       </div>
+                       <div class="AactivableDiv">
+                        <img src="https://img.icons8.com/external-sbts2018-flat-sbts2018/58/000000/external-logout-social-media-basic-1-sbts2018-flat-sbts2018.png"/>
+                           <p>Logout</p>
+                       </div>
+           </div>
+
+           <div class="AdescriptiveDiv">
+               <div class="yourOrderContDiv">
+                      <div class="yourOrderMainDiv">
+                          <img class="AEmptyOrderList" src="https://mamaearth.in/static/mamaearth/empty-box.svg" />
+                          <span class="Anoorder">No Orders Placed yet!</span>
+                      </div>
+                      
+               </div>
+               
+           </div>
+
+    </div>
+
+
+
+    <!-- --------------------Footer----------------- -->
+
+
+    <div class="Afooter">
+                <!-- ------------------Enject footer by import------------------- -->
+
+
+    </div>
+</body>
+</html>
+<script type = "module">
+    import footer from "./components/ABfooter.js";
+    let foot = document.querySelector(".Afooter")
+        foot.innerHTML=footer();
+    console.log('footer')
+
+    // import {ActivableDiv} from "./components/AactivableDiv.js"
+    // let ActiveDiv = document.querySelector(".AclickableDivContainer")
+    // ActiveDiv.innerHTML = ActivableDiv();
+</script>
+
+<script src="./scripts/ActiveDivfunctionality.js"></script>

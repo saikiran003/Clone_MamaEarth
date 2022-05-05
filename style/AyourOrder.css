@@ -1,0 +1,16 @@
+.yourOrderMainDiv{
+    /* border: solid red 2px; */
+    display: flex;
+    flex-direction: column;
+}
+.AEmptyOrderList{
+    height: 100px;
+    width: 100px;
+    /* border: solid red 1px; */
+    margin: auto;
+    margin-bottom: 15px;
+}
+.Anoorder{
+    margin: auto;
+    color: #5c5c5c;
+}

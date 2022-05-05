@@ -1,0 +1,167 @@
+body{
+    text-align: center;
+    word-spacing: -1px;
+    letter-spacing: 0px;
+}
+.AmainHead{
+display: flex;
+}
+.AaddressButton{
+    height: 40px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #00aeef;
+    color: white;
+    padding: 9px 0px;
+    margin: auto;
+    margin: 30px 0px 0px;
+    border: none;
+    cursor: pointer;
+}
+    
+
+    .yourAddressMainDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .AEmptyOrderList{
+        height: 100px;
+        width: 100px;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .Anoorder{
+        margin: auto;
+        color: #5c5c5c;
+    }
+    .AmainHead{
+        text-align: center;
+        font-size: 18px;
+        padding-bottom: 20px;
+        margin-right: 20px;
+        border-bottom: 1px solid rgb(193 193 193);
+    }
+    .AddressFormdiv{  
+        width: 90%;
+        box-sizing: border-box;
+        margin-top: 20px;
+        color: #5c5c5c;
+    }
+    .AinputDiv{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .AinputDiv3>div:nth-child(1){
+        grid-area: a;
+    }
+    .AinputDiv3>div:nth-child(2){
+        grid-area: b;
+    }
+    .AinputDiv3>div:nth-child(3){
+        grid-area: c;
+    }
+    .AinputDiv>div,.AinputDiv3>div{
+        margin-bottom: 20px;
+    }
+    .AinputDiv3{
+        display: grid;
+        grid-template-areas: 
+        "a b c";
+        gap: 10px;
+    }
+
+
+.AinputDiv3 input,.AinputDiv input,.Aaddress{
+    border: none;
+    width: 97%;
+    height: 30px;
+    border-radius: 5px;
+    border: rgb(193 193 193) 1px solid;
+    padding-left: 10px;
+}
+.Aaddress{
+    width: 98%;
+}
+.AinputDiv3 input:focus,.AinputDiv input:focus,.Aaddress:focus{
+    border: none;
+    outline: none;
+    border: 2px solid #00aeef;;
+}
+.AinputDiv3>div>input{
+    width:95%
+}
+
+.Aselection{
+    background-color: rgb(220 220 220);
+    padding: 8px;
+    border-radius: 15px; 
+    margin-right: 5px;
+    cursor: pointer; 
+    
+}
+.Acheckbox{
+    
+   height: 14px;
+   width: 14px;
+   border: solid red 20px;
+}
+.Acheckboxdiv{
+    display: flex;
+    gap: 10px;
+    margin-top:20px;
+    margin-bottom: 15px;
+
+}
+.AbuttonDiv{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+
+.AsaveAddress{
+    background-color: #00aeef;
+    color: white;
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 30%;
+    margin-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 75px;
+}
+
+.Acancel{
+    background-color: white;
+    color: #00aeef;
+    border: none;
+    border: 1px solid #00aeef;
+    padding: 10px;
+    height: 40px;
+    width: 30%;
+    min-width: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .Acancel:hover{
+    background-color:#00aeef   ;
+    color: white;
+  }
+  @media(max-width:1024px){
+    .AinputDiv{
+        grid-template-columns: repeat(1,1fr);
+        gap: 0px;
+    }
+    .AinputDiv3{
+        grid-template-areas: 
+        "a b"
+        "c c";
+        row-gap: 0px;
+    }
+    .AinputDiv3>div:nth-child(3)>input{
+        width:97%
+    }
+    
+  }

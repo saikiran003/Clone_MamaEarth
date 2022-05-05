@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/AyourAddress.css" />
+    <link rel="stylesheet" href="./style/ActivableDiv.css" />
+    <link rel="stylesheet" href="./style/Afooter.css" />
+    <script src="https://kit.fontawesome.com/45f2a34ad6.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="AprofileMainDiv">
+           <div class="AclickableDivContainer">
+            
+                    <div class="AactivableDiv">
+                        <img src="https://img.icons8.com/windows/32/000000/administrator-male--v1.png"/>
+                           <p>Your Profile</p>
+                       </div>
+                       <div class="AactivableDiv">
+                        <img src="https://img.icons8.com/emoji/48/000000/coin-emoji.png"/>
+                        <p>Mama Cash</p>
+                       </div>
+                       <div class="AactivableDiv">
+                        <img src="https://img.icons8.com/ultraviolet/40/000000/shopping-cart-loaded--v1.png"/>
+                           <p>Your Orders</p>
+                       </div>
+                       <div class="AactivableDiv">
+                        <img src="https://img.icons8.com/ultraviolet/40/000000/place-marker--v1.png"/>
+                           <p>Manage Addresses</p>
+                       </div>
+                       <div class="AactivableDiv">
+                        <img src="https://img.icons8.com/tiny-color/16/000000/experimental-phone-tiny-color.png"/>
+                           <p>Contact Us</p>
+                       </div>
+                       <div class="AactivableDiv">
+                        <img src="https://img.icons8.com/external-sbts2018-flat-sbts2018/58/000000/external-logout-social-media-basic-1-sbts2018-flat-sbts2018.png"/>
+                           <p>Logout</p>
+                       </div>
+           </div>
+
+           <div class="AdescriptiveDiv">
+               <div class="AaddressMainDiv">
+                   <!-- <div class="yourAddressMainDiv">
+                      <img class="AEmptyOrderList" src="https://mamaearth.in/static/mamaearth/location.svg" />
+                   </div>
+                   <div class="Anoorder">No Address Available</div>
+                   <div>
+                       <button class="AaddressButton" onclick="window.location.href=''  "> + ADD NEW ADDRESS </button>
+                   </div> -->
+
+
+
+                   <!-- <div class="AmainHead">New Delivery Address</div>
+                   <div class="AddressFormdiv">
+                       <form class="AaddressForm">
+                           <div class="AinputDiv">
+                               <div>
+                                   <input type="text" placeholder="First Name*" class="Afname" value="" />
+                               </div>
+                               <div>
+                                    <input type="text" placeholder="Last Name*" class="Alname" value="" />
+                               </div>
+                           </div>
+                           <div class="AinputDiv">
+                                 <div>
+                                    <input type="email" placeholder="Email ID*" class="Aemail" value="" />
+                                 </div>
+                                 <div>
+                                    <input type="tel" placeholder="Phone Number*" maxlength="10" class="Aphone"  value="" />
+                                 </div>
+                           </div>
+                           <div class="AinputDiv3">
+                                 <div>
+                                    <input type="number" placeholder="PIN code*" maxlength="6" class="Apincode" >
+                                 </div>
+                                 <div>
+                                    <input type="text" placeholder="City*" class="Acity" value="" />
+                                 </div>
+                                 <div>
+                                    <input type="text" placeholder="State*" class="Astate" value="" />
+                                 </div>
+                            </div>
+
+                        <div>
+                            <input type="text" placeholder="Address (House Number, Building, Street, Area)*" class="Aaddress" value="" />
+                        </div>
+                        <div align="left">
+                            <p style="text-align: left;">Select the type of the Address</p>
+                            <div style="display: flex;">
+                                <span class="Aselection">Home</span>
+                                <span class="Aselection">Work</span>
+                                <span class="Aselection">Other</span>
+                            </div>
+                        </div>
+                        <div class="Acheckboxdiv">
+                            <input type="checkbox" class="Acheckbox">
+                            <span>Make this as my default address</span>
+                        </div>
+                        <div class="AbuttonDiv">
+                            <button class="AsaveAddress">SAVE ADDRESS</button>
+                            <button class="Acancel">Cancel</button>
+                        </div>
+                       </form>
+                   </div>-->
+
+
+
+
+
+               </div> 
+               
+           </div>
+
+    </div>
+
+
+
+    <!-- --------------------Footer----------------- -->
+
+
+    <div class="Afooter">
+                <!-- ------------------Enject footer by import------------------- -->
+
+
+    </div>
+</body>
+</html>
+<script src="./scripts/yourAddress.js"></script>
+
+<script type = "module">
+    import footer from "./components/ABfooter.js";
+    let foot = document.querySelector(".Afooter")
+        foot.innerHTML=footer();
+    console.log('footer')
+
+    // import {ActivableDiv} from "./components/AactivableDiv.js"
+    // let ActiveDiv = document.querySelector(".AclickableDivContainer")
+    // ActiveDiv.innerHTML = ActivableDiv();
+</script>
+
+<script src="./scripts/ActiveDivfunctionality.js"></script>
+<script src="./scripts/AyourAddress.js"></script>
