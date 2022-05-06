@@ -1,25 +1,35 @@
+
+import { loadData, saveData } from "../utils/localStorage";
 import { ADD_ITEM, DEL_ITEM } from "./action";
 
-const cart = [];
+const cart = loadData("cartItems")||[];
 
 const reducer = (state = cart, action) => {
   const product = action.payload;
   switch (action.type) {
     case ADD_ITEM: {
+      const updatedData = [...state, { ...product, qty: 1 }];
+      saveData("cartItems",updatedData)
       const exist = state.find((x) => x.id === product.id);
+      
       if (exist) {
+        
         return state.map((x) =>
           x.id === product.id ? { ...x, qty: x.qty + 1 } : x
         );
       } else {
-        const product = action.payload;
-        return [...state, { ...product, qty: 1 }];
+        // const product = action.payload;
+        return updatedData;
       }
     }
     case DEL_ITEM:
       const exist1 = state.find((x) => x.id === product.id);
       if (exist1.qty === 1) {
-        return state.filter((x) => x.id !== exist1.id);
+        const updatedDate1 = state.filter((x) => x.id !== exist1.id)
+        saveData("cartItems",updatedDate1)
+        return (
+          updatedDate1
+          )
       } else {
         return state.map((x) => {
           return x.id === product.id ? { ...x, qty: x.qty - 1 } : x;

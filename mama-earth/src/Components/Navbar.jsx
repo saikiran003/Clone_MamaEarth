@@ -1,11 +1,14 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addItem, delItem } from "../redux/action";
+
+// import { loadData } from "../utils/localStorage";
 // import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   const state = useSelector((state) => state.cart);
+
   var total = 0;
   const openCart = () => {
     document.querySelector(".effort").style.display = "flex";
@@ -13,16 +16,15 @@ const Navbar = () => {
   function closeCart() {
     document.querySelector(".effort").style.display = "none";
   }
-  const checkOut = ()=>{
-    console.log("yes")
-  }
-  const IncQuant = (item)=>{
-    console.log(item)
-    dispatch(delItem(item))
-  }
-  const decQuant = (item)=>{
-    dispatch(addItem(item))
-  }
+  const checkOut = () => {
+    console.log("yes");
+  };
+  const IncQuant = (item) => {
+    dispatch(delItem(item));
+  };
+  const decQuant = (item) => {
+    dispatch(addItem(item));
+  };
   return (
     <div>
       <div className="echo">
@@ -77,9 +79,9 @@ const Navbar = () => {
                   <div className="hall">
                     <div>₹{item.price}</div>
                     <div className="heat">
-                      <button onClick={()=>IncQuant(item)}>-</button>
+                      <button onClick={() => IncQuant(item)}>-</button>
                       {item.qty}
-                      <button onClick={()=>decQuant(item)}>+</button>
+                      <button onClick={() => decQuant(item)}>+</button>
                     </div>
                   </div>
                 </div>
@@ -115,10 +117,15 @@ const Navbar = () => {
           <div class="footer__container">
             <div class="fine">
               <div class="fit">
-                <div class="forest"> ₹{(total - (0.05 * total).toFixed(2)).toFixed(2)}</div>
+                <div class="forest">
+                  {" "}
+                  ₹{(total - (0.05 * total).toFixed(2)).toFixed(2)}
+                </div>
                 <div class="fernando">View Details</div>
               </div>
-              <button class="fakhris" onClick={checkOut}>Continue</button>
+              <button class="fakhris" onClick={checkOut}>
+                Continue
+              </button>
             </div>
           </div>
         </div>

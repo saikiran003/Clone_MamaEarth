@@ -7,14 +7,30 @@
   margin: auto;
   gap: 25px;
   margin-top: 50px;
+  
 }
 .ghost {
   border: 1px solid grey;
   border-radius: 10px;
+  
 }
 .glamour {
   width: 290px;
   height: 250px;
+}
+.gavin{
+  height:25px;
+  width:85px;
+  position: absolute;
+  background-color: #82C341;
+  margin-top: -250px;
+  border-radius: 10px 0px 5px 0px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 5px 2px;
+
+ 
 }
 .grace {
   height: auto;
@@ -24,6 +40,14 @@
   color: #333333;
   font-weight: 600;
   text-align: center;
+  height:98px;
+}
+.great{
+  height:45px;
+  text-align: center;
+  font-weight: bold;
+  color:#4B8B0B;
+  font-size: 14px;
 }
 .gun {
   width: 43px;
@@ -32,51 +56,29 @@
   color: #1d1d1d;
   margin: auto;
   font-weight: bold;
-  margin-top: 10px;
+  
 }
-.grade {
-  position: relative;
-
-  display: inline-block;
-  width: 0;
-  height: 0;
-
-  margin-top: 40px;
-  margin-left: 45%;
-  margin-right: 0.9em;
-  margin-bottom: 1.2em;
-
-  border-right: 0.3em solid transparent;
-  border-bottom: 0.7em solid #fc0;
-  border-left: 0.3em solid transparent;
-
-  /* Controlls the size of the stars. */
-  font-size: 8px;
+.guts{
+  display: flex;
 }
-.grade:before,
-.grade:after {
-  content: "";
-
-  display: block;
-  width: 0;
-  height: 0;
-
-  position: absolute;
-  top: 0.6em;
-  left: -1em;
-
-  border-right: 1em solid transparent;
-  border-bottom: 0.7em solid #fc0;
-  border-left: 1em solid transparent;
-
-  transform: rotate(-35deg);
+.grade{
+  display: flex;
+  margin-left: 35%;
 }
 
-.grade:after {
-  transform: rotate(35deg);
+.g{
+  color: #ffc300;
+ 
+}
+
+.genius{
+  border-left: 1px solid grey;
+  height:18px;
+  margin-left: 5px;
+  margin-top: 0px;
 }
 .golf {
-  margin-left: 12px;
+  margin-left: 8px;
   font-size: 12px;
   color: #8a8c8b;
 }
@@ -129,121 +131,129 @@
 .eclipse > option:hover {
   background-color: #00afef;
 }
-.echo{
+.echo {
   display: flex;
   justify-content: flex-end;
-  width:80%;
+  width: 80%;
 }
-.educator{
-  position: absolute;
-  height:15px;
-  width:14px;
-  top: 0px;
+.educator {
+  position: relative;
+  height: 15px;
+  width: 14px;
+  top: -30px;
   display: grid;
   place-items: center;
   border-radius: 50%;
   font-weight: 500;
   line-height: 1.2em;
-  color:rgb(255,255,255);
-  background-color: rgb(0,175,239);
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 175, 239);
   font-size: 8px;
-   
 }
-.effort{
-  width:100%;
-  height:100%;
-  background-color: rgba(0,0,0,0.7);
+.effort {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
   position: fixed;
-  top:0;
+  top: 0;
   display: flex;
   justify-content: flex-end;
-  align-items:flex-end; 
+  align-items: flex-end;
   display: none;
   overflow-y: scroll;
 }
-.faith{
-  width:24%;
-  height:650px;
+.faith {
+  width: 24%;
+  height: 650px;
   background-color: white;
   opacity: 1;
-  padding:100px 10px 0px 10px;
+  padding: 100px 10px 0px 10px;
   overflow-y: scroll;
   position: fixed;
 }
-.faith>hr{
-  border:0.0001px solid rgb(221, 216, 216);
-  margin-left: 10px;width:90%;
+.faith > hr {
+  border: 0.0001px solid rgb(221, 216, 216);
+  margin-left: 10px;
+  width: 90%;
 }
-.faith>h4{
-  margin-top: 0px;margin-left: 10px;font-family: sans-serif;
+.faith > h4 {
+  margin-top: 0px;
+  margin-left: 10px;
+  font-family: sans-serif;
 }
-.faith p{
-  margin-left: 10px;font-size: 14px;text-align: center;
-font-family: sans-serif;
+.faith p {
+  margin-left: 10px;
+  font-size: 14px;
+  text-align: center;
+  font-family: sans-serif;
 }
-#btn1{
-  height:35px;width:93%;margin-left: 10px;background-color:black;
-  color: white;font-weight: bold;border:none
+#btn1 {
+  height: 35px;
+  width: 93%;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
 }
-#btn1:hover{
+#btn1:hover {
   background-color: green;
 }
-.fox{
+.fox {
   display: flex;
 }
-.fish{
+.fish {
   position: absolute;
-  top:0;
+  top: 0;
   margin-top: 35px;
-  font-size:40px;
+  font-size: 40px;
   transform: rotate(45deg);
   cursor: pointer;
   color: #00afef;
 }
-.flock{
-  width:85px;
-  height:85px;
+.flock {
+  width: 85px;
+  height: 85px;
   border: 1px solid grey;
   border-radius: 5px;
 }
-.follower{
+.follower {
   display: flex;
   justify-content: space-between;
-  height:90px;
+  height: 90px;
   margin-top: 10px;
 }
 
-.hat{
+.hat {
   margin-top: 0px;
   text-align: start;
 }
-.hall{
+.hall {
   display: flex;
   justify-content: space-between;
   margin-left: 9px;
   margin-top: -10px;
-  height:40px;
+  height: 40px;
 }
-.hall>div{
+.hall > div {
   height: 20px;
-  width:70px;
+  width: 70px;
   margin-top: 10px;
 }
-.hall>div:first-child{
+.hall > div:first-child {
   font-weight: bold;
 }
-.hall>div:last-child{
+.hall > div:last-child {
   font-weight: bold;
   border: 2px solid #00afef;
   border-radius: 5px;
 }
-.heat{
+.heat {
   display: flex;
-  
 }
-.heat>button{
-  height:20px;
-  width:27px;
+.heat > button {
+  height: 20px;
+  width: 27px;
   margin-right: 7px;
   background-color: white;
   border: none;
@@ -251,27 +261,35 @@ font-family: sans-serif;
   color: grey;
   font-weight: bold;
 }
-.heat>button:last-child{
+.heat>button:hover{
+  background-color: #00afef;
+  color: white;
+}
+.heat > button:last-child {
   margin-left: 7px;
   color: #00afef;
 }
-.hell{
+.heat > button:last-child:hover{
+  background-color: #00afef;
+  color: white;
+}
+.hell {
   display: flex;
   justify-content: space-between;
-  height:35px
+  height: 35px;
 }
-.hell>div:first-child{
-  width:60%;
+.hell > div:first-child {
+  width: 60%;
   color: #808080;
 }
-.hell>div:last-child{
+.hell > div:last-child {
   width: 25%;
 }
-.honesty{
-  height:40px;
+.honesty {
+  height: 40px;
   border: 1px solid red;
 }
-.footer__container{
+.footer__container {
   width: 100%;
   margin-top: auto;
   position: fixed;
@@ -280,7 +298,7 @@ font-family: sans-serif;
   z-index: 200;
   max-width: 410px;
 }
-.fine{
+.fine {
   box-shadow: rgb(0 0 0 / 12%) 0px -3px 6px;
   width: 85%;
   background-color: white;
@@ -289,17 +307,17 @@ font-family: sans-serif;
   justify-content: space-between;
   padding: 4px 15px;
 }
-.forest{
+.forest {
   color: black;
-    font-size: 15px;
+  font-size: 15px;
 }
-.fernando{
+.fernando {
   color: rgb(0, 175, 239);
   font-weight: 600;
   font-size: 15px;
   cursor: pointer;
 }
-.fakhris{
+.fakhris {
   margin: auto 0px;
   background-color: rgb(0, 175, 239);
   color: white;

@@ -133,7 +133,7 @@ export const AllProducts = [
     "rating":4.9,
     "reviews":136,
     "price":"599",
-    "sellerTag":"",
+    "sellerTag":"MUST TRY",
     "category":"Hair mask"
 
  },
@@ -171,7 +171,7 @@ export const AllProducts = [
     "rating":4.9,
     "reviews":136,
     "price":"599",
-    "sellerTag":"",
+    "sellerTag":"BEST SELLER",
     "category":"Hair mask"
 
  },
@@ -245,7 +245,7 @@ export const AllProducts = [
     "rating":4.8,
     "reviews":40,
     "price":349,
-    "sellerTag":"",
+    "sellerTag":"BEST SELLER",
     "category":"Face scrub"
  },
 
@@ -308,7 +308,7 @@ export const AllProducts = [
     "rating":4.9,
     "reviews":66,
     "price":"299",
-    "sellerTag":"",
+    "sellerTag":"BEST SELLER",
     "category":"Body"
  },
  {
@@ -319,7 +319,7 @@ export const AllProducts = [
     "rating":4.9,
     "reviews":66,
     "price":"299",
-    "sellerTag":"",
+    "sellerTag":"BEST SELLER",
     "category":"Body"
  },
 
@@ -331,7 +331,7 @@ export const AllProducts = [
     "rating":5.0,
     "reviews":66,
     "price":"375",
-    "sellerTag":"",
+    "sellerTag":"TRENDING",
     "category":"Body"
  },
  {
@@ -342,7 +342,7 @@ export const AllProducts = [
     "rating":4.9,
     "reviews":66,
     "price":"698",
-    "sellerTag":"",
+    "sellerTag":"TRENDING",
     "category":"Body"
  },
  {
@@ -353,7 +353,7 @@ export const AllProducts = [
     "rating":4.9,
     "reviews":66,
     "price":"299",
-    "sellerTag":"",
+    "sellerTag":"NEW LAUNCH",
     "category":"Body"
  },
  {
@@ -364,7 +364,7 @@ export const AllProducts = [
     "rating":4.8,
     "reviews":66,
     "price":"225",
-    "sellerTag":"",
+    "sellerTag":"NEW LAUNCH",
     "category":"Body"
  },
  {
@@ -375,7 +375,7 @@ export const AllProducts = [
     "rating":4.8,
     "reviews":66,
     "price":"375",
-    "sellerTag":"",
+    "sellerTag":"NEW LAUNCH",
     "category":"Body"
  },
  {
@@ -386,7 +386,7 @@ export const AllProducts = [
     "rating":4.9,
     "reviews":66,
     "price":"375",
-    "sellerTag":"",
+    "sellerTag":"NEW LAUNCH",
     "category":"Body"
  },
  {
@@ -397,7 +397,7 @@ export const AllProducts = [
     "rating":4.8,
     "reviews":66,
     "price":"299",
-    "sellerTag":"",
+    "sellerTag":"NEW LAUNCH",
     "category":"Body"
  },
  {
@@ -408,7 +408,7 @@ export const AllProducts = [
     "rating":4.9,
     "reviews":66,
     "price":"299",
-    "sellerTag":"",
+    "sellerTag":"TRENDING",
     "category":"Body"
  },
  
@@ -546,7 +546,7 @@ export const AllProducts = [
     "rating":4.9,
     "reviews":136,
     "price":"599",
-    "sellerTag":"",
+    "sellerTag":"TRENDING",
     "category":"Hair"
 
  },
@@ -584,7 +584,7 @@ export const AllProducts = [
     "rating":4.9,
     "reviews":136,
     "price":"599",
-    "sellerTag":"",
+    "sellerTag":"MUST TRY",
     "category":"Hair"
 
  },
@@ -658,7 +658,7 @@ export const AllProducts = [
     "rating":4.8,
     "reviews":40,
     "price":349,
-    "sellerTag":"",
+    "sellerTag":"BEST SELLER",
     "category":"Face"
  },
 
@@ -722,7 +722,7 @@ export const AllProducts = [
     "rating":4.9,
     "reviews":66,
     "price":"299",
-    "sellerTag":"",
+    "sellerTag":"TRENDING",
     "category":"Body"
  },
  {
@@ -733,7 +733,7 @@ export const AllProducts = [
     "rating":4.9,
     "reviews":66,
     "price":"299",
-    "sellerTag":"",
+    "sellerTag":"TRENDING",
     "category":"Body"
  },
 
@@ -745,7 +745,7 @@ export const AllProducts = [
     "rating":5.0,
     "reviews":66,
     "price":"375",
-    "sellerTag":"",
+    "sellerTag":"TRENDING",
     "category":"Body"
  },
  {
@@ -756,7 +756,7 @@ export const AllProducts = [
     "rating":4.9,
     "reviews":66,
     "price":"698",
-    "sellerTag":"",
+    "sellerTag":"MUST TRY",
     "category":"Body"
  },
  {
@@ -767,7 +767,7 @@ export const AllProducts = [
     "rating":4.9,
     "reviews":66,
     "price":"299",
-    "sellerTag":"",
+    "sellerTag":"MUST TRY",
     "category":"Body"
  },
  {
@@ -778,7 +778,7 @@ export const AllProducts = [
     "rating":4.8,
     "reviews":66,
     "price":"225",
-    "sellerTag":"",
+    "sellerTag":"TRENDING",
     "category":"Body"
  },
  {
@@ -789,7 +789,7 @@ export const AllProducts = [
     "rating":4.8,
     "reviews":66,
     "price":"375",
-    "sellerTag":"",
+    "sellerTag":"TRENDING",
     "category":"Body"
  },
  {
@@ -800,7 +800,7 @@ export const AllProducts = [
     "rating":4.9,
     "reviews":66,
     "price":"375",
-    "sellerTag":"",
+    "sellerTag":"MUST TRY",
     "category":"Body"
  },
  {
@@ -811,7 +811,7 @@ export const AllProducts = [
     "rating":4.8,
     "reviews":66,
     "price":"299",
-    "sellerTag":"",
+    "sellerTag":"NEW LAUNCH",
     "category":"Body"
  },
  {
@@ -822,7 +822,7 @@ export const AllProducts = [
     "rating":4.9,
     "reviews":66,
     "price":"299",
-    "sellerTag":"",
+    "sellerTag":"BEST SELLER",
     "category":"Body"
  },
  
@@ -979,6 +979,8 @@ export const AllProducts = [
       "price": 349,
       "category": "Baby",
       "rating": "5.0",
+      "sellerTag":"BEST SELLER",
+      "reviews":73,
       "description":
         "Hi! I’m Mamaearth Foaming Face Wash for Kids & I’m here to gently cleanse & nourish your little one's skin. With my superpowers, I wash away dirt & grime, keeping harmful bacteria at bay. I’m Made Safe Certified & contain the goodness of Aloe Vera & Coconut which provide deep moisturization & nourishment to your child’s delicate skin. Formulated with a pH-balanced, tear-free, & soap-free formula, I also bring the soothing benefits of Calendula & Lavender. And because of Mamaearth’s no toxins philosophy, you won’t find any Silicones, Parabens, mineral oil & dyes.",
     },
@@ -990,6 +992,8 @@ export const AllProducts = [
       "price": 349,
       "category": "Baby",
       "rating": "5.0",
+      "sellerTag":"BEST SELLER",
+      "reviews":96,
       "description":
         "Hi! I’m Mamaearth Foaming Face Wash for Kids & I’m here to gently cleanse & nourish your little one's skin. With my superpowers, I wash away dirt & grime, keeping harmful bacteria at bay. I’m Made Safe Certified & contain the goodness of Aloe Vera & Coconut which provide deep moisturization & nourishment to your child’s delicate skin. Formulated with a pH-balanced, tear-free, & soap-free formula, I also bring the soothing benefits of Calendula & Lavender. And because of Mamaearth’s no toxins philosophy, you won’t find any Silicones, Parabens, mineral oil & dyes.",
     },
@@ -1000,7 +1004,9 @@ export const AllProducts = [
       "name": "Plant-Based Diaper Pants for Babies – 12-17 kg (Size XL - 30 Diapers)",
       "price": 699,
       "category": "Baby",
+      "sellerTag":"BEST SELLER",
       "rating": "5.0",
+      "reviews":74,
       "description":
         "Hi! I am Mamaearth Plant-Based Diaper Pants for Babies, India’s 1st Made Safe Certified Diapers, perfect for naps & care-free travels. I absorb 2X more moisture than a regular diaper & come with 12-hour leakage protection to keep your baby comfortable throughout the day. Crafted with biodegradable plant-based materials, I am absolutely gentle on the delicate skin of your baby. That’s not all, I’m also free of latex, lotion, fragrance & chlorine bleaching.Because of Mamaearth’s no toxins and no harmful chemicals philosophy, you won’t find any Silicones, Parabens, mineral oil & dyes. ",
     },
@@ -1012,6 +1018,8 @@ export const AllProducts = [
       "price": 149,
       "category": "Baby",
       "rating": "5.0",
+      "sellerTag":"BEST SELLER",
+      "reviews":63,
       "description":
         "Hi! I am Mamaearth Fruit Punch Toothpaste. I love to see your kids smile. I am Fluoride & SLS free, so you don’t need to worry if more toothpaste ends up in your kid’s tummy than in the sink. I remove plaque and taste awesome thanks to my yummy fruity flavor. I am thoughtfully formulated with high-quality ingredients like sorbitol, silica, and glycerin. Introduce me to your kids and I will strengthen gums and be best friends with them forever. ",
     },
