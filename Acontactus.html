@@ -9,30 +9,35 @@
     <link rel="stylesheet" href="./style/ActivableDiv.css" />
     <link rel="stylesheet" href="./style/Afooter.css" />
     <script src="https://kit.fontawesome.com/45f2a34ad6.js" crossorigin="anonymous"></script>
-    <script src="./scripts/profile.js"></script>
+
 </head>
 <body>
+
     <div class="AContactusMainDiv">
             <h1 class="HeadContactus">Contact Us</h1>
             <div class="AContactusDetailCOnt">
                 <div class="ACOntactForm">
                     <h4 style="margin: 12px 0px;">Send Us An Email</h4>
                     <form class="contactForm">
+                        
                        <div>
                            <p>Name*</p>
-                           <input type="text" class="ContactName">
+                           <input type="text" class="ContactName" oninput="Callfunction()" />
+                           <div class="Apopup"></div>
                        </div>
                        <div>
                            <p>Email*</p>
-                           <input type="text" class="ContactName">
+                           <input type="text" class="ContactName" oninput="Callfunction()" />
+                           <div class="Apopup"></div>
                        </div>
                        <div>
                            <p>Contact Number*</p>
-                           <input type="text" class="ContactName">
+                           <input type="text" class="ContactName" oninput="Callfunction()" />
+                           <div class="Apopup"></div>
                        </div>
                        <div>
                            <p>Order ID*</p>
-                           <input type="text" class="ContactName">
+                           <input type="text" class="ContactName" />
                        </div>
                        <div>
                            <p>Issue Type*</p>
@@ -45,12 +50,15 @@
                                <option value="Return Related">Return Related</option>
                                <option value="Marketing/Sales/Distribution Related" >Marketing/Sales/Distribution Related</option>
                            </select>
+                           
+                           <div class="Apopup"></div>
                        </div>
                          <div>
                             <p>Write Message</p>
-                            <input type="text">
+                            <input type="text" />
                          </div>
-                         <button>SEND MAIL</button>
+                         <button class="AAAAASubmit" type="submit" onclick="Asendmail()">SEND MAIL</button>
+                         <!-- <button class="ABhomeRedirect" onclick = "location.href='./index.html' "> Home </button> -->
 
 
                     </form>
@@ -90,6 +98,8 @@
                 </div>
             </div>
     </div>
+    <button class="ABhomeRedirect" onclick = "location.href='./profile.html' "> Home </button>
+
 
 
 
@@ -113,4 +123,4 @@
 
 </script>
 
-<script src="./scripts/ActiveDivfunctionality.js"></script>
+<script src="./scripts/Acontactus.js"></script>

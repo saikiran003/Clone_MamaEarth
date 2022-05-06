@@ -30,7 +30,7 @@ const footer = ()=>{
                 <h3>Have Queries or Concerns?</h3>
             </div>
             <div align="center">
-                <button onclick="window.location.href='./contactUs.html'" class="AfooterContact" >CONTACT US</button>
+                <button onclick="window.location.href='./Acontactus.html'" class="AfooterContact" >CONTACT US</button>
             </div>
         </div>
     </div>

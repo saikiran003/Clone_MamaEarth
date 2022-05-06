@@ -55,6 +55,7 @@
 .AfooterContact:hover{
     color: white;
     background-color: #00aeef;
+    cursor: pointer;
 }
 .ApaymentDiv{
     text-align: center;
@@ -95,6 +96,10 @@ li{
     list-style-type: none;
     margin-top: 10px;
 }
+li>a:hover{
+    color:#00aeef;
+    cursor: pointer;
+}
 .AfooterLinks{
     display: flex;
     color: #5c5c5c;;
@@ -114,6 +119,10 @@ h3>i{
 }
 .AfooterIcon>i{
     font-size: larger;
+}
+.AfooterIcon>i:hover{
+    color: #00aeef;
+    cursor: pointer;
 }
 .AfooterLastDIv>h3{
     text-align: center;
