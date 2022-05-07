@@ -67,7 +67,7 @@ const Login = () => {
               By Continuing, you agree to Mamaearth's{" "}
               <span>terms and Conditions</span> and <span>Privacy Policy</span>
             </div>
-            <Link to ="/signup">
+            <Link to ="/otp">
             <input
                   type="submit"
                   value="Login with OTP"

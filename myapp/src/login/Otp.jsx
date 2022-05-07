@@ -1,35 +1,39 @@
-import React from 'react';
+import React from 'react'
+import styles from "./Otp.module.css"
 
-
-const Otp
-    <div class="AotpPage">
-      
-       <div class="AotpHead">
-        <img src="https://mamaearth.in/static/mamaearth/arrow_back.svg" onclick="location.href='./login.html' " class="AotpBack" />Verify OTP</div>
-       <div class="Aotping">
-           <img src="https://mamaearth.in/static/mamaearth/otp.svg" />
+const Otp = () => {
+  return (
+      <>
+    <div className={styles.AotpPage}>
+        <div className={styles.AotpHead}>
+        <img src="https://mamaearth.in/static/mamaearth/arrow_back.svg" onClick="location.href='./login.html' " className={styles.AotpBack} alt="" />Verify OTP</div>
+       <div className={styles.Aotping}>
+           <img src="https://mamaearth.in/static/mamaearth/otp.svg" alt="" />
        </div>
-       <div class="AotpInputForm">
-           <div class="AotpInputDiv">
+       <div className={styles.AotpInputForm}>
+           <div className={styles.AotpInputDiv}>
                Sent to
-               <a>XXXXXX<span class="Alast4Digit"></span>
-                   <img src="https://mamaearth.in/static/mamaearth/pen.svg" height="12px" width="10px"  onclick="window.location.href='./login.html' " />
+               <a>XXXXXX<span className={styles.Alast4Digit}></span>
+                   <img src="https://mamaearth.in/static/mamaearth/pen.svg" height="12px" width="10px"  onClick="window.location.href='./login.html' " alt="" />
                </a>
            </div>
-           <div class="AEnterText">Enter OTP</div>
-           <div class="AotpinptField">
-                <input autocomplete="off" class="otp-field" type="number" name="otp" maxlength="1" value="">
-                <input autocomplete="off" class="otp-field" type="number" name="otp" maxlength="1" value="">
-                <input autocomplete="off" class="otp-field" type="number" name="otp" maxlength="1" value="">
-                <input autocomplete="off" class="otp-field" type="number" name="otp" maxlength="1" value="">
+           <div className={styles.AEnterText}>Enter OTP</div>
+           <div className={styles.AotpinptField}>
+                <input autocomplete="off" className={styles.otpfield} type="number" name="otp" maxlength="1" value=""/>
+                <input autocomplete="off" className={styles.otpfield} type="number" name="otp" maxlength="1" value=""/>
+                <input autocomplete="off" className={styles.otpfield} type="number" name="otp" maxlength="1" value=""/>
+                <input autocomplete="off" className={styles.otpfield} type="number" name="otp" maxlength="1" value=""/>
            </div>
-           <div class="BpopupOTP"></div>
-           <div class="AresentOTP">Resent OTP <span></span></div>
-           <div class="AsubmitOTP">
-               <button onclick="AsubmitmyOTP()">Verify</button>
+           <div className={styles.BpopupOTP}></div>
+           <div className={styles.AresentOTP}>Resent OTP <span></span></div>
+           <div className={styles.AsubmitOTP}>
+               <button onClick="AsubmitmyOTP()">Verify</button>
            </div>
-           <div class="AnotShare">DO NOT SHARE THIS OTP WITH ANYONE</div>
+           <div className={styles.AnotShare}>DO NOT SHARE THIS OTP WITH ANYONE</div>
        </div>
     </div>
+    </>
+  )
+}
 
-    
+export default Otp
