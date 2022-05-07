@@ -65,7 +65,8 @@ a{
 .BpopupOTP>p{
     color: red;
 }
-.AsubmitOTP>button{
+.AsubmitOTP>input{
+    border: none;
     text-align: center;
     padding-top: 8px;
     width: 100%;
@@ -76,6 +77,7 @@ a{
     cursor: pointer;
     border-radius: 5px;
 }
+
 .AnotShare{
     margin-top: 14px;
     font-size: 10px;
