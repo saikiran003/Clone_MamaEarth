@@ -6,16 +6,21 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-// import {BabyCare, Colorcare, Newlaunches, OnionRange, singleProduct, summerFav, UbtanRange, VitaminRange} from 
-
 import styles from "./SIngleProduct.module.css"
 import { Pagination, Navigation } from "swiper";
 import { BabyCare, Colorcare, Newlaunches, OnionRange, singleProduct, summerFav, UbtanRange, VitaminRange} from '../Data/Data';
+import { useNavigate } from 'react-router-dom';
 
 export const Slider =() => {
+  const navigate =useNavigate()
+  const handleClick = (e) => {
+    localStorage.setItem("productDescription",JSON.stringify(e))
+    navigate('/cart')
+
+  }
   return (
     <>
-      <Swiper
+      <Swiper 
         slidesPerView={3}
         spaceBetween={30}
         slidesPerGroup={3}
@@ -32,9 +37,9 @@ export const Slider =() => {
         {singleProduct.map((item) =>{
          return (
          
-          <SwiperSlide>
-            <div key={item.id} 
-            
+          <SwiperSlide key={item.id} >
+            <div 
+            onClick={()=> handleClick(item)}
             >
           <div>
                     <div

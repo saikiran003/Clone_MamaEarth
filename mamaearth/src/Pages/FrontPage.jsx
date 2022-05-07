@@ -22,7 +22,7 @@ const Frontpage = () => {
       <div>
         <Crousel />
       </div>
-      <div
+      <div 
         style={{
           height: "600px",
           width: "90%%",
@@ -33,7 +33,7 @@ const Frontpage = () => {
           marginTop: "10%",
         }}
       >
-        <div
+        <div 
           style={{
             margin: "auto",
             height: "250px",
