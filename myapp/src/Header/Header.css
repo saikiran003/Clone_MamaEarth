@@ -47,6 +47,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position:absolute;
     z-index: 1;
+    background-color:white;
 }
 .babyFirst>p{
     font-size:1.82648401826484vh;

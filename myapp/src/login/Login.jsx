@@ -1,44 +1,97 @@
-import React from 'react';
-import styles from "./Login.module.css"
+import React from "react";
+import styles from "./Login.module.css";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import Signup from "./Signup";
 
 const Login = () => {
-    return (
-        <>
-            <div className={styles.Alogin}>
-                <div className={styles.ALoginheading}>Log in to get started</div>
-                <img src="https://mamaearth.in/static/mamaearth/close.svg" onclick="location.href='./index.html' " className={styles.AloginBack} />
-                <div class="Aintero">
-                    <div>
-                        <img src="https://mamaearth.in/static/mamaearth/login.svg" />
-                    </div>
-                    <div className={styles.Atext}>Get access to your orders, track
-                        previous order & Redeem Mama
-                        Cash
-                    </div>
-                </div>
-                <div>
-                    <form className={styles.AloginForm}>
-                        <div className={styles.AinputDiv}>
-                            <input type="number" placeholder="Phone Number" value="" className={styles.ALoginInput} oninput="checkInput() " onfocus="checkInput()" />
-                            <div className={styles.Apopup}></div>
-                        </div>
+  const [back, setBack] = useState(true);
+  const [mobile, setMobile] = useState("");
+  const [goSignup, setGoSignup] = useState(false);
 
-                        <div>
-                            By Continuing, you agree to Mamaearth's <span>terms and Conditions</span> and <span>Privacy Policy</span>
-                        </div>
-                        <div className={styles.AloginButton}>
-                            Login with OTP
-                        </div>
-                    </form>
-                </div>
-                <div className={styles.AGuest}>
-                    <a href="index.html">
-                        CONTINUE AS A GUEST
-                    </a>
-                </div>
+  const goBackToHome = () => {
+    setBack(false);
+  };
+
+  const loginWithOtp = (e) => {
+    setMobile(e.target.value);
+  };
+
+  const submitLogin = (e) => {
+    e.preventDefault();
+    if (mobile === "" || mobile < 10) {
+      alert("Please enter a mobile number");
+    }
+    else{
+        setGoSignup(true);
+    }
+  };
+
+  return (
+    <>
+     
+      {!goSignup? ( <div className={styles.Alogin}>
+        <div className={styles.ALoginheading}>Log in to get started</div>
+        {back && (
+          <Link to="/">
+            <img
+              src="https://mamaearth.in/static/mamaearth/close.svg"
+              onClick={goBackToHome}
+              className={styles.AloginBack}
+              alt=""
+            />
+          </Link>
+        )}
+        <div class="Aintero">
+          <div>
+            <img src="https://mamaearth.in/static/mamaearth/login.svg" alt="" />
+          </div>
+          <div className={styles.Atext}>
+            Get access to your orders, track previous order & Redeem Mama Cash
+          </div>
+        </div>
+        <div>
+          <form onSubmit={submitLogin} className={styles.AloginForm}>
+            <div className={styles.AinputDiv}>
+              <input
+                onChange={loginWithOtp}
+                type="number"
+                placeholder="Phone Number"
+                value={mobile}
+                className={styles.ALoginInput}
+              />
+              <div className={styles.Apopup}></div>
             </div>
-        </>
-    )
-}
 
-export default Login
+            <div>
+              By Continuing, you agree to Mamaearth's{" "}
+              <span>terms and Conditions</span> and <span>Privacy Policy</span>
+            </div>
+            <Link to ="/signup">
+            <input
+                  type="submit"
+                  value="Login with OTP"
+                  className={styles.AloginButton}
+                  placeholder="Login with OTP"
+                  required
+                />
+                </Link>
+            
+          </form>
+          
+        </div>
+        <hr />
+        <div className={styles.AGuest}>
+          <Link to="/">CONTINUE AS A GUEST</Link>
+        </div>
+      </div>) :
+
+
+         <Signup/>
+           
+     }
+    </>
+  );
+};
+
+export default Login;

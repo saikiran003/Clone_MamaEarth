@@ -96,8 +96,10 @@ body {
 }
 
 .AloginButton {
+    border: none;
+    color: white;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 5px;
     background-color: #00aeef;
     height: 30px;
     color: white;

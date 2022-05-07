@@ -109,7 +109,7 @@ const Header = () => {
             }}
             className="container-fluid"
           >
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="/">
               <img
                 style={{ width: "10.248901903367496vw", height: "" }}
                 alt="mamaearth"
@@ -236,7 +236,7 @@ const Header = () => {
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
-                    aria-expanded=""
+                    
                   >
                     <svg
                       fill="none"
@@ -272,7 +272,7 @@ const Header = () => {
                     aria-labelledby="navbarDropdown"
                   >
                     <li>
-                      <Link to="/profile" className="dropdown-item" >
+                      <Link to="/login" className="dropdown-item" >
                       <svg
                       fill="none"
                       height="22"

@@ -5,6 +5,7 @@
     padding: 15px;
     color: rgba(119, 119, 119);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
     
 }
 .imgLeft{
@@ -68,13 +69,18 @@
 }
 
 .BsignupButton {
+    border: none;
+    width: 80%;
     text-align: center;
-    padding-top: 10px;
     background-color: #00aeef;
-    height: 30px;
+    height: 40px;
     color: white;
     vertical-align: middle;
     cursor: pointer;
+    text-align: center;
+}
+.BgenderLabel{
+    margin-right: 10px;
 }
 
 @media(max-width:765px) {
