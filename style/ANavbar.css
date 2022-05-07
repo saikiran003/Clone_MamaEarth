@@ -1,0 +1,53 @@
+
+
+.AnavbarMainCOnt{
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   display: flex;
+   justify-content: center;
+}
+.AUpperRedBar{
+    height: 14px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:4px ;
+    font-family: 'Montserrat', sans-serif;
+    /* padding-bottom: 4px; */
+}
+.AUpperRedBar>a{
+
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.AUpperRedBar>a:nth-child(1):hover,.AUpperRedBar>a:nth-child(2):hover{
+    border-bottom: 1px solid white;
+}
+.ARIghtDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.AmainDiv{
+    display: flex;
+}
+.ANavBarButton{
+    background-color: #00aeef;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.Arirhtpart{
+    display: flex;
+    justify-content: space-between;
+}
+.Arirhtpart>div{
+    text-align: center;
+    vertical-align: middle;
+}
