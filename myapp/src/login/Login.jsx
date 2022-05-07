@@ -42,7 +42,7 @@ const Login = () => {
             />
           </Link>
         )}
-        <div class="Aintero">
+        <div className="Aintero">
           <div>
             <img src="https://mamaearth.in/static/mamaearth/login.svg" alt="" />
           </div>
@@ -58,7 +58,8 @@ const Login = () => {
                 type="number"
                 placeholder="Phone Number"
                 value={mobile}
-                className={styles.ALoginInput}
+                className={styles.ALoginInput} 
+                required
               />
               <div className={styles.Apopup}></div>
             </div>
@@ -82,7 +83,9 @@ const Login = () => {
         </div>
         <hr />
         <div className={styles.AGuest}>
-          <Link to="/">CONTINUE AS A GUEST</Link>
+          <Link to="/signup">
+          <button type="button" className="btn btn-primary">Sign Up</button>
+          </Link>
         </div>
       </div>) :
 

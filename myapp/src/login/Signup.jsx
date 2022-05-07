@@ -18,6 +18,7 @@ const Signup = () => {
     e.preventDefault();
     setFormData(inputName);
     localStorage.setItem("signupForm", JSON.stringify(formData))
+    window.location.href="login/"
   };
 
   console.log(formData);

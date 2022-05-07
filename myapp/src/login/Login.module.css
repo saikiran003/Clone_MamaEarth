@@ -97,15 +97,17 @@ body {
 
 .AloginButton {
     border: none;
+    width: 90%;
     color: white;
     text-align: center;
-    padding-top: 5px;
+    padding: 10px;
     background-color: #00aeef;
-    height: 30px;
+    height: 40px;
     color: white;
     vertical-align: middle;
     margin-top: 35px;
     cursor: pointer;
+    border-radius:5px ;
 }
 
 .AGuest {
