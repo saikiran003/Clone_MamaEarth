@@ -22,6 +22,9 @@ const Otp = () => {
         if((submitOtp.otp1+submitOtp.otp2+submitOtp.otp3+submitOtp.otp4 )==="1234"){
             alert("Login Successful")
             setLoginSuccess(true)
+            window.location.href="/"
+        }else{
+            alert("Incorrect Otp")
         }
     }
 
@@ -31,10 +34,7 @@ const Otp = () => {
 
   return (
       <>
-    
-    {
-        !loginSuccess ? (
-            <div className={styles.AotpPage}>
+      <div className={styles.AotpPage}>
         <div className={styles.AotpHead}>
         <img src="https://mamaearth.in/static/mamaearth/arrow_back.svg" onClick="location.href='./login.html' " className={styles.AotpBack} alt="" />Verify OTP</div>
        <div className={styles.Aotping}>
@@ -58,12 +58,23 @@ const Otp = () => {
            <div className={styles.BpopupOTP}></div>
            <div className={styles.AresentOTP}>Resend OTP <span></span></div>
            <div className={styles.AsubmitOTP}>
-               <input className={styles.verifyBtn} type="submit" value = "VERIFY" />
+               {/* {
+                   !loginSuccess? <Link to="/">
+                   </Link> : alert("Check Otp")
+               } */}
+                                 
+             <input className={styles.verifyBtn} type="submit" value = "VERIFY" />
+
+               
            </div>
            </form>
            <div className={styles.AnotShare}>DO NOT SHARE THIS OTP WITH ANYONE</div>
        </div>
     </div>
+    
+    {/* {
+        !loginSuccess ? (
+            
         ) :
           <div>
             <div>Happy Shopping</div>
@@ -71,7 +82,7 @@ const Otp = () => {
             <button >Explore Products</button>
             </Link>
             </div>
-    }
+    } */}
     </>
   )
 }

@@ -77,7 +77,18 @@ a{
     cursor: pointer;
     border-radius: 5px;
 }
-
+.verifyBtn{
+    border: none;
+    text-align: center;
+    padding-top: 8px;
+    width: 100%;
+    background-color: #00aeef;
+    height: 40px;
+    color: white;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 5px;
+}
 .AnotShare{
     margin-top: 14px;
     font-size: 10px;
