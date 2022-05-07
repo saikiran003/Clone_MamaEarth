@@ -164,10 +164,10 @@
 }
 .faith {
   width: 24%;
-  height: 650px;
+  height: 90.02vh;
   background-color: white;
   opacity: 1;
-  padding: 100px 10px 0px 10px;
+  padding: 13.8vh 1.38vh 0vh 1.38vh;
   overflow-y: scroll;
   position: fixed;
 }
@@ -330,4 +330,17 @@
   font-size: 16px;
   height: 40px;
   border: none;
+}
+@media only screen and (max-width: 771px){
+  .gallery{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.cont2{
+  color: #00afef
 }
