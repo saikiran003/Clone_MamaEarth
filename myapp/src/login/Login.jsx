@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Login.module.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Signup from "./Signup";
+import Signup from "../Signup/Signup";
 
 const Login = () => {
   const [back, setBack] = useState(true);
