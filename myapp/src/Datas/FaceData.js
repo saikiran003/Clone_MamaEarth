@@ -1,7 +1,7 @@
 export const Facedatas = [
 
     {
-        "id":F1,
+        "id":"F1",
         "name":"Ubtan Face Wash with Turmeric & Saffron for Tan Removal – 100ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Removes Tan | Repairs Sun Damage | Brightens Skin",
@@ -13,7 +13,7 @@ export const Facedatas = [
      },
 
      {
-        "id":F2,
+        "id":"F2",
         "name":"Bye Bye Blemishes Face Cream for Reducing Pigmentation and Blemishes with Mulberry Extract and Vitamin C -30ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/b/y/bye_bye_blemishes_1_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Evens Skin Tone | Non-Greasy | Reduces Dark Spots",
@@ -25,7 +25,7 @@ export const Facedatas = [
      },
 
      {
-        "id":F3,
+        "id":"F3",
         "name":"Skin Illuminate Face Serum for Radiant Skin with Vitamin C and Turmeric - 30 g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/s/k/skin-illuminate-face-serum-1.jpg?auto=compress&fit=scale&w=200&h=200",
         "pShortDec":"Highly Potent Vitamin C | Gives A Radiant Glow",
@@ -37,7 +37,7 @@ export const Facedatas = [
      },
 
      {
-        "id":F4,
+        "id":"F4",
         "name":"Bye Bye Dark Circles Eye Cream with Cucumber and Peptides for Dark Circles - 20ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/b/y/bye_bye_blemishes_2_2.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Reduces Dark Circles | Nourishes Under Eye Skin",
@@ -50,7 +50,7 @@ export const Facedatas = [
      },
 
      {
-        "id":F5,
+        "id":"F5",
         "name":"Vitamin C Face Mask With Vitamin C and Kaolin Clay for Skin Illumination - 100 g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/v/i/vit_c_face_mask.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Illuminates Skin | Brightens | Evens Skin Tone",
@@ -62,7 +62,7 @@ export const Facedatas = [
      },
 
      {
-        "id":F6,
+        "id":"F6",
         "name":"Vitamin C Face Scrub for Glowing Skin, With Vitamin C and Walnut For Skin Illumination - 100 g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/2/_/2_5_2.jpeg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Brightens Skin | Gently Exfoliates | Unveils Glow",
@@ -74,7 +74,7 @@ export const Facedatas = [
      },
 
      {
-        "id":F7,
+        "id":"F7",
         "name":"Ubtan Face Scrub with Turmeric and Walnut for Tan Removal - 100g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan_face_scrub_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Removes Tan | Gently Exfoliates | Evens Skin Tone",
@@ -87,7 +87,7 @@ export const Facedatas = [
      },
 
      {
-        "id":F8,
+        "id":"F8",
         "name":"Bye Bye Open Pores Face Cream with Rosehip & Niacinamide For Pore Tightening – 30 g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/b/y/bye-bye-open-pores-face-cream_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Tightens Pores | Unclogs Pores | Non-Greasy",
@@ -100,7 +100,7 @@ export const Facedatas = [
      },
      
      {
-        "id":F9,
+        "id":"F9",
         "name":"Oil-Free Face Wash with Apple Cider Vinegar & Salicylic Acid for Acne-Prone Skin– 100 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/i/oil-free-face-wash_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Removes Excess Oil | Banishes Dirt | Unlocks Glow",
@@ -112,7 +112,7 @@ export const Facedatas = [
 
      },
      {
-        "id":F10,
+        "id":"F10",
         "name":"Aqua Glow Face Wash With Himalayan Thermal Water and Hyaluronic Acid for Intense Hydration - 100m",
         "pImg":"https://honasa-mamaearth-production.imgix.net/a/q/aqua-glow-face-wash.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Boosts Hydration | Unveils Glow | Keeps Skin Soft",

@@ -113,19 +113,22 @@ export const Footer = () => {
             <div className={styles.AOT_inner1_div3}>
               <label>CATEGORIES</label>
               <div>
-              <Link to="">Baby</Link>
+              <Link to="/Baby">Baby</Link>
               </div>
               <div>
-              <Link to="">Beauty</Link>
+              <Link to="/Beauty">Beauty</Link>
               </div>
               <div>
-              <Link to="">Hair</Link>
+              <Link to="/Hair">Hair</Link>
               </div>
               <div>
-              <Link to="">Face</Link>
+              <Link to="/Face">Face</Link>
               </div>
               <div>
-              <Link to="">Body</Link>
+              <Link to="/Body">Body</Link>
+              </div>
+              <div>
+              <Link to="/Cart">cart</Link>
               </div>
               <div>
               <Link to="">Gift Pack</Link>
