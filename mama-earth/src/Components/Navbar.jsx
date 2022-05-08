@@ -12,7 +12,7 @@ const Navbar = () => {
   var total = 0;
   const openCart = () => {
     document.querySelector(".effort").style.display = "flex";
-    document.querySelector(".gavin").style.zIndex = "-1";
+    // document.querySelector(".gavin").style.zIndex = "-1";
   };
   function closeCart() {
     document.querySelector(".effort").style.display = "none";

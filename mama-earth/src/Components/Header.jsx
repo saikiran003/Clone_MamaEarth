@@ -11,7 +11,6 @@ const Header = () => {
   const [hair, setHair] = useState(false);
   const [face, setFace] = useState(false);
   const [body, setBody] = useState(false);
- 
 
   const [underline, setUnderline] = useState("notUnderlined");
 
@@ -175,11 +174,7 @@ const Header = () => {
 
             <div style={{ marginRight: "1rem", display: "flex" }}>
               <ul className="navbar-nav mb-2 mb-lg-0 ">
-                
-                  <Navbar />
-                
-
-                
+                <Navbar />
 
                 <li className="nav-item dropdown">
                   <Link

@@ -9,8 +9,11 @@ const reducer = (state = cart, action) => {
   switch (action.type) {
     case ADD_ITEM: {
       const updatedData = [...state, { ...product, qty: 1 }];
-      saveData("cartItems",updatedData)
+      
       const exist = state.find((x) => x.id === product.id);
+      if(!exist){
+        saveData("cartItems",updatedData)
+      }
       
       if (exist) {
         
