@@ -30,10 +30,20 @@ const Products = () => {
   };
   const handleCart = (item) => {
     dispatch(addItem(item));
+    alert("Product has been added to cart")
   };
 
   return (
     <>
+      <div>
+        <img
+          src="https://images.ctfassets.net/66mrrren2unf/5p5pVTewrOIcFmKeO0vbEP/d886f4c2e472aee62bc560a49fcca57d/Website_Banner.jpg?q=40"
+          alt="shetty" style={{width:"100%"}}
+        />
+      </div>
+      <div className="egg">
+        <p>Home/Shop</p>
+      </div>
       <div className="eagle">
         <div>
           <button className="easter" onClick={() => setFilter(AllProducts)}>
@@ -67,7 +77,7 @@ const Products = () => {
           return (
             <div className="ghost">
               <img src={item.pImg} alt={item.name} className="glamour" />
-              {/* <div className="gavin">{item.sellerTag}</div> */}
+              <div className="gavin">{item.sellerTag}</div>
               <div className="grace">{item.name}</div>
               <div className="great">{item.pShortDec}</div>
               <div className="guts">

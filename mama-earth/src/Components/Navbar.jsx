@@ -12,6 +12,7 @@ const Navbar = () => {
   var total = 0;
   const openCart = () => {
     document.querySelector(".effort").style.display = "flex";
+    document.querySelector(".gavin").style.zIndex = "-1";
   };
   function closeCart() {
     document.querySelector(".effort").style.display = "none";
@@ -59,56 +60,77 @@ const Navbar = () => {
 
       {/* cart pop-up */}
       <div className="effort">
-        <div className="faith">
-          <div className="fox">
+        <div className="faith" >
+          <div className="fox" >
             <div className="fish" onClick={closeCart}>
-              +
+            <i class="fa-solid fa-arrow-left"></i>
             </div>
+            <div className="fin">My Cart</div>
+           
           </div>
-          <h3>Order Summary</h3>
+          {(state.length===0)?(
+               <div id="myCartContent">
+               <img src="https://mamaearthp.imgix.net/wysiwyg/bags2x.png?auto=format" alt="" />
+               <h4>Your cart is empty !</h4>
+               <p>It's a good day to buy the items you saved for later</p>
+               <button id="shopNowBtn">SHOP NOW</button>
+             </div>
+          ):(<>
+               <h6>Order Summary</h6>
           {state.map((item) => {
             total = total + Number(item.qty) * Number(item.price);
             return (
-              <div className="follower">
-                <div>
-                  <img src={item.pImg} alt={item.name} className="flock" />
-                </div>
+              <>
+                <div className="follower">
+                  <div>
+                    <img src={item.pImg} alt={item.name} className="flock" />
+                  </div>
 
-                <div>
-                  <p className="hat">{item.name}</p>
-                  <div className="hall">
-                    <div>₹{item.price}</div>
-                    <div className="heat">
-                      <button onClick={() => IncQuant(item)}>-</button>
-                      {item.qty}
-                      <button onClick={() => decQuant(item)}>+</button>
+                  <div>
+                    <p className="hat" style={{ textAlign: "start" }}>
+                      {item.name}
+                    </p>
+                    <div className="hall">
+                      <div>₹{item.price}</div>
+                      <div className="heat">
+                        <button onClick={() => IncQuant(item)}>-</button>
+                        <p>{item.qty}</p>
+                        <button onClick={() => decQuant(item)}>+</button>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+                <hr style={{ marginTop: "-10px" }}></hr>
+              </>
             );
           })}
-          <hr></hr>
-          <h3>Price Summary</h3>
+          <div className="heaven">
+            <img src="https://mamaearth.in/static/mamaearth/ruppee.svg"alt="rupee"/>
+            <span class="savings">
+              You save <span style={{color:"#59A30E"}}>₹{(0.05 * total).toFixed(2)}</span> on
+              this order
+            </span>
+          </div>
+          <h5>Price Summary</h5>
           <hr style={{ border: "0.0001px solid rgb(221, 216, 216)" }}></hr>
           <div className="hell">
             <div>Order Total</div>
             <div style={{ fontWeight: "700" }}>₹{total.toFixed(2)}</div>
           </div>
-          <hr style={{ width: "95%" }}></hr>
+          <hr style={{ marginTop: "-10px" }}></hr>
           <div className="hell">
             <div>Shipping</div>
             <div style={{ color: "green", fontWeight: "500" }}>Free</div>
           </div>
-          <hr style={{ width: "95%" }}></hr>
+          <hr style={{ marginTop: "-10px" }}></hr>
           <div className="hell">
             <div>5% online payment discount</div>
             <div style={{ color: "green", fontWeight: "500" }}>
               -₹{(0.05 * total).toFixed(2)}
             </div>
           </div>
-          <hr></hr>
-          <div className="hell">
+          <hr style={{ marginTop: "-10px" }}></hr>
+          <div className="hell" style={{ marginBottom: "60px" }}>
             <div>Grand Total</div>
             <div style={{ fontWeight: "700" }}>
               ₹{(total - (0.05 * total).toFixed(2)).toFixed(2)}
@@ -128,6 +150,10 @@ const Navbar = () => {
               </button>
             </div>
           </div>
+          </>)
+
+          }
+         
         </div>
       </div>
     </div>
