@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header'
-import Otp from '../login/Otp';
+import Otp from '../Otp/Otp';
 import Login from './../login/Login';
 import Signup from './../login/Signup';
 
