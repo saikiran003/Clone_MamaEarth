@@ -1,0 +1,111 @@
+.productDetails{
+ 
+    height:420px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 1%;
+}
+.pimages{
+    height:100%;
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content: center;
+}
+.pInnerImages{
+    width:100%;
+    background-color: #fff;
+    padding:5px;
+    /* border: 1px solid red; */
+}
+.pdetails{
+    /* border: 2px solid black; */
+    height:400px;
+    width:100%;
+    
+}
+.description{
+width:67%;
+height:200px;
+margin-top:5%;
+
+}
+.categoryImages{
+    margin-top: 2%;
+    display:flex;
+    gap:10%;
+    text-align:center;
+}
+.categoryImages img{
+    margin: auto;
+}
+.AddtocartContainer{
+    height:260px;
+    margin-top:5%;
+    width:20%;
+    margin-left: 63%;
+    position: fixed; 
+    padding:10px;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.AddtocartContainer>div{
+    margin-bottom:5px;
+}
+.productDespDetails{
+    border-top: 10px solid rgba(128, 128, 128, 0.254);
+    padding:1%;
+    border-bottom:10px solid rgba(128, 128, 128, 0.254);
+}
+.AOT_productRR{
+    height:30px;
+    display: flex;
+    gap:2%;
+    font-size:13px;
+}
+.AOT_productRating{
+    display: flex;
+    gap:2px;
+    align-items: center;
+}
+.AOT_productReview{
+    display: flex;
+    gap:2px;
+    align-items: center;
+}
+.AOT_productInnerRating1{
+    color:goldenrod;
+}
+.AOT_productInnerRating2{
+    color:grey;
+}
+.AOT_productInnerReview1{
+    width:12px;
+}
+.AOT_productInnerReview2{
+     color:grey;
+}
+.ProductQntyUpdate{
+    display: flex;
+    border: 1px solid grey;
+    width:80px;
+    margin-top:2%;
+    justify-content:space-around;
+    border-radius: 5px;
+}
+.addtocartBtn{
+    margin-top:3%;
+    text-align: center;
+    color:white;
+}
+.addtocartBtn button{
+    padding:1%;
+    background: #22baf1;
+    text-align: center;
+    width:100%;
+    border-radius: 5px;
+}
+.addtocartBtn span{
+    margin-right:10px;
+}

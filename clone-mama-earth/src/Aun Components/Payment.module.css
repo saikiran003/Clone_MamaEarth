@@ -1,0 +1,293 @@
+.mainDiv {
+    margin: auto;
+    width: 90%;
+    /* border: 1px solid black; */
+
+}
+
+.welcome {
+    color: #777777;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.address {
+    color: rgb(29, 29, 29);
+    padding-top: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.pageDiv {
+    display: flex;
+    gap: 20px;
+}
+
+.leftDiv {
+    width: 55%;
+    /* border: 1px solid red; */
+}
+
+.firstFlx,
+.secFlx,
+.thirdFlx,
+.fourDiv {
+    display: flex;
+    gap: 10px;
+
+}
+
+.firstFlx>input,
+.secFlx>input,
+.thirdFlx>input,
+.fourDiv>input {
+    border-width: 2px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(230, 232, 231);
+    width: 100%;
+    padding: 10px;
+    font-size: 0.9rem;
+    appearance: none;
+    border-radius: 0px;
+    outline: none;
+    margin-top: 20px;
+}
+
+.selectAdd {
+    color: #777777;
+    font-size: 14px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.addOpt1 {
+    font-size: 14px;
+    cursor: pointer;
+    margin: 6px 12px 6px 0px;
+    text-align: center;
+    padding: 2px;
+    color: rgb(116, 116, 116);
+    background-color: rgb(220, 220, 220);
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 18px;
+    width: 60px;
+    height: 30px;
+}
+
+.active {
+    color: rgb(0, 174, 239) !important;
+    border: 1px solid rgb(0, 174, 239) !important;
+    background-color: rgb(214, 244, 255) !important;
+}
+
+.chkFlx {
+    display: flex;
+    margin-top: 15px;
+}
+
+.default {
+    height: 1rem;
+    width: 1rem;
+}
+
+.paymentPara {
+    font-weight: bold;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.lbl {
+    color: #777777;
+}
+
+.radPay {
+    display: flex;
+    gap: 10px;
+}
+
+.radioBtn {
+    width: 30%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.radioFlx {
+    display: flex;
+    gap: 10px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+input[type='radio'] {
+    color: #00AFEF;
+    height: 20px;
+    width: 20px;
+}
+
+.upiComp {
+    width: 70%;
+}
+
+/* Right Div */
+.rightDiv {
+    width: 40%;
+    border: 1px solid lightgrey;
+    height: 700px;
+    border-radius: 5px;
+}
+
+.rightHead {
+    display: flex;
+    justify-content: space-between
+}
+
+.r1 {
+    color: rgb(0, 0, 0);
+    margin: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.r2 {
+    color: rgb(0, 174, 239);
+    margin: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.itemDetails {
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.itmImg {
+    border: 1px solid lightgrey;
+    width: 85px;
+    height: 85px;
+}
+
+.prcFlx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prcFlx>div:nth-child(2) {
+    padding-right: 10px;
+}
+
+.parentDiv,
+.parent2Div {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.priceSumm {
+    font-size: 1.1rem;
+    line-height: 1.2em;
+    font-weight: 600;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+}
+
+.ordTot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ordTot>div:nth-child(1) {
+    padding-left: 10px;
+}
+
+.ordTot>div:nth-child(2) {
+    padding-right: 10px;
+}
+
+.shipp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.shipp>div:nth-child(1) {
+    padding-left: 10px;
+}
+
+.shipp>div:nth-child(2) {
+    padding-right: 10px;
+}
+
+.free {
+    color: rgb(0, 186, 24);
+    padding-left: 5px;
+}
+
+.onDisc {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.onDisc>div:nth-child(1) {
+    padding-left: 10px;
+}
+
+.onDisc>div:nth-child(2) {
+    padding-right: 10px;
+    color: rgb(0, 186, 24);
+}
+
+.grandTot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.grandTot>div:nth-child(1) {
+    padding-left: 10px;
+}
+
+.grandTot>div:nth-child(2) {
+    font-size: 19.6px;
+    color: #1d1d1d;
+    padding-right: 10px;
+}
+
+.divSucc {
+    width: 35%;
+    /* height: 40%; */
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    border: 1px solid white;
+    z-index: 1;
+    text-align: center;
+    background-color: white;
+    box-shadow: 10px 10px 59px -6px rgba(0,0,0,0.5);
+-webkit-box-shadow: 10px 10px 59px -6px rgba(0,0,0,0.5);
+-moz-box-shadow: 10px 10px 59px -6px rgba(0,0,0,0.5);
+}
+
+.ordSucc {
+    width: 185px;
+    height: 185px;
+    /* display: block; */
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    margin-bottom: -50px;
+    margin-top: -40px;
+}

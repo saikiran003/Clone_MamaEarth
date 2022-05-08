@@ -1,0 +1,250 @@
+.AOT_productContainer{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    justify-content: center;
+    padding:1%;
+}
+.AOT_productCard{
+    padding:5px;
+    text-align: center;
+    margin:10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.AOT_productName{
+    height:55px;
+    /* border:1px solid; */
+}
+.AOT_productDesp{
+   height: 60px;
+   color:#447d40;
+   font-size:15px;
+   font-weight: bold;
+   margin-bottom:2%; 
+   margin-top:11%;
+   /* border:1px solid brown; */
+   padding: 5px;
+}
+
+.AOT_productCard img{
+    width:100%;
+    /* border:1px solid violet; */
+}
+.AOT_productRR{
+    height:30px;
+    display: flex;
+    justify-content:center;
+    gap:2%;
+    font-size:13px;
+}
+.AOT_productBtn button{
+     width:85%;
+     padding:4%;
+     color:#22baf1;
+     background:transparent;
+     border:1px solid #22baf1;
+     border-radius: 5px;
+}
+.AOT_productBtn button:hover{
+    color:white;
+    background: #22baf1;
+}
+.AOT_productBtn {
+    padding-bottom:5%;
+}
+.AOT_productRating{
+    display: flex;
+    gap:2px;
+    /* align-items: center; */
+}
+.AOT_productReview{
+    display: flex;
+    gap:2px;
+    /* align-items: center; */
+}
+.AOT_productInnerRating1{
+    color:goldenrod;
+}
+.AOT_productInnerRating2{
+    color:grey;
+}
+.AOT_productInnerReview1{
+    margin-top: -2%;
+    width:12px;
+}
+.AOT_productInnerReview2{
+     color:grey;
+}
+.AOT_productPrice{
+    font-weight: bold;
+}
+.AOT_coverImg1{
+    width:100%;
+}
+.AOT_coverImg1 Img{
+   width:100%;
+}
+.AOT_productTitles{
+    width:500px;
+    margin-left:2%;
+    display: flex;
+    gap:1%;
+    align-items: center;
+    cursor: pointer;
+}
+.AOT_Titlehead2{
+    width:300px;
+    display: flex;
+    align-items: center;
+    gap:5%;
+}
+.AOT_productCardSwiper{
+    padding:1%;
+}
+ .AOT_productCard1{
+    text-align: center;
+    width:300px;
+    margin: auto;
+    padding:1%;
+    border: 1px solid rgba(128, 128, 128, 0.214);
+    border-radius: 5px;
+}
+.AOT_productCard1 img{
+    width:100%;
+} 
+.AOT_categoryhead{
+   text-align: center;
+}
+.AOT_sortfilter1{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+
+}
+.AOT_sortfilter1 label{
+    font-weight: bold;
+    font-size: 22px;
+}
+.AOT_sortFilter{
+    width:80%;
+    margin:auto;
+}
+.AOT_productFilter button{
+   padding:0.5%;
+   margin:5px;
+   width:100px;
+   background: transparent;
+   border-radius: 20px;
+   border:1px solid;
+   font-weight: bold;
+}
+.AOT_productFilter button:hover{
+    background: #22baf1;
+    color:white;
+}
+.AOT_sortmethod select{
+   padding:5%;
+   width:200px;
+   border:0;
+   border-radius:5px;
+   box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.AOT_sellerTag{
+    margin-left:1.5%;
+    font-size:22px;
+}
+.AOT_Titlehead1 p:hover{
+   color:#22baf1;
+}
+.AOT_Titlehead3{
+    color:grey;
+}
+.AOT_sellercard{
+    text-align: left;
+    margin-top: -7.5%;
+    margin-left:-1.5%;
+    width:120px;
+    text-align: center;
+    background-color: brown;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.selectDiv{
+    width:70%;
+    border-top:10px solid rgba(128, 128, 128, 0.254);
+    margin-top:2%;
+    border-bottom: 10px solid rgba(128, 128, 128, 0.254);
+}
+.selectDiv h1{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+.tabsgrid{
+    display: grid;
+    grid-gap:5%;
+    grid-template-columns: repeat(2,350px);
+}
+.TabsContainer{
+    width:70%;
+    height:100%;
+    margin-top: 1%;
+    padding:1%;
+    border-bottom: 10px solid rgba(128, 128, 128, 0.254);
+}
+.tabsinnerDiv{
+    display: flex;
+    align-items: center;
+    gap:3%;
+}
+.tabsinnerDiv img{
+   width:250px;
+   border-radius:50%;
+}
+.tabsinnerDiv span{
+    font-weight: bold;
+}
+.tabsinnerImg img{
+  width:200px;
+}
+.tabsinnerDiv4{
+    display: flex;
+    gap:2%;
+    width:100%;
+    font-size:12px;
+}
+.tabsinner4{
+      display: flex;
+      width:500px;;
+}
+.tabsinner4 img{
+    width:100%;
+    border:1px solid #447d40;
+}
+.tabsinner5{
+    width:350px;
+    display: flex;
+}
+.tabsinner5 img{
+    width:100%;
+    border:1px solid red;
+}
+.tabsinner4_1{
+    margin-left:1%;
+    width:100%;
+}
+.tabsinner6{
+    margin-left:2%;
+    width:100%;
+}
+.AOT_cartContainer{
+    width:85%;
+    margin: auto;
+    margin-top: 3%;
+}
+.Readmorebtn{
+    color:#22baf1;
+    margin-left:2px;
+    font-weight: bold;
+}

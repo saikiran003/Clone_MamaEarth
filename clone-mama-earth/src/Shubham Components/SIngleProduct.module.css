@@ -1,0 +1,15 @@
+.addToCart{
+
+    border: 1px solid rgb(0,149,203);
+    color:rgb(0,149,203);
+    height:45px;
+    width:100%;
+   background:transparent;
+    borderRadius:5px; 
+}
+
+.addToCart:hover{
+    background-color:rgb(0,149,203);
+    border:none;
+    color:white;
+}
