@@ -40,7 +40,7 @@ const Otp = () => {
       <div className={styles.AotpPage}>
         <div className={styles.AotpHead}>
         <Link to ="login/">
-          <img
+          <img 
             src="https://mamaearth.in/static/mamaearth/arrow_back.svg"
             onClick={goBackToLoginPage}
             className={styles.AotpBack}

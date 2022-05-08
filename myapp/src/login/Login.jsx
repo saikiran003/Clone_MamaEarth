@@ -83,8 +83,10 @@ const Login = () => {
         </div>
         <hr />
         <div className={styles.AGuest}>
+        <div style={{marginTop:'-30px'}}>Or you can also Sign Up</div>
           <Link to="/signup">
-          <button type="button" className="btn btn-primary">Sign Up</button>
+            
+          <button style={{marginTop:'0vw'}} className="btn btn-primary" type="button" >Sign Up</button>
           </Link>
         </div>
       </div>) :
