@@ -10,11 +10,14 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import { Navigation } from "swiper";
+import { useDispatch } from 'react-redux';
+import { addItem } from '../../Kiran Components/redux/action';
 
 export const Baby = () => {
    
     const navigate = useNavigate();
     const [data, setData] = useState(Babydatas)
+    const dispatch = useDispatch();
   
     const handleFilter=(cat)=>{
         const updatedProducts = Babydatas.filter((el)=> el.category===cat)
@@ -38,8 +41,8 @@ export const Baby = () => {
     }
   
     const handleAdd = (cart)=>{
-      alert("item added")
-      console.log(cart)
+      dispatch(addItem(cart))
+      alert("Product has been added to cart")  
     }
   
     return (

@@ -12,10 +12,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import { Navigation } from "swiper";
+import { addItem } from '../../Kiran Components/redux/action';
+import { useDispatch } from 'react-redux';
 
 
 export const Face = () => {
-   
+   const dispatch = useDispatch()
     const navigate = useNavigate();
     const [data, setData] = useState(Facedatas)
   
@@ -41,8 +43,8 @@ export const Face = () => {
     }
   
     const handleAdd = (cart)=>{
-      alert("item added")
-      console.log(cart)
+      dispatch(addItem(cart))
+      alert("Product has been added to cart")  
     }
   
     return (

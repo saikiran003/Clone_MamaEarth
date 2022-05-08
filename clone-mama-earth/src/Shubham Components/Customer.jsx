@@ -16,7 +16,7 @@ const Customer = () => {
       </div>
     <div style={{marginTop:'-33%'}}>
         <Swiper
-        
+       
         slidesPerView={1}
         //centeredSlides={false}
         slidesPerGroupSkip={1}

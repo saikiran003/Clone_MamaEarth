@@ -15,6 +15,9 @@ const Header = () => {
 
   const [underline, setUnderline] = useState("notUnderlined");
 
+  const name = JSON.parse(localStorage.getItem("signupForm"))
+  //console.log(name.firstName)
+
   const hoverUnderline = () => {
     setUnderline("underlined");
   };
@@ -180,7 +183,7 @@ const Header = () => {
                 <li className="nav-item dropdown">
                   <Link
                     to="/login"
-                    style={{ fontsize: "0.0vh" }}
+                    style={{ fontsize: "0.0vh",zIndex:"-1" }}
                     className="nav-link dropdown-toggle"
                     id="navbarDropdown"
                     role="button"
@@ -213,7 +216,9 @@ const Header = () => {
                         r="4"
                       ></circle>
                     </svg>
-                    Login
+                    {/* {(name===null) ? "Login" : name.firstName + " " + name.lastname} */}
+                    {name ===null ? "Login" : name.firstName + " "+ name.lastname}
+                   
                   </Link>
 
                   <ul

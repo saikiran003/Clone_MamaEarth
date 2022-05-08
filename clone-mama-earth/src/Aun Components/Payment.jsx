@@ -13,6 +13,7 @@ const Payment = () => {
   const [city, setCity] = useState("");
   const [state, setState] = useState("");
   const data = useSelector((state) => state.cart);
+  const user = JSON.parse(localStorage.getItem("signupForm"))
   var total = 0;
 
   const showSuccess = () => {
@@ -31,7 +32,7 @@ const Payment = () => {
         {/* div partition */}
         <div className={styles.pageDiv}>
           <div className={styles.leftDiv}>
-            <div className={styles.welcome}>Hi Aun, Welcome to Mamaearth</div>
+            <div className={styles.welcome}>Hi {user.firstName + " "+ user.lastname}, Welcome to Mamaearth</div>
             <div className={styles.address}>New Delivery Address</div>
             <form>
               <div className={styles.firstFlx}>

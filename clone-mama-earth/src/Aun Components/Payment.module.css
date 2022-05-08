@@ -1,6 +1,7 @@
 .mainDiv {
     margin: auto;
     width: 90%;
+    margin-top: 3%;
     /* border: 1px solid black; */
 
 }
@@ -134,8 +135,9 @@ input[type='radio'] {
 .rightDiv {
     width: 40%;
     border: 1px solid lightgrey;
-    height: 700px;
+    height: auto;
     border-radius: 5px;
+
 }
 
 .rightHead {

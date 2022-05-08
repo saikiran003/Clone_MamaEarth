@@ -12,6 +12,10 @@ import { Face } from "./Bharan/pages/Face";
 import { Body } from "./Bharan/pages/Body";
 import Products from "./Kiran Components/Products";
 import Payment from "./Aun Components/Payment";
+import Login from "./Sachin Components/login/Login";
+import Signup from "./Sachin Components/login/Signup";
+import Otp from "./Sachin Components/login/Otp";
+
 
 function App() {
   return (
@@ -27,6 +31,9 @@ function App() {
         <Route path="/body" element={<Body />} />
         <Route path="/allproducts" element={<Products />} />
         <Route path="/checkout" element={<Payment/>}/>
+        <Route path="/profile" element={<Login/>}/>
+        <Route path="/signup" element={<Signup/>}/>
+        <Route path="/otp" element={<Otp/>}/>
       </Routes>
 
       <Footer />

@@ -2,7 +2,7 @@ import React from 'react'
 
 import styles from '../pages/ProductImage.module.css'
 
-import { ImageData } from '../Datas/ImagesData'
+// import { ImageData } from '../Datas/ImagesData'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/thumbs'
@@ -61,7 +61,7 @@ const ProductDetails = () => {
     <div className={styles.productDetails}>
         <div className={styles.pimages}>
           <div className={styles.pInnerImages}>
-          <ImageSwipers images={ ImageData }/>
+          <ImageSwipers />
           </div>
         </div>
         <div className={styles.pdetails}>
@@ -84,48 +84,48 @@ const ProductDetails = () => {
     </div>
 
 
-    <div className={styles.description}>
+    <div style={{height:'auto'}} className={styles.description}>
       <div>
-        <h3 style={{textAlign: 'left'}}>Product Description</h3>
+        <h3  style={{textAlign: 'left',fontSize:'26px',marginTop:'5%'}}>Product Description</h3>
       </div>
    <p style={{textAlign: 'left'}}>
    <ReadMoreReadLess>
-   Introducing your favorite Mamaearth Onion Hair Oil with a new & improved formula for even stronger, smoother, and shinier hair. With its lightweight and non-sticky formulation and oh-so-good fragra
+   {updatedData.description}
    </ReadMoreReadLess>
    </p>
     </div>
      
-     <div style={{width:"70%", height:"400px"}} className={styles.productDespDetails}>
+     <div style={{width:"70%", height:"auto"}} className={styles.productDespDetails}>
      <h1 style={{textAlign: 'left', fontSize:"25px"}}>What Are The Benefits Of Mamaearth Onion Hair Oil?</h1>
    
     <div className={styles.categoryImages}>
       
      
     <div className={styles.DespCategory1}>
-      <img src="https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image010-800x559.jpg" height="190px" width="190px" style={{borderRadius:'10px'}}/>
+      <img src={updatedData.dImg1} height="190px" width="190px" style={{borderRadius:'10px'}}/>
       <p style={{fontSize:'16px',color:'#81c340'}} >
-      Boosts Hair Growth
+       {updatedData.dtitle1}
       </p>
       <p style={{textAlign:'justify',marginLeft:'10px',fontWeight:'350'}}>
-      Onion hair oil, in combination with Redensyl, reduces hair fall and makes hair healthy.
+       {updatedData.dDec1}
       </p>
     </div>
     <div className={styles.DespCategory2}>
-      <img src="https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image006.jpg" height="190px" width="190px" style={{borderRadius:'10px'}}/>
+      <img src={updatedData.dImg2} height="190px" width="190px" style={{borderRadius:'10px'}}/>
       <p style={{fontSize:'16px',color:'#81c340'}}>
-      Balances Scalp
+      {updatedData.dtitle12}
       </p>
       <p style={{textAlign:'justify',marginLeft:'10px',fontWeight:'350'}}>
-      Castor Oil is known to nourish the scalp. Rich in Vitamin D, Almond Oil provides nutrition to the scalp, making hair healthier and stronger.
+      {updatedData.dDec2}
       </p>
     </div>
     <div className={styles.DespCategory3}>
-      <img src="https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image009.png" height="190px" width="190px" style={{borderRadius:'10px'}}/>
+      <img src={updatedData.dImg3} height="190px" width="190px" style={{borderRadius:'10px'}}/>
       <p style={{fontSize:'16px',color:'#81c340'}}>
-      Adds Strength & Shine
+      {updatedData.dtitle13}     
       </p>
       <p style={{textAlign:'justify',marginLeft:'10px',fontWeight:'350'}}>
-      Full of nature’s goodness, a blend of nourishing oils such as Sunflower Oil, Amla Oil, Hibiscus Oil, etc. our onion oil makes hair strong from the inside & shinier on the outside.
+      {updatedData.dDec3}
       </p>
     </div>
     </div>

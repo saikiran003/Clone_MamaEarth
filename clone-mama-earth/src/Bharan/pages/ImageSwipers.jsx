@@ -6,6 +6,10 @@ import { Navigation, Thumbs } from 'swiper'
 
 const ImageSwipers = props => {
 
+    const updatedData = JSON.parse(localStorage.getItem("productdesp"))
+    console.log(updatedData);
+
+    console.log(props)
     // const[activeThumb, setActiveThumb] = useState()
 
   return <>
@@ -21,34 +25,31 @@ const ImageSwipers = props => {
       
       >
            {
-               props.images.map((item,index)=>(
-                   <SwiperSlide key={index}>
-                       <img src={item.Image1} alt="" />
+               
+                   <SwiperSlide key={updatedData.id}>
+                       <img src={updatedData.pImg1} alt="" />
                    </SwiperSlide>
-               ))
+            
                
            }
 
             {
-               props.images.map((item,index)=>(
-                   <SwiperSlide key={index}>
-                       <img src={item.Image2} alt="" />
-                   </SwiperSlide>
-               ))  
+              
+              <SwiperSlide key={updatedData.id}>
+              <img src={updatedData.pImg2} alt="" />
+               </SwiperSlide>
            }
           {
-               props.images.map((item,index)=>(
-                   <SwiperSlide key={index}>
-                       <img src={item.Image3} alt="" />
-                   </SwiperSlide>
-               ))  
+               
+               <SwiperSlide key={updatedData.id}>
+               <img src={updatedData.pImg3} alt="" />
+               </SwiperSlide>
            }
             {
-               props.images.map((item,index)=>(
-                   <SwiperSlide key={index}>
-                       <img src={item.Image4} alt="" />
-                   </SwiperSlide>
-               ))  
+               
+               <SwiperSlide key={updatedData.id}>
+               <img src={updatedData.pImg4} alt="" />
+               </SwiperSlide>
            }
       </Swiper>
 
@@ -63,46 +64,34 @@ const ImageSwipers = props => {
       
       >
            {
-               props.images.map((item,index)=>(
-                   <SwiperSlide key={index}>
-                      <div className="product-images-slider-thumbs-wrapper">
-                          <img src={item.Image1} alt="" />
-                      </div>
-                   </SwiperSlide>
-               ))
+              
+              <SwiperSlide key={updatedData.id}>
+              <img src={updatedData.pImg1} alt="" />
+               </SwiperSlide>
                
            }
 
 {
-               props.images.map((item,index)=>(
-                   <SwiperSlide key={index}>
-                      <div className="product-images-slider-thumbs-wrapper">
-                          <img src={item.Image2} alt="" />
-                      </div>
-                   </SwiperSlide>
-               ))
+               
+               <SwiperSlide key={updatedData.id}>
+               <img src={updatedData.pImg2} alt="" />
+                </SwiperSlide>
                
            }
 
 {
-               props.images.map((item,index)=>(
-                   <SwiperSlide key={index}>
-                      <div className="product-images-slider-thumbs-wrapper">
-                          <img src={item.Image3} alt="" />
-                      </div>
-                   </SwiperSlide>
-               ))
+               
+               <SwiperSlide key={updatedData.id}>
+               <img src={updatedData.pImg3} alt="" />
+               </SwiperSlide>
                
            }
 
 {
-               props.images.map((item,index)=>(
-                   <SwiperSlide key={index}>
-                      <div className="product-images-slider-thumbs-wrapper">
-                          <img src={item.Image4} alt="" />
-                      </div>
-                   </SwiperSlide>
-               ))
+              
+              <SwiperSlide key={updatedData.id}>
+              <img src={updatedData.pImg4} alt="" />
+              </SwiperSlide>
                
            }
 
