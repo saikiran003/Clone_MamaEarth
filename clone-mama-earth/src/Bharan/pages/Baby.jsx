@@ -44,7 +44,12 @@ export const Baby = () => {
       dispatch(addItem(cart))
       alert("Product has been added to cart")  
     }
-  
+
+    const handleClick = (e)=>{
+      localStorage.setItem("productdesp",JSON.stringify(e));
+      navigate('/ProductDesp')
+    }
+    
     return (
      <>
      <div className={styles.AOT_coverImgSwiper}>
@@ -104,7 +109,7 @@ export const Baby = () => {
               <>
               
               <SwiperSlide key={item.id}>
-              <div className={styles.AOT_productCard1}>
+              <div onClick={()=>handleClick(item)} className={styles.AOT_productCard1}>
                     <div className={styles.AOT_productImg}>
                    <img src={item.pImg} alt="" />
                  </div>
@@ -165,7 +170,7 @@ export const Baby = () => {
       <div className={styles.AOT_productContainer}>
           {data.map((el)=> {
            return(
-             <div key={el.id} className={styles.AOT_productCard}>
+             <div onClick={()=>handleClick(el)} key={el.id} className={styles.AOT_productCard}>
                  <div className={styles.AOT_productImg}>
                    <img src={el.pImg} alt="" />
                  </div>

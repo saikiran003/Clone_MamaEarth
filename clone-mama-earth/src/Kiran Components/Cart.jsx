@@ -8,6 +8,8 @@ import "./Styles/Header.css"
 // import { Link } from "react-router-dom";
 
 const Cart = () => {
+  const signup=localStorage.getItem("signupForm")
+  console.log(signup)
   const dispatch = useDispatch();
   const state = useSelector((state) => state.cart);
   const navigate = useNavigate()
@@ -21,7 +23,13 @@ const Cart = () => {
     document.querySelector(".effort").style.display = "none";
   }
   const checkOut = () => {
+    if(signup===null){
+      alert("Please Login First")
+      navigate("/profile");
+    }
+   else{
     navigate("/checkout")
+   }
   };
   const IncQuant = (item) => {
     dispatch(delItem(item));

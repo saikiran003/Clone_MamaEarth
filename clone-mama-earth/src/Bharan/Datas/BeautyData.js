@@ -8,7 +8,23 @@ export const Beautydatas = [
         "reviews":79,
         "price":"399",
         "sellerTag":"BEST SELLER",
-        "category":"Hair"
+        "category":"Hair",
+        "description":"Introducing your favorite Mamaearth Onion Hair Oil with a new & improved formula for even stronger, smoother, and shinier hair. With its lightweight and non-sticky formulation and oh-so-good fragrance, this natural and toxin-free hair loss oil helps you have stronger and healthier hair with the Goodness of Nature.Onion hair oil, rich in Sulphur, Potassium & antioxidants, reduces hair fall & accelerates hair regrowth. One of the newest breakthrough ingredients in hair growth, Redensyl, unblocks hair follicles & also boosts new hair growth. Safe for colored & chemically treated hair, the onion oil is free of harmful chemicals & toxins such as Silicones, Parabens, Mineral Oil, and Dyes.And because of our no toxins and no harmful chemicals philosophy, you won’t find any Silicones, Parabens, mineral oil & dyes in our organic onion hair oil.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-150ml_.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-oil_3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/3/_/3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/6/_/6_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image010-800x559.jpg",
+        "dImg2":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image009.png",
+        "dImg3":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image006.jpg",
+        "dtitle1":"Boosts Hair Growth",
+        "dtitle12":"Adds Strength & Shine",
+        "dtitle13":"Balances Scalp",
+        "dDec1":"Onion hair oil, in combination with Redensyl, reduces hair fall and makes hair healthy.",
+        "dDec2":"Full of nature’s goodness, a blend of nourishing oils such as Sunflower Oil, Amla Oil, Hibiscus Oil, etc. our onion oil makes hair strong from the inside & shinier on the outside.",
+        "dDec3":"Castor Oil is known to nourish the scalp. Rich in Vitamin D, Almond Oil provides nutrition to the scalp, making hair healthier and stronger."
+
+        
      },
      
      {
@@ -20,7 +36,23 @@ export const Beautydatas = [
         "reviews":549,
         "price":"349",
         "sellerTag":"BEST SELLER",
-        "category":"Hair"
+        "category":"Hair",
+        "description":"Introducing your favorite Mamaearth Onion Hair Oil with a new & improved formula for even stronger, smoother, and shinier hair. With its lightweight and non-sticky formulation and oh-so-good fragrance, this natural and toxin-free hair loss oil helps you have stronger and healthier hair with the Goodness of Nature.Onion hair oil, rich in Sulphur, Potassium & antioxidants, reduces hair fall & accelerates hair regrowth. One of the newest breakthrough ingredients in hair growth, Redensyl, unblocks hair follicles & also boosts new hair growth. Safe for colored & chemically treated hair, the onion oil is free of harmful chemicals & toxins such as Silicones, Parabens, Mineral Oil, and Dyes.And because of our no toxins and no harmful chemicals philosophy, you won’t find any Silicones, Parabens, mineral oil & dyes in our organic onion hair oil.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-150ml_.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-oil_3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/3/_/3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/6/_/6_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image010-800x559.jpg",
+        "dImg2":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image009.png",
+        "dImg3":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image006.jpg",
+        "dtitle1":"Boosts Hair Growth",
+        "dtitle12":"Adds Strength & Shine",
+        "dtitle13":"Balances Scalp",
+        "dDec1":"Onion hair oil, in combination with Redensyl, reduces hair fall and makes hair healthy.",
+        "dDec2":"Full of nature’s goodness, a blend of nourishing oils such as Sunflower Oil, Amla Oil, Hibiscus Oil, etc. our onion oil makes hair strong from the inside & shinier on the outside.",
+        "dDec3":"Castor Oil is known to nourish the scalp. Rich in Vitamin D, Almond Oil provides nutrition to the scalp, making hair healthier and stronger."
+
+        
 
      },
 
@@ -33,7 +65,23 @@ export const Beautydatas = [
         "reviews":429,
         "price":"599",
         "sellerTag":"BEST SELLER",
-        "category":"Hair"
+        "category":"Hair",
+        "description":"Introducing your favorite Mamaearth Onion Hair Oil with a new & improved formula for even stronger, smoother, and shinier hair. With its lightweight and non-sticky formulation and oh-so-good fragrance, this natural and toxin-free hair loss oil helps you have stronger and healthier hair with the Goodness of Nature.Onion hair oil, rich in Sulphur, Potassium & antioxidants, reduces hair fall & accelerates hair regrowth. One of the newest breakthrough ingredients in hair growth, Redensyl, unblocks hair follicles & also boosts new hair growth. Safe for colored & chemically treated hair, the onion oil is free of harmful chemicals & toxins such as Silicones, Parabens, Mineral Oil, and Dyes.And because of our no toxins and no harmful chemicals philosophy, you won’t find any Silicones, Parabens, mineral oil & dyes in our organic onion hair oil.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-150ml_.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-oil_3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/3/_/3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/6/_/6_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image010-800x559.jpg",
+        "dImg2":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image009.png",
+        "dImg3":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image006.jpg",
+        "dtitle1":"Boosts Hair Growth",
+        "dtitle12":"Adds Strength & Shine",
+        "dtitle13":"Balances Scalp",
+        "dDec1":"Onion hair oil, in combination with Redensyl, reduces hair fall and makes hair healthy.",
+        "dDec2":"Full of nature’s goodness, a blend of nourishing oils such as Sunflower Oil, Amla Oil, Hibiscus Oil, etc. our onion oil makes hair strong from the inside & shinier on the outside.",
+        "dDec3":"Castor Oil is known to nourish the scalp. Rich in Vitamin D, Almond Oil provides nutrition to the scalp, making hair healthier and stronger."
+
+        
      },
 
      {
@@ -45,7 +93,23 @@ export const Beautydatas = [
         "reviews":87,
         "price":"349",
         "sellerTag":"MUST TRY",
-        "category":"Hair"
+        "category":"Hair",
+        "description":"Introducing your favorite Mamaearth Onion Hair Oil with a new & improved formula for even stronger, smoother, and shinier hair. With its lightweight and non-sticky formulation and oh-so-good fragrance, this natural and toxin-free hair loss oil helps you have stronger and healthier hair with the Goodness of Nature.Onion hair oil, rich in Sulphur, Potassium & antioxidants, reduces hair fall & accelerates hair regrowth. One of the newest breakthrough ingredients in hair growth, Redensyl, unblocks hair follicles & also boosts new hair growth. Safe for colored & chemically treated hair, the onion oil is free of harmful chemicals & toxins such as Silicones, Parabens, Mineral Oil, and Dyes.And because of our no toxins and no harmful chemicals philosophy, you won’t find any Silicones, Parabens, mineral oil & dyes in our organic onion hair oil.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-150ml_.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-oil_3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/3/_/3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/6/_/6_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image010-800x559.jpg",
+        "dImg2":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image009.png",
+        "dImg3":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image006.jpg",
+        "dtitle1":"Boosts Hair Growth",
+        "dtitle12":"Adds Strength & Shine",
+        "dtitle13":"Balances Scalp",
+        "dDec1":"Onion hair oil, in combination with Redensyl, reduces hair fall and makes hair healthy.",
+        "dDec2":"Full of nature’s goodness, a blend of nourishing oils such as Sunflower Oil, Amla Oil, Hibiscus Oil, etc. our onion oil makes hair strong from the inside & shinier on the outside.",
+        "dDec3":"Castor Oil is known to nourish the scalp. Rich in Vitamin D, Almond Oil provides nutrition to the scalp, making hair healthier and stronger."
+
+        
 
      },
      
@@ -58,7 +122,23 @@ export const Beautydatas = [
         "reviews":199,
         "price":"499",
         "sellerTag":"BEST SELLER",
-        "category":"Hair"
+        "category":"Hair",
+        "description":"Introducing your favorite Mamaearth Onion Hair Oil with a new & improved formula for even stronger, smoother, and shinier hair. With its lightweight and non-sticky formulation and oh-so-good fragrance, this natural and toxin-free hair loss oil helps you have stronger and healthier hair with the Goodness of Nature.Onion hair oil, rich in Sulphur, Potassium & antioxidants, reduces hair fall & accelerates hair regrowth. One of the newest breakthrough ingredients in hair growth, Redensyl, unblocks hair follicles & also boosts new hair growth. Safe for colored & chemically treated hair, the onion oil is free of harmful chemicals & toxins such as Silicones, Parabens, Mineral Oil, and Dyes.And because of our no toxins and no harmful chemicals philosophy, you won’t find any Silicones, Parabens, mineral oil & dyes in our organic onion hair oil.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-150ml_.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-oil_3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/3/_/3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/6/_/6_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image010-800x559.jpg",
+        "dImg2":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image009.png",
+        "dImg3":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image006.jpg",
+        "dtitle1":"Boosts Hair Growth",
+        "dtitle12":"Adds Strength & Shine",
+        "dtitle13":"Balances Scalp",
+        "dDec1":"Onion hair oil, in combination with Redensyl, reduces hair fall and makes hair healthy.",
+        "dDec2":"Full of nature’s goodness, a blend of nourishing oils such as Sunflower Oil, Amla Oil, Hibiscus Oil, etc. our onion oil makes hair strong from the inside & shinier on the outside.",
+        "dDec3":"Castor Oil is known to nourish the scalp. Rich in Vitamin D, Almond Oil provides nutrition to the scalp, making hair healthier and stronger."
+
+        
 
      },
 
@@ -71,7 +151,23 @@ export const Beautydatas = [
         "reviews":107,
         "price":"299",
         "sellerTag":"MUST TRY",
-        "category":"Hair"
+        "category":"Hair",
+        "description":"Introducing your favorite Mamaearth Onion Hair Oil with a new & improved formula for even stronger, smoother, and shinier hair. With its lightweight and non-sticky formulation and oh-so-good fragrance, this natural and toxin-free hair loss oil helps you have stronger and healthier hair with the Goodness of Nature.Onion hair oil, rich in Sulphur, Potassium & antioxidants, reduces hair fall & accelerates hair regrowth. One of the newest breakthrough ingredients in hair growth, Redensyl, unblocks hair follicles & also boosts new hair growth. Safe for colored & chemically treated hair, the onion oil is free of harmful chemicals & toxins such as Silicones, Parabens, Mineral Oil, and Dyes.And because of our no toxins and no harmful chemicals philosophy, you won’t find any Silicones, Parabens, mineral oil & dyes in our organic onion hair oil.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-150ml_.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-oil_3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/3/_/3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/6/_/6_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image010-800x559.jpg",
+        "dImg2":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image009.png",
+        "dImg3":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image006.jpg",
+        "dtitle1":"Boosts Hair Growth",
+        "dtitle12":"Adds Strength & Shine",
+        "dtitle13":"Balances Scalp",
+        "dDec1":"Onion hair oil, in combination with Redensyl, reduces hair fall and makes hair healthy.",
+        "dDec2":"Full of nature’s goodness, a blend of nourishing oils such as Sunflower Oil, Amla Oil, Hibiscus Oil, etc. our onion oil makes hair strong from the inside & shinier on the outside.",
+        "dDec3":"Castor Oil is known to nourish the scalp. Rich in Vitamin D, Almond Oil provides nutrition to the scalp, making hair healthier and stronger."
+
+        
      },
      
      {
@@ -83,7 +179,23 @@ export const Beautydatas = [
         "reviews":429,
         "price":599,
         "sellerTag":"BEST SELLER",
-        "category":"Hair"
+        "category":"Hair",
+        "description":"Introducing your favorite Mamaearth Onion Hair Oil with a new & improved formula for even stronger, smoother, and shinier hair. With its lightweight and non-sticky formulation and oh-so-good fragrance, this natural and toxin-free hair loss oil helps you have stronger and healthier hair with the Goodness of Nature.Onion hair oil, rich in Sulphur, Potassium & antioxidants, reduces hair fall & accelerates hair regrowth. One of the newest breakthrough ingredients in hair growth, Redensyl, unblocks hair follicles & also boosts new hair growth. Safe for colored & chemically treated hair, the onion oil is free of harmful chemicals & toxins such as Silicones, Parabens, Mineral Oil, and Dyes.And because of our no toxins and no harmful chemicals philosophy, you won’t find any Silicones, Parabens, mineral oil & dyes in our organic onion hair oil.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-150ml_.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-oil_3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/3/_/3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/6/_/6_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image010-800x559.jpg",
+        "dImg2":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image009.png",
+        "dImg3":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image006.jpg",
+        "dtitle1":"Boosts Hair Growth",
+        "dtitle12":"Adds Strength & Shine",
+        "dtitle13":"Balances Scalp",
+        "dDec1":"Onion hair oil, in combination with Redensyl, reduces hair fall and makes hair healthy.",
+        "dDec2":"Full of nature’s goodness, a blend of nourishing oils such as Sunflower Oil, Amla Oil, Hibiscus Oil, etc. our onion oil makes hair strong from the inside & shinier on the outside.",
+        "dDec3":"Castor Oil is known to nourish the scalp. Rich in Vitamin D, Almond Oil provides nutrition to the scalp, making hair healthier and stronger."
+
+        
      },
 
      {
@@ -95,7 +207,23 @@ export const Beautydatas = [
         "reviews":87,
         "price":349,
         "sellerTag":"BEST SELLER",
-        "category":"Hair"
+        "category":"Hair",
+        "description":"Introducing your favorite Mamaearth Onion Hair Oil with a new & improved formula for even stronger, smoother, and shinier hair. With its lightweight and non-sticky formulation and oh-so-good fragrance, this natural and toxin-free hair loss oil helps you have stronger and healthier hair with the Goodness of Nature.Onion hair oil, rich in Sulphur, Potassium & antioxidants, reduces hair fall & accelerates hair regrowth. One of the newest breakthrough ingredients in hair growth, Redensyl, unblocks hair follicles & also boosts new hair growth. Safe for colored & chemically treated hair, the onion oil is free of harmful chemicals & toxins such as Silicones, Parabens, Mineral Oil, and Dyes.And because of our no toxins and no harmful chemicals philosophy, you won’t find any Silicones, Parabens, mineral oil & dyes in our organic onion hair oil.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-150ml_.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-oil_3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/3/_/3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/6/_/6_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image010-800x559.jpg",
+        "dImg2":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image009.png",
+        "dImg3":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image006.jpg",
+        "dtitle1":"Boosts Hair Growth",
+        "dtitle12":"Adds Strength & Shine",
+        "dtitle13":"Balances Scalp",
+        "dDec1":"Onion hair oil, in combination with Redensyl, reduces hair fall and makes hair healthy.",
+        "dDec2":"Full of nature’s goodness, a blend of nourishing oils such as Sunflower Oil, Amla Oil, Hibiscus Oil, etc. our onion oil makes hair strong from the inside & shinier on the outside.",
+        "dDec3":"Castor Oil is known to nourish the scalp. Rich in Vitamin D, Almond Oil provides nutrition to the scalp, making hair healthier and stronger."
+
+        
 
      },
 
@@ -108,7 +236,23 @@ export const Beautydatas = [
         "reviews":109,
         "price":"349",
         "sellerTag":"BEST SELLER",
-        "category":"Hair"
+        "category":"Hair",
+        "description":"Introducing your favorite Mamaearth Onion Hair Oil with a new & improved formula for even stronger, smoother, and shinier hair. With its lightweight and non-sticky formulation and oh-so-good fragrance, this natural and toxin-free hair loss oil helps you have stronger and healthier hair with the Goodness of Nature.Onion hair oil, rich in Sulphur, Potassium & antioxidants, reduces hair fall & accelerates hair regrowth. One of the newest breakthrough ingredients in hair growth, Redensyl, unblocks hair follicles & also boosts new hair growth. Safe for colored & chemically treated hair, the onion oil is free of harmful chemicals & toxins such as Silicones, Parabens, Mineral Oil, and Dyes.And because of our no toxins and no harmful chemicals philosophy, you won’t find any Silicones, Parabens, mineral oil & dyes in our organic onion hair oil.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-150ml_.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-oil_3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/3/_/3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/6/_/6_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image010-800x559.jpg",
+        "dImg2":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image009.png",
+        "dImg3":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image006.jpg",
+        "dtitle1":"Boosts Hair Growth",
+        "dtitle12":"Adds Strength & Shine",
+        "dtitle13":"Balances Scalp",
+        "dDec1":"Onion hair oil, in combination with Redensyl, reduces hair fall and makes hair healthy.",
+        "dDec2":"Full of nature’s goodness, a blend of nourishing oils such as Sunflower Oil, Amla Oil, Hibiscus Oil, etc. our onion oil makes hair strong from the inside & shinier on the outside.",
+        "dDec3":"Castor Oil is known to nourish the scalp. Rich in Vitamin D, Almond Oil provides nutrition to the scalp, making hair healthier and stronger."
+
+        
 
      },
 
@@ -121,7 +265,23 @@ export const Beautydatas = [
         "reviews":137,
         "price":"349",
         "sellerTag":"BEST SELLER",
-        "category":"Hair"
+        "category":"Hair",
+        "description":"Introducing your favorite Mamaearth Onion Hair Oil with a new & improved formula for even stronger, smoother, and shinier hair. With its lightweight and non-sticky formulation and oh-so-good fragrance, this natural and toxin-free hair loss oil helps you have stronger and healthier hair with the Goodness of Nature.Onion hair oil, rich in Sulphur, Potassium & antioxidants, reduces hair fall & accelerates hair regrowth. One of the newest breakthrough ingredients in hair growth, Redensyl, unblocks hair follicles & also boosts new hair growth. Safe for colored & chemically treated hair, the onion oil is free of harmful chemicals & toxins such as Silicones, Parabens, Mineral Oil, and Dyes.And because of our no toxins and no harmful chemicals philosophy, you won’t find any Silicones, Parabens, mineral oil & dyes in our organic onion hair oil.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-150ml_.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-oil_3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/3/_/3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/6/_/6_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image010-800x559.jpg",
+        "dImg2":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image009.png",
+        "dImg3":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image006.jpg",
+        "dtitle1":"Boosts Hair Growth",
+        "dtitle12":"Adds Strength & Shine",
+        "dtitle13":"Balances Scalp",
+        "dDec1":"Onion hair oil, in combination with Redensyl, reduces hair fall and makes hair healthy.",
+        "dDec2":"Full of nature’s goodness, a blend of nourishing oils such as Sunflower Oil, Amla Oil, Hibiscus Oil, etc. our onion oil makes hair strong from the inside & shinier on the outside.",
+        "dDec3":"Castor Oil is known to nourish the scalp. Rich in Vitamin D, Almond Oil provides nutrition to the scalp, making hair healthier and stronger."
+
+        
 
      },
 
@@ -134,7 +294,23 @@ export const Beautydatas = [
         "reviews":136,
         "price":"599",
         "sellerTag":"",
-        "category":"Hair"
+        "category":"Hair",
+        "description":"Introducing your favorite Mamaearth Onion Hair Oil with a new & improved formula for even stronger, smoother, and shinier hair. With its lightweight and non-sticky formulation and oh-so-good fragrance, this natural and toxin-free hair loss oil helps you have stronger and healthier hair with the Goodness of Nature.Onion hair oil, rich in Sulphur, Potassium & antioxidants, reduces hair fall & accelerates hair regrowth. One of the newest breakthrough ingredients in hair growth, Redensyl, unblocks hair follicles & also boosts new hair growth. Safe for colored & chemically treated hair, the onion oil is free of harmful chemicals & toxins such as Silicones, Parabens, Mineral Oil, and Dyes.And because of our no toxins and no harmful chemicals philosophy, you won’t find any Silicones, Parabens, mineral oil & dyes in our organic onion hair oil.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-150ml_.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-oil_3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/3/_/3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/6/_/6_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image010-800x559.jpg",
+        "dImg2":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image009.png",
+        "dImg3":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image006.jpg",
+        "dtitle1":"Boosts Hair Growth",
+        "dtitle12":"Adds Strength & Shine",
+        "dtitle13":"Balances Scalp",
+        "dDec1":"Onion hair oil, in combination with Redensyl, reduces hair fall and makes hair healthy.",
+        "dDec2":"Full of nature’s goodness, a blend of nourishing oils such as Sunflower Oil, Amla Oil, Hibiscus Oil, etc. our onion oil makes hair strong from the inside & shinier on the outside.",
+        "dDec3":"Castor Oil is known to nourish the scalp. Rich in Vitamin D, Almond Oil provides nutrition to the scalp, making hair healthier and stronger."
+
+        
 
      },
 
@@ -147,7 +323,23 @@ export const Beautydatas = [
         "reviews":83,
         "price":"599",
         "sellerTag":"MUST TRY",
-        "category":"Hair"
+        "category":"Hair",
+        "description":"Introducing your favorite Mamaearth Onion Hair Oil with a new & improved formula for even stronger, smoother, and shinier hair. With its lightweight and non-sticky formulation and oh-so-good fragrance, this natural and toxin-free hair loss oil helps you have stronger and healthier hair with the Goodness of Nature.Onion hair oil, rich in Sulphur, Potassium & antioxidants, reduces hair fall & accelerates hair regrowth. One of the newest breakthrough ingredients in hair growth, Redensyl, unblocks hair follicles & also boosts new hair growth. Safe for colored & chemically treated hair, the onion oil is free of harmful chemicals & toxins such as Silicones, Parabens, Mineral Oil, and Dyes.And because of our no toxins and no harmful chemicals philosophy, you won’t find any Silicones, Parabens, mineral oil & dyes in our organic onion hair oil.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-150ml_.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-oil_3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/3/_/3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/6/_/6_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image010-800x559.jpg",
+        "dImg2":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image009.png",
+        "dImg3":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image006.jpg",
+        "dtitle1":"Boosts Hair Growth",
+        "dtitle12":"Adds Strength & Shine",
+        "dtitle13":"Balances Scalp",
+        "dDec1":"Onion hair oil, in combination with Redensyl, reduces hair fall and makes hair healthy.",
+        "dDec2":"Full of nature’s goodness, a blend of nourishing oils such as Sunflower Oil, Amla Oil, Hibiscus Oil, etc. our onion oil makes hair strong from the inside & shinier on the outside.",
+        "dDec3":"Castor Oil is known to nourish the scalp. Rich in Vitamin D, Almond Oil provides nutrition to the scalp, making hair healthier and stronger."
+
+        
 
      },
 
@@ -160,7 +352,22 @@ export const Beautydatas = [
         "reviews":50,
         "price":"349",
         "sellerTag":"BEST SELLER",
-        "category":"Hair"
+        "category":"Hair",
+        "description":"Introducing your favorite Mamaearth Onion Hair Oil with a new & improved formula for even stronger, smoother, and shinier hair. With its lightweight and non-sticky formulation and oh-so-good fragrance, this natural and toxin-free hair loss oil helps you have stronger and healthier hair with the Goodness of Nature.Onion hair oil, rich in Sulphur, Potassium & antioxidants, reduces hair fall & accelerates hair regrowth. One of the newest breakthrough ingredients in hair growth, Redensyl, unblocks hair follicles & also boosts new hair growth. Safe for colored & chemically treated hair, the onion oil is free of harmful chemicals & toxins such as Silicones, Parabens, Mineral Oil, and Dyes.And because of our no toxins and no harmful chemicals philosophy, you won’t find any Silicones, Parabens, mineral oil & dyes in our organic onion hair oil.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-150ml_.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-oil_3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/3/_/3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/6/_/6_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image010-800x559.jpg",
+        "dImg2":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image009.png",
+        "dImg3":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image006.jpg",
+        "dtitle1":"Boosts Hair Growth",
+        "dtitle12":"Adds Strength & Shine",
+        "dtitle13":"Balances Scalp",
+        "dDec1":"Onion hair oil, in combination with Redensyl, reduces hair fall and makes hair healthy.",
+        "dDec2":"Full of nature’s goodness, a blend of nourishing oils such as Sunflower Oil, Amla Oil, Hibiscus Oil, etc. our onion oil makes hair strong from the inside & shinier on the outside.",
+        "dDec3":"Castor Oil is known to nourish the scalp. Rich in Vitamin D, Almond Oil provides nutrition to the scalp, making hair healthier and stronger."
+
 
      },
      {
@@ -172,7 +379,22 @@ export const Beautydatas = [
         "reviews":136,
         "price":"599",
         "sellerTag":"",
-        "category":"Hair"
+        "category":"Hair",
+        "description":"Introducing your favorite Mamaearth Onion Hair Oil with a new & improved formula for even stronger, smoother, and shinier hair. With its lightweight and non-sticky formulation and oh-so-good fragrance, this natural and toxin-free hair loss oil helps you have stronger and healthier hair with the Goodness of Nature.Onion hair oil, rich in Sulphur, Potassium & antioxidants, reduces hair fall & accelerates hair regrowth. One of the newest breakthrough ingredients in hair growth, Redensyl, unblocks hair follicles & also boosts new hair growth. Safe for colored & chemically treated hair, the onion oil is free of harmful chemicals & toxins such as Silicones, Parabens, Mineral Oil, and Dyes.And because of our no toxins and no harmful chemicals philosophy, you won’t find any Silicones, Parabens, mineral oil & dyes in our organic onion hair oil.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-150ml_.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-oil_3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/3/_/3_6.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/6/_/6_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image010-800x559.jpg",
+        "dImg2":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image009.png",
+        "dImg3":"https://d15ipfxaz33sol.cloudfront.net/wysiwyg/image006.jpg",
+        "dtitle1":"Boosts Hair Growth",
+        "dtitle12":"Adds Strength & Shine",
+        "dtitle13":"Balances Scalp",
+        "dDec1":"Onion hair oil, in combination with Redensyl, reduces hair fall and makes hair healthy.",
+        "dDec2":"Full of nature’s goodness, a blend of nourishing oils such as Sunflower Oil, Amla Oil, Hibiscus Oil, etc. our onion oil makes hair strong from the inside & shinier on the outside.",
+        "dDec3":"Castor Oil is known to nourish the scalp. Rich in Vitamin D, Almond Oil provides nutrition to the scalp, making hair healthier and stronger."
+
 
      },
 
@@ -185,7 +407,21 @@ export const Beautydatas = [
         "reviews":903,
         "price":"249",
         "sellerTag":"BEST SELLER",
-        "category":"Face"
+        "category":"Face",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
      },
 
      {
@@ -197,7 +433,21 @@ export const Beautydatas = [
         "reviews":461,
         "price":"449",
         "sellerTag":"BEST SELLER",
-        "category":"Face"
+        "category":"Face",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
      },
 
      {
@@ -209,7 +459,21 @@ export const Beautydatas = [
         "reviews":237,
         "price":"599",
         "sellerTag":"BEST SELLER",
-        "category":"Face"
+        "category":"Face",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
      },
 
      {
@@ -221,7 +485,21 @@ export const Beautydatas = [
         "reviews":291,
         "price":"399",
         "sellerTag":"BEST SELLER",
-        "category":"Face"
+        "category":"Face",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
 
      },
 
@@ -234,7 +512,21 @@ export const Beautydatas = [
         "reviews":134,
         "price":"499",
         "sellerTag":"BEST SELLER",
-        "category":"Face"
+        "category":"Face",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
      },
 
      {
@@ -246,7 +538,21 @@ export const Beautydatas = [
         "reviews":40,
         "price":349,
         "sellerTag":"",
-        "category":"Face"
+        "category":"Face",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
      },
 
      {
@@ -258,7 +564,21 @@ export const Beautydatas = [
         "reviews":117,
         "price":"349",
         "sellerTag":"BEST SELLER",
-        "category":"Face"
+        "category":"Face",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
 
      },
 
@@ -271,7 +591,21 @@ export const Beautydatas = [
         "reviews":19,
         "price":"399",
         "sellerTag":"NEW LAUNCH",
-        "category":"Face"
+        "category":"Face",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
 
      },
      
@@ -284,7 +618,21 @@ export const Beautydatas = [
         "reviews":20,
         "price":"249",
         "sellerTag":"NEW LAUNCH",
-        "category":"Face"
+        "category":"Face",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
 
      },
      {
@@ -296,7 +644,21 @@ export const Beautydatas = [
         "reviews":92,
         "price":"399",
         "sellerTag":"TRENDING",
-        "category":"Face"
+        "category":"Face",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
 
      },
 
@@ -310,7 +672,21 @@ export const Beautydatas = [
         "reviews":66,
         "price":"299",
         "sellerTag":"",
-        "category":"Body"
+        "category":"Body",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
      },
      {
         "id":"BT26",
@@ -321,7 +697,21 @@ export const Beautydatas = [
         "reviews":66,
         "price":"299",
         "sellerTag":"",
-        "category":"Body"
+        "category":"Body",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
      },
 
      {
@@ -333,7 +723,21 @@ export const Beautydatas = [
         "reviews":66,
         "price":"375",
         "sellerTag":"",
-        "category":"Body"
+        "category":"Body",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
      },
      {
         "id":"BT28",
@@ -344,7 +748,21 @@ export const Beautydatas = [
         "reviews":66,
         "price":"698",
         "sellerTag":"",
-        "category":"Body"
+        "category":"Body",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
      },
      {
         "id":"BT29",
@@ -355,7 +773,21 @@ export const Beautydatas = [
         "reviews":66,
         "price":"299",
         "sellerTag":"",
-        "category":"Body"
+        "category":"Body",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
      },
      {
         "id":"BT30",
@@ -366,7 +798,21 @@ export const Beautydatas = [
         "reviews":66,
         "price":"225",
         "sellerTag":"",
-        "category":"Body"
+        "category":"Body",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
      },
      {
         "id":"BT31",
@@ -377,7 +823,21 @@ export const Beautydatas = [
         "reviews":66,
         "price":"375",
         "sellerTag":"",
-        "category":"Body"
+        "category":"Body",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
      },
      {
         "id":"BT32",
@@ -388,7 +848,21 @@ export const Beautydatas = [
         "reviews":66,
         "price":"375",
         "sellerTag":"",
-        "category":"Body"
+        "category":"Body",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
      },
      {
         "id":"BT33",
@@ -399,7 +873,21 @@ export const Beautydatas = [
         "reviews":66,
         "price":"299",
         "sellerTag":"",
-        "category":"Body"
+        "category":"Body",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
      },
      {
         "id":"BT34",
@@ -410,7 +898,21 @@ export const Beautydatas = [
         "reviews":66,
         "price":"299",
         "sellerTag":"",
-        "category":"Body"
+        "category":"Body",
+        "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
      }
 
 ]
@@ -426,7 +928,21 @@ export const BeautyCare = [
       "reviews":79,
       "price":"399",
       "sellerTag":"BEST SELLER",
-      "category":"Hair"
+      "category":"Hair",
+      "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
    },
    
    {
@@ -438,7 +954,21 @@ export const BeautyCare = [
       "reviews":549,
       "price":"349",
       "sellerTag":"BEST SELLER",
-      "category":"Hair"
+      "category":"Hair",
+      "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
 
    },
 
@@ -451,7 +981,21 @@ export const BeautyCare = [
       "reviews":429,
       "price":"599",
       "sellerTag":"BEST SELLER",
-      "category":"Hair"
+      "category":"Hair",
+      "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
    },
 
    {
@@ -463,7 +1007,21 @@ export const BeautyCare = [
       "reviews":87,
       "price":"349",
       "sellerTag":"MUST TRY",
-      "category":"Hair"
+      "category":"Hair",
+      "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
 
    },
    
@@ -476,7 +1034,21 @@ export const BeautyCare = [
       "reviews":199,
       "price":"499",
       "sellerTag":"BEST SELLER",
-      "category":"Hair"
+      "category":"Hair",
+      "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
 
    },
 
@@ -489,7 +1061,21 @@ export const BeautyCare = [
       "reviews":107,
       "price":"299",
       "sellerTag":"MUST TRY",
-      "category":"Hair"
+      "category":"Hair",
+      "description":"Pamper your skin with the age-old tradition of Ubtan and let your dull, tanned skin rejuvenate and feel fresh & bright. Undo the effects of tan, pollution, dirt, harmful UV rays, and harsh weather conditions with Mamaearth Ubtan Face Wash.Crafted to give you glowing skin, our Ubtan Face Wash is enriched with the natural goodness of Turmeric and Saffron. Antioxidants in Turmeric protect skin from free radical damage. It’s also traditionally known to fight sun tan and brighten skin tone. Carrot Seed Oil and Saffron clear spots and help in tan removal. Walnut Beads in Ubtan Face Wash help gently exfoliate and reduce tan while brightening the skin.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_2_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_3_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_4_1.jpg?auto=format&fit=crop&w=332&auto=compress",
+        "dImg1":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture1.jpg",
+        "dImg2":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture2.jpg",
+        "dImg3":"https://mamaearthp.imgix.net/wysiwyg/ubtan%20new/Picture3.jpg",
+        "dtitle1":"Removes Tan",
+        "dtitle12":"Repairs Sun Damage",
+        "dtitle13":"Brightens Skin",
+        "dDec1":"The combination of Saffron & Carrot Seed Oil removes tan from the upper layer of the skin while restoring natural glow. Indulge in the age-old tradition of Ubtan and let your skin rejoice in the natural goodness of Turmeric, Saffron & Carrot seed Oil, known best for tan removal.",
+        "dDec2":"Walnut Beads gently exfoliate dead skin cells to remove impurities while unearthing the smooth, bright skin underneath. Bid goodbye to sun damage with this natural Ubtan Face Wash.",
+        "dDec3":"Turmeric, rich in antioxidants, protects the skin cells from free radical damage and brightens the skin tone while improving the skin texture and complexion. It retains moisture balance to make the skin soft and supple."
    }
 
 ]

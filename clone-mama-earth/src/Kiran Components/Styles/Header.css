@@ -302,7 +302,7 @@
     bottom: 0px;
     right: -47px;
     z-index: 200;
-    max-width: 440px;
+    max-width:28% ;
   }
   .fine {
     box-shadow: rgb(0 0 0 / 12%) 0px -3px 6px;

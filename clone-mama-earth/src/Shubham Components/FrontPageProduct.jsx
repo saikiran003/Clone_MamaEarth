@@ -20,14 +20,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addItem } from "../Kiran Components/redux/action";
-import {
-  Alert,
-  AlertIcon,
-  AlertTitle,
-  AlertDescription,
-  Stack,
-  ChakraProvider,
-} from "@chakra-ui/react";
+
 
 export const Slider = () => {
   const dispatch = useDispatch();
@@ -40,6 +33,8 @@ export const Slider = () => {
   const handleCart = (item) => {
     dispatch(addItem(item));
    alert("Product has been added to Cart")
+   
+    
   };
   return (
     <>

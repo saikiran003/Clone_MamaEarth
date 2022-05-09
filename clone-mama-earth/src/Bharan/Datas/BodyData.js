@@ -9,7 +9,22 @@ export const Bodydatas = [
         "reviews":66,
         "price":"299",
         "sellerTag":"",
-        "category":"Body wash"
+        "category":"Body wash",
+        "description":"Finally, a shampoo you can commit to. Our BhringAmla Shampoo is a serious multitasker. This Ayurvedic blend of Bhringraj, Amla, and many other herbs reduces hair fall, repairs damaged hair, and reduces dandruff.Crafted with time-tested natural ingredients such as Bhringraj and Amla, the shampoo has oil that has been made following the traditional ‘Kshirpak Vidhi.’ This is an ancient and esoteric Ayurveda process, where ‘Kshira’ or milk is combined with different herbs in a process that requires patience and precision.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_4.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_2.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Dry_Scalp.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Promotes_Hair_Growth_FBAoiRU.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Soothes_Dry_Scalp.jpg",
+        "dtitle1":"Repairs Damaged Hair",
+        "dtitle2":"Promotes Hair Growth",
+        "dtitle3":"Reduces Dandruff & Soothes Dry Scalp",
+        "dDec1":"With the goodness of Ayurvedic herbs and natural oils, BhringAmla Shampoo effectively works to repair hair damage. Amla and Bhringraj make the hair healthier and stronger from root to tip.",
+        "dDec2":"When you have a hair care recipe that’s 4000 years old, you can expect exceptional results. The oils present in the shampoo penetrate deep within the roots and stimulate the hair follicles, leading to increased hair growth.",
+        "dDec3":"The time-tested Ayurvedic ingredients present in the shampoo ensure that the scalp is cleansed thoroughly and the roots are strengthened, leading to reduced dandruff."
+
      },
      {
         "id":"BD2",
@@ -20,7 +35,22 @@ export const Bodydatas = [
         "reviews":66,
         "price":"299",
         "sellerTag":"",
-        "category":"Body wash"
+        "category":"Body wash",
+        "description":"Finally, a shampoo you can commit to. Our BhringAmla Shampoo is a serious multitasker. This Ayurvedic blend of Bhringraj, Amla, and many other herbs reduces hair fall, repairs damaged hair, and reduces dandruff.Crafted with time-tested natural ingredients such as Bhringraj and Amla, the shampoo has oil that has been made following the traditional ‘Kshirpak Vidhi.’ This is an ancient and esoteric Ayurveda process, where ‘Kshira’ or milk is combined with different herbs in a process that requires patience and precision.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_4.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_2.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Dry_Scalp.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Promotes_Hair_Growth_FBAoiRU.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Soothes_Dry_Scalp.jpg",
+        "dtitle1":"Repairs Damaged Hair",
+        "dtitle2":"Promotes Hair Growth",
+        "dtitle3":"Reduces Dandruff & Soothes Dry Scalp",
+        "dDec1":"With the goodness of Ayurvedic herbs and natural oils, BhringAmla Shampoo effectively works to repair hair damage. Amla and Bhringraj make the hair healthier and stronger from root to tip.",
+        "dDec2":"When you have a hair care recipe that’s 4000 years old, you can expect exceptional results. The oils present in the shampoo penetrate deep within the roots and stimulate the hair follicles, leading to increased hair growth.",
+        "dDec3":"The time-tested Ayurvedic ingredients present in the shampoo ensure that the scalp is cleansed thoroughly and the roots are strengthened, leading to reduced dandruff."
+
      },
 
      {
@@ -32,7 +62,22 @@ export const Bodydatas = [
         "reviews":66,
         "price":"375",
         "sellerTag":"",
-        "category":"Body scrub"
+        "category":"Body scrub",
+        "description":"Finally, a shampoo you can commit to. Our BhringAmla Shampoo is a serious multitasker. This Ayurvedic blend of Bhringraj, Amla, and many other herbs reduces hair fall, repairs damaged hair, and reduces dandruff.Crafted with time-tested natural ingredients such as Bhringraj and Amla, the shampoo has oil that has been made following the traditional ‘Kshirpak Vidhi.’ This is an ancient and esoteric Ayurveda process, where ‘Kshira’ or milk is combined with different herbs in a process that requires patience and precision.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_4.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_2.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Dry_Scalp.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Promotes_Hair_Growth_FBAoiRU.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Soothes_Dry_Scalp.jpg",
+        "dtitle1":"Repairs Damaged Hair",
+        "dtitle2":"Promotes Hair Growth",
+        "dtitle3":"Reduces Dandruff & Soothes Dry Scalp",
+        "dDec1":"With the goodness of Ayurvedic herbs and natural oils, BhringAmla Shampoo effectively works to repair hair damage. Amla and Bhringraj make the hair healthier and stronger from root to tip.",
+        "dDec2":"When you have a hair care recipe that’s 4000 years old, you can expect exceptional results. The oils present in the shampoo penetrate deep within the roots and stimulate the hair follicles, leading to increased hair growth.",
+        "dDec3":"The time-tested Ayurvedic ingredients present in the shampoo ensure that the scalp is cleansed thoroughly and the roots are strengthened, leading to reduced dandruff."
+
      },
      {
         "id":"BD4",
@@ -43,7 +88,22 @@ export const Bodydatas = [
         "reviews":66,
         "price":"698",
         "sellerTag":"",
-        "category":"Body wash"
+        "category":"Body wash",
+        "description":"Finally, a shampoo you can commit to. Our BhringAmla Shampoo is a serious multitasker. This Ayurvedic blend of Bhringraj, Amla, and many other herbs reduces hair fall, repairs damaged hair, and reduces dandruff.Crafted with time-tested natural ingredients such as Bhringraj and Amla, the shampoo has oil that has been made following the traditional ‘Kshirpak Vidhi.’ This is an ancient and esoteric Ayurveda process, where ‘Kshira’ or milk is combined with different herbs in a process that requires patience and precision.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_4.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_2.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Dry_Scalp.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Promotes_Hair_Growth_FBAoiRU.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Soothes_Dry_Scalp.jpg",
+        "dtitle1":"Repairs Damaged Hair",
+        "dtitle2":"Promotes Hair Growth",
+        "dtitle3":"Reduces Dandruff & Soothes Dry Scalp",
+        "dDec1":"With the goodness of Ayurvedic herbs and natural oils, BhringAmla Shampoo effectively works to repair hair damage. Amla and Bhringraj make the hair healthier and stronger from root to tip.",
+        "dDec2":"When you have a hair care recipe that’s 4000 years old, you can expect exceptional results. The oils present in the shampoo penetrate deep within the roots and stimulate the hair follicles, leading to increased hair growth.",
+        "dDec3":"The time-tested Ayurvedic ingredients present in the shampoo ensure that the scalp is cleansed thoroughly and the roots are strengthened, leading to reduced dandruff."
+
      },
      {
         "id":"BD5",
@@ -54,7 +114,22 @@ export const Bodydatas = [
         "reviews":66,
         "price":"299",
         "sellerTag":"",
-        "category":"Body scrub"
+        "category":"Body scrub",
+        "description":"Finally, a shampoo you can commit to. Our BhringAmla Shampoo is a serious multitasker. This Ayurvedic blend of Bhringraj, Amla, and many other herbs reduces hair fall, repairs damaged hair, and reduces dandruff.Crafted with time-tested natural ingredients such as Bhringraj and Amla, the shampoo has oil that has been made following the traditional ‘Kshirpak Vidhi.’ This is an ancient and esoteric Ayurveda process, where ‘Kshira’ or milk is combined with different herbs in a process that requires patience and precision.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_4.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_2.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Dry_Scalp.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Promotes_Hair_Growth_FBAoiRU.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Soothes_Dry_Scalp.jpg",
+        "dtitle1":"Repairs Damaged Hair",
+        "dtitle2":"Promotes Hair Growth",
+        "dtitle3":"Reduces Dandruff & Soothes Dry Scalp",
+        "dDec1":"With the goodness of Ayurvedic herbs and natural oils, BhringAmla Shampoo effectively works to repair hair damage. Amla and Bhringraj make the hair healthier and stronger from root to tip.",
+        "dDec2":"When you have a hair care recipe that’s 4000 years old, you can expect exceptional results. The oils present in the shampoo penetrate deep within the roots and stimulate the hair follicles, leading to increased hair growth.",
+        "dDec3":"The time-tested Ayurvedic ingredients present in the shampoo ensure that the scalp is cleansed thoroughly and the roots are strengthened, leading to reduced dandruff."
+
      },
      {
         "id":"BD6",
@@ -65,7 +140,22 @@ export const Bodydatas = [
         "reviews":66,
         "price":"225",
         "sellerTag":"",
-        "category":"Body Lotion"
+        "category":"Body Lotion",
+        "description":"Finally, a shampoo you can commit to. Our BhringAmla Shampoo is a serious multitasker. This Ayurvedic blend of Bhringraj, Amla, and many other herbs reduces hair fall, repairs damaged hair, and reduces dandruff.Crafted with time-tested natural ingredients such as Bhringraj and Amla, the shampoo has oil that has been made following the traditional ‘Kshirpak Vidhi.’ This is an ancient and esoteric Ayurveda process, where ‘Kshira’ or milk is combined with different herbs in a process that requires patience and precision.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_4.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_2.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Dry_Scalp.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Promotes_Hair_Growth_FBAoiRU.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Soothes_Dry_Scalp.jpg",
+        "dtitle1":"Repairs Damaged Hair",
+        "dtitle2":"Promotes Hair Growth",
+        "dtitle3":"Reduces Dandruff & Soothes Dry Scalp",
+        "dDec1":"With the goodness of Ayurvedic herbs and natural oils, BhringAmla Shampoo effectively works to repair hair damage. Amla and Bhringraj make the hair healthier and stronger from root to tip.",
+        "dDec2":"When you have a hair care recipe that’s 4000 years old, you can expect exceptional results. The oils present in the shampoo penetrate deep within the roots and stimulate the hair follicles, leading to increased hair growth.",
+        "dDec3":"The time-tested Ayurvedic ingredients present in the shampoo ensure that the scalp is cleansed thoroughly and the roots are strengthened, leading to reduced dandruff."
+
      },
      {
         "id":"BD7",
@@ -76,7 +166,22 @@ export const Bodydatas = [
         "reviews":66,
         "price":"375",
         "sellerTag":"",
-        "category":"Body Lotion"
+        "category":"Body Lotion",
+        "description":"Finally, a shampoo you can commit to. Our BhringAmla Shampoo is a serious multitasker. This Ayurvedic blend of Bhringraj, Amla, and many other herbs reduces hair fall, repairs damaged hair, and reduces dandruff.Crafted with time-tested natural ingredients such as Bhringraj and Amla, the shampoo has oil that has been made following the traditional ‘Kshirpak Vidhi.’ This is an ancient and esoteric Ayurveda process, where ‘Kshira’ or milk is combined with different herbs in a process that requires patience and precision.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_4.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_2.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Dry_Scalp.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Promotes_Hair_Growth_FBAoiRU.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Soothes_Dry_Scalp.jpg",
+        "dtitle1":"Repairs Damaged Hair",
+        "dtitle2":"Promotes Hair Growth",
+        "dtitle3":"Reduces Dandruff & Soothes Dry Scalp",
+        "dDec1":"With the goodness of Ayurvedic herbs and natural oils, BhringAmla Shampoo effectively works to repair hair damage. Amla and Bhringraj make the hair healthier and stronger from root to tip.",
+        "dDec2":"When you have a hair care recipe that’s 4000 years old, you can expect exceptional results. The oils present in the shampoo penetrate deep within the roots and stimulate the hair follicles, leading to increased hair growth.",
+        "dDec3":"The time-tested Ayurvedic ingredients present in the shampoo ensure that the scalp is cleansed thoroughly and the roots are strengthened, leading to reduced dandruff."
+
      },
      {
         "id":"BD8",
@@ -87,7 +192,22 @@ export const Bodydatas = [
         "reviews":66,
         "price":"375",
         "sellerTag":"",
-        "category":"Body wash"
+        "category":"Body wash",
+        "description":"Finally, a shampoo you can commit to. Our BhringAmla Shampoo is a serious multitasker. This Ayurvedic blend of Bhringraj, Amla, and many other herbs reduces hair fall, repairs damaged hair, and reduces dandruff.Crafted with time-tested natural ingredients such as Bhringraj and Amla, the shampoo has oil that has been made following the traditional ‘Kshirpak Vidhi.’ This is an ancient and esoteric Ayurveda process, where ‘Kshira’ or milk is combined with different herbs in a process that requires patience and precision.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_4.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_2.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Dry_Scalp.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Promotes_Hair_Growth_FBAoiRU.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Soothes_Dry_Scalp.jpg",
+        "dtitle1":"Repairs Damaged Hair",
+        "dtitle2":"Promotes Hair Growth",
+        "dtitle3":"Reduces Dandruff & Soothes Dry Scalp",
+        "dDec1":"With the goodness of Ayurvedic herbs and natural oils, BhringAmla Shampoo effectively works to repair hair damage. Amla and Bhringraj make the hair healthier and stronger from root to tip.",
+        "dDec2":"When you have a hair care recipe that’s 4000 years old, you can expect exceptional results. The oils present in the shampoo penetrate deep within the roots and stimulate the hair follicles, leading to increased hair growth.",
+        "dDec3":"The time-tested Ayurvedic ingredients present in the shampoo ensure that the scalp is cleansed thoroughly and the roots are strengthened, leading to reduced dandruff."
+
      },
      {
         "id":"BD9",
@@ -98,7 +218,22 @@ export const Bodydatas = [
         "reviews":66,
         "price":"299",
         "sellerTag":"",
-        "category":"Body Lotion"
+        "category":"Body Lotion",
+        "description":"Finally, a shampoo you can commit to. Our BhringAmla Shampoo is a serious multitasker. This Ayurvedic blend of Bhringraj, Amla, and many other herbs reduces hair fall, repairs damaged hair, and reduces dandruff.Crafted with time-tested natural ingredients such as Bhringraj and Amla, the shampoo has oil that has been made following the traditional ‘Kshirpak Vidhi.’ This is an ancient and esoteric Ayurveda process, where ‘Kshira’ or milk is combined with different herbs in a process that requires patience and precision.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_4.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_2.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Dry_Scalp.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Promotes_Hair_Growth_FBAoiRU.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Soothes_Dry_Scalp.jpg",
+        "dtitle1":"Repairs Damaged Hair",
+        "dtitle2":"Promotes Hair Growth",
+        "dtitle3":"Reduces Dandruff & Soothes Dry Scalp",
+        "dDec1":"With the goodness of Ayurvedic herbs and natural oils, BhringAmla Shampoo effectively works to repair hair damage. Amla and Bhringraj make the hair healthier and stronger from root to tip.",
+        "dDec2":"When you have a hair care recipe that’s 4000 years old, you can expect exceptional results. The oils present in the shampoo penetrate deep within the roots and stimulate the hair follicles, leading to increased hair growth.",
+        "dDec3":"The time-tested Ayurvedic ingredients present in the shampoo ensure that the scalp is cleansed thoroughly and the roots are strengthened, leading to reduced dandruff."
+
      },
      {
         "id":"BD10",
@@ -109,7 +244,22 @@ export const Bodydatas = [
         "reviews":66,
         "price":"299",
         "sellerTag":"",
-        "category":"Body scrub"
+        "category":"Body scrub",
+        "description":"Finally, a shampoo you can commit to. Our BhringAmla Shampoo is a serious multitasker. This Ayurvedic blend of Bhringraj, Amla, and many other herbs reduces hair fall, repairs damaged hair, and reduces dandruff.Crafted with time-tested natural ingredients such as Bhringraj and Amla, the shampoo has oil that has been made following the traditional ‘Kshirpak Vidhi.’ This is an ancient and esoteric Ayurveda process, where ‘Kshira’ or milk is combined with different herbs in a process that requires patience and precision.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_4.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_2.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Dry_Scalp.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Promotes_Hair_Growth_FBAoiRU.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Soothes_Dry_Scalp.jpg",
+        "dtitle1":"Repairs Damaged Hair",
+        "dtitle2":"Promotes Hair Growth",
+        "dtitle3":"Reduces Dandruff & Soothes Dry Scalp",
+        "dDec1":"With the goodness of Ayurvedic herbs and natural oils, BhringAmla Shampoo effectively works to repair hair damage. Amla and Bhringraj make the hair healthier and stronger from root to tip.",
+        "dDec2":"When you have a hair care recipe that’s 4000 years old, you can expect exceptional results. The oils present in the shampoo penetrate deep within the roots and stimulate the hair follicles, leading to increased hair growth.",
+        "dDec3":"The time-tested Ayurvedic ingredients present in the shampoo ensure that the scalp is cleansed thoroughly and the roots are strengthened, leading to reduced dandruff."
+
      },
 
 
@@ -126,7 +276,22 @@ export const Bodycare = [
       "reviews":66,
       "price":"299",
       "sellerTag":"BEST SELLER",
-      "category":"Body"
+      "category":"Body",
+       "description":"Finally, a shampoo you can commit to. Our BhringAmla Shampoo is a serious multitasker. This Ayurvedic blend of Bhringraj, Amla, and many other herbs reduces hair fall, repairs damaged hair, and reduces dandruff.Crafted with time-tested natural ingredients such as Bhringraj and Amla, the shampoo has oil that has been made following the traditional ‘Kshirpak Vidhi.’ This is an ancient and esoteric Ayurveda process, where ‘Kshira’ or milk is combined with different herbs in a process that requires patience and precision.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_4.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_2.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Dry_Scalp.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Promotes_Hair_Growth_FBAoiRU.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Soothes_Dry_Scalp.jpg",
+        "dtitle1":"Repairs Damaged Hair",
+        "dtitle2":"Promotes Hair Growth",
+        "dtitle3":"Reduces Dandruff & Soothes Dry Scalp",
+        "dDec1":"With the goodness of Ayurvedic herbs and natural oils, BhringAmla Shampoo effectively works to repair hair damage. Amla and Bhringraj make the hair healthier and stronger from root to tip.",
+        "dDec2":"When you have a hair care recipe that’s 4000 years old, you can expect exceptional results. The oils present in the shampoo penetrate deep within the roots and stimulate the hair follicles, leading to increased hair growth.",
+        "dDec3":"The time-tested Ayurvedic ingredients present in the shampoo ensure that the scalp is cleansed thoroughly and the roots are strengthened, leading to reduced dandruff."
+
    },
    {
       "id":"BD12",
@@ -137,7 +302,22 @@ export const Bodycare = [
       "reviews":66,
       "price":"299",
       "sellerTag":"BEST SELLER",
-      "category":"Body"
+      "category":"Body",
+       "description":"Finally, a shampoo you can commit to. Our BhringAmla Shampoo is a serious multitasker. This Ayurvedic blend of Bhringraj, Amla, and many other herbs reduces hair fall, repairs damaged hair, and reduces dandruff.Crafted with time-tested natural ingredients such as Bhringraj and Amla, the shampoo has oil that has been made following the traditional ‘Kshirpak Vidhi.’ This is an ancient and esoteric Ayurveda process, where ‘Kshira’ or milk is combined with different herbs in a process that requires patience and precision.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_4.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_2.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Dry_Scalp.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Promotes_Hair_Growth_FBAoiRU.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Soothes_Dry_Scalp.jpg",
+        "dtitle1":"Repairs Damaged Hair",
+        "dtitle2":"Promotes Hair Growth",
+        "dtitle3":"Reduces Dandruff & Soothes Dry Scalp",
+        "dDec1":"With the goodness of Ayurvedic herbs and natural oils, BhringAmla Shampoo effectively works to repair hair damage. Amla and Bhringraj make the hair healthier and stronger from root to tip.",
+        "dDec2":"When you have a hair care recipe that’s 4000 years old, you can expect exceptional results. The oils present in the shampoo penetrate deep within the roots and stimulate the hair follicles, leading to increased hair growth.",
+        "dDec3":"The time-tested Ayurvedic ingredients present in the shampoo ensure that the scalp is cleansed thoroughly and the roots are strengthened, leading to reduced dandruff."
+
    },
 
    {
@@ -149,7 +329,22 @@ export const Bodycare = [
       "reviews":66,
       "price":"375",
       "sellerTag":"BEST SELLER",
-      "category":"Body"
+      "category":"Body",
+       "description":"Finally, a shampoo you can commit to. Our BhringAmla Shampoo is a serious multitasker. This Ayurvedic blend of Bhringraj, Amla, and many other herbs reduces hair fall, repairs damaged hair, and reduces dandruff.Crafted with time-tested natural ingredients such as Bhringraj and Amla, the shampoo has oil that has been made following the traditional ‘Kshirpak Vidhi.’ This is an ancient and esoteric Ayurveda process, where ‘Kshira’ or milk is combined with different herbs in a process that requires patience and precision.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_4.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_2.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Dry_Scalp.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Promotes_Hair_Growth_FBAoiRU.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Soothes_Dry_Scalp.jpg",
+        "dtitle1":"Repairs Damaged Hair",
+        "dtitle2":"Promotes Hair Growth",
+        "dtitle3":"Reduces Dandruff & Soothes Dry Scalp",
+        "dDec1":"With the goodness of Ayurvedic herbs and natural oils, BhringAmla Shampoo effectively works to repair hair damage. Amla and Bhringraj make the hair healthier and stronger from root to tip.",
+        "dDec2":"When you have a hair care recipe that’s 4000 years old, you can expect exceptional results. The oils present in the shampoo penetrate deep within the roots and stimulate the hair follicles, leading to increased hair growth.",
+        "dDec3":"The time-tested Ayurvedic ingredients present in the shampoo ensure that the scalp is cleansed thoroughly and the roots are strengthened, leading to reduced dandruff."
+
    },
    {
       "id":"BD14",
@@ -160,7 +355,22 @@ export const Bodycare = [
       "reviews":66,
       "price":"698",
       "sellerTag":"BEST SELLER",
-      "category":"Body"
+      "category":"Body",
+       "description":"Finally, a shampoo you can commit to. Our BhringAmla Shampoo is a serious multitasker. This Ayurvedic blend of Bhringraj, Amla, and many other herbs reduces hair fall, repairs damaged hair, and reduces dandruff.Crafted with time-tested natural ingredients such as Bhringraj and Amla, the shampoo has oil that has been made following the traditional ‘Kshirpak Vidhi.’ This is an ancient and esoteric Ayurveda process, where ‘Kshira’ or milk is combined with different herbs in a process that requires patience and precision.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_4.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_2.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Dry_Scalp.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Promotes_Hair_Growth_FBAoiRU.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Soothes_Dry_Scalp.jpg",
+        "dtitle1":"Repairs Damaged Hair",
+        "dtitle2":"Promotes Hair Growth",
+        "dtitle3":"Reduces Dandruff & Soothes Dry Scalp",
+        "dDec1":"With the goodness of Ayurvedic herbs and natural oils, BhringAmla Shampoo effectively works to repair hair damage. Amla and Bhringraj make the hair healthier and stronger from root to tip.",
+        "dDec2":"When you have a hair care recipe that’s 4000 years old, you can expect exceptional results. The oils present in the shampoo penetrate deep within the roots and stimulate the hair follicles, leading to increased hair growth.",
+        "dDec3":"The time-tested Ayurvedic ingredients present in the shampoo ensure that the scalp is cleansed thoroughly and the roots are strengthened, leading to reduced dandruff."
+
    },
    {
       "id":"BD15",
@@ -171,7 +381,22 @@ export const Bodycare = [
       "reviews":66,
       "price":"299",
       "sellerTag":"",
-      "category":"Body"
+      "category":"Body",
+       "description":"Finally, a shampoo you can commit to. Our BhringAmla Shampoo is a serious multitasker. This Ayurvedic blend of Bhringraj, Amla, and many other herbs reduces hair fall, repairs damaged hair, and reduces dandruff.Crafted with time-tested natural ingredients such as Bhringraj and Amla, the shampoo has oil that has been made following the traditional ‘Kshirpak Vidhi.’ This is an ancient and esoteric Ayurveda process, where ‘Kshira’ or milk is combined with different herbs in a process that requires patience and precision.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_4.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_2.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Dry_Scalp.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Promotes_Hair_Growth_FBAoiRU.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Soothes_Dry_Scalp.jpg",
+        "dtitle1":"Repairs Damaged Hair",
+        "dtitle2":"Promotes Hair Growth",
+        "dtitle3":"Reduces Dandruff & Soothes Dry Scalp",
+        "dDec1":"With the goodness of Ayurvedic herbs and natural oils, BhringAmla Shampoo effectively works to repair hair damage. Amla and Bhringraj make the hair healthier and stronger from root to tip.",
+        "dDec2":"When you have a hair care recipe that’s 4000 years old, you can expect exceptional results. The oils present in the shampoo penetrate deep within the roots and stimulate the hair follicles, leading to increased hair growth.",
+        "dDec3":"The time-tested Ayurvedic ingredients present in the shampoo ensure that the scalp is cleansed thoroughly and the roots are strengthened, leading to reduced dandruff."
+
    },
    {
       "id":"BD16",
@@ -182,6 +407,21 @@ export const Bodycare = [
       "reviews":66,
       "price":"225",
       "sellerTag":"",
-      "category":"Body"
+      "category":"Body",
+       "description":"Finally, a shampoo you can commit to. Our BhringAmla Shampoo is a serious multitasker. This Ayurvedic blend of Bhringraj, Amla, and many other herbs reduces hair fall, repairs damaged hair, and reduces dandruff.Crafted with time-tested natural ingredients such as Bhringraj and Amla, the shampoo has oil that has been made following the traditional ‘Kshirpak Vidhi.’ This is an ancient and esoteric Ayurveda process, where ‘Kshira’ or milk is combined with different herbs in a process that requires patience and precision.",
+        "pImg1":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg2":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_4.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg3":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_3.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "pImg4":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_2.jpg?auto=format&fit=crop&w=640&auto=compress",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Dry_Scalp.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Promotes_Hair_Growth_FBAoiRU.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/Reduces_Dandruff__Soothes_Dry_Scalp.jpg",
+        "dtitle1":"Repairs Damaged Hair",
+        "dtitle2":"Promotes Hair Growth",
+        "dtitle3":"Reduces Dandruff & Soothes Dry Scalp",
+        "dDec1":"With the goodness of Ayurvedic herbs and natural oils, BhringAmla Shampoo effectively works to repair hair damage. Amla and Bhringraj make the hair healthier and stronger from root to tip.",
+        "dDec2":"When you have a hair care recipe that’s 4000 years old, you can expect exceptional results. The oils present in the shampoo penetrate deep within the roots and stimulate the hair follicles, leading to increased hair growth.",
+        "dDec3":"The time-tested Ayurvedic ingredients present in the shampoo ensure that the scalp is cleansed thoroughly and the roots are strengthened, leading to reduced dandruff."
+
    }
 ]

@@ -9,7 +9,22 @@ export const Babydatas = [
         "reviews":217,
         "price":"199",
         "sellerTag":"BEST SELLER",
-        "category":"Lotion"
+        "category":"Lotion",
+        "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+        "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "pImg4":"",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "dtitle1":"Natural Cleansers",
+        "dtitle2":"Tear-Free Formula",
+        "dtitle3":"Nourishes The Body",
+        "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+        "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+        "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
 
      },
      {
@@ -21,7 +36,22 @@ export const Babydatas = [
         "reviews":137,
         "price":"349",
         "sellerTag":"BEST SELLER",
-        "category":"Bath"
+        "category":"Bath",
+        "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+        "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "pImg4":"",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "dtitle1":"Natural Cleansers",
+        "dtitle2":"Tear-Free Formula",
+        "dtitle3":"Nourishes The Body",
+        "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+        "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+        "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
 
      },
      {
@@ -33,7 +63,22 @@ export const Babydatas = [
         "reviews":50,
         "price":"399",
         "sellerTag":"BEST SELLER",
-        "category":"Bath"
+        "category":"Bath",
+        "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+        "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "pImg4":"",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "dtitle1":"Natural Cleansers",
+        "dtitle2":"Tear-Free Formula",
+        "dtitle3":"Nourishes The Body",
+        "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+        "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+        "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
 
      },
      {
@@ -45,7 +90,22 @@ export const Babydatas = [
         "reviews":22,
         "price":"399",
         "sellerTag":"MUST TRY",
-        "category":"shampoo"
+        "category":"shampoo",
+        "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+        "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "pImg4":"",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "dtitle1":"Natural Cleansers",
+        "dtitle2":"Tear-Free Formula",
+        "dtitle3":"Nourishes The Body",
+        "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+        "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+        "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
 
      },
      {
@@ -57,7 +117,22 @@ export const Babydatas = [
         "reviews":52,
         "price":"399",
         "sellerTag":"BEST SELLER",
-        "category":"oil"
+        "category":"oil",
+        "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+        "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "pImg4":"",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "dtitle1":"Natural Cleansers",
+        "dtitle2":"Tear-Free Formula",
+        "dtitle3":"Nourishes The Body",
+        "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+        "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+        "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
 
      },
      {
@@ -69,7 +144,22 @@ export const Babydatas = [
         "reviews":54,
         "price":"399",
         "sellerTag":"BEST SELLER",
-        "category":"Lotion"
+        "category":"Lotion",
+        "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+        "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "pImg4":"",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "dtitle1":"Natural Cleansers",
+        "dtitle2":"Tear-Free Formula",
+        "dtitle3":"Nourishes The Body",
+        "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+        "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+        "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
      },
      {
         "id":"B7",
@@ -80,7 +170,22 @@ export const Babydatas = [
         "reviews":1,
         "price":"798",
         "sellerTag":"BEST SELLER",
-        "category":"Lotion"
+        "category":"Lotion",
+        "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+        "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "pImg4":"",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "dtitle1":"Natural Cleansers",
+        "dtitle2":"Tear-Free Formula",
+        "dtitle3":"Nourishes The Body",
+        "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+        "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+        "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
 
      },
 
@@ -93,7 +198,22 @@ export const Babydatas = [
         "reviews":1,
         "price":"798",
         "sellerTag":"BEST SELLER",
-        "category":"Bath"
+        "category":"Bath",
+        "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+        "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "pImg4":"",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "dtitle1":"Natural Cleansers",
+        "dtitle2":"Tear-Free Formula",
+        "dtitle3":"Nourishes The Body",
+        "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+        "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+        "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
 
      },
      {
@@ -105,7 +225,22 @@ export const Babydatas = [
         "reviews":22,
         "price":"399",
         "sellerTag":"MUST TRY",
-        "category":"shampoo"
+        "category":"shampoo",
+        "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+        "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "pImg4":"",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "dtitle1":"Natural Cleansers",
+        "dtitle2":"Tear-Free Formula",
+        "dtitle3":"Nourishes The Body",
+        "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+        "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+        "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
      },
 
      {
@@ -117,7 +252,22 @@ export const Babydatas = [
         "reviews":22,
         "price":"798",
         "sellerTag":"MUST TRY",
-        "category":"shampoo"
+        "category":"shampoo",
+        "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+        "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "pImg4":"",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "dtitle1":"Natural Cleansers",
+        "dtitle2":"Tear-Free Formula",
+        "dtitle3":"Nourishes The Body",
+        "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+        "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+        "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
      },
      
      {
@@ -129,7 +279,22 @@ export const Babydatas = [
         "reviews":52,
         "price":"399",
         "sellerTag":"BEST SELLER",
-        "category":"oil"
+        "category":"oil",
+        "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+        "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "pImg4":"",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "dtitle1":"Natural Cleansers",
+        "dtitle2":"Tear-Free Formula",
+        "dtitle3":"Nourishes The Body",
+        "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+        "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+        "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
 
      },
 
@@ -142,7 +307,22 @@ export const Babydatas = [
         "reviews":52,
         "price":"1743",
         "sellerTag":"BEST SELLER",
-        "category":"oil"
+        "category":"oil",
+        "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+        "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "pImg4":"",
+        "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+        "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+        "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+        "dtitle1":"Natural Cleansers",
+        "dtitle2":"Tear-Free Formula",
+        "dtitle3":"Nourishes The Body",
+        "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+        "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+        "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
 
      },
 
@@ -160,7 +340,22 @@ export const Babybest = [
       "reviews":217,
       "price":"199",
       "sellerTag":"BEST SELLER",
-      "category":"Lotion"
+      "category":"Lotion",
+      "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+      "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+      "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+      "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+      "pImg4":"",
+      "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+      "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+      "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+      "dtitle1":"Natural Cleansers",
+      "dtitle2":"Tear-Free Formula",
+      "dtitle3":"Nourishes The Body",
+      "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+      "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+      "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
 
    },
    {
@@ -172,7 +367,22 @@ export const Babybest = [
       "reviews":137,
       "price":"349",
       "sellerTag":"BEST SELLER",
-      "category":"Bath"
+      "category":"Bath",
+      "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+      "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+      "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+      "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+      "pImg4":"",
+      "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+      "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+      "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+      "dtitle1":"Natural Cleansers",
+      "dtitle2":"Tear-Free Formula",
+      "dtitle3":"Nourishes The Body",
+      "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+      "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+      "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
 
    },
    {
@@ -184,7 +394,22 @@ export const Babybest = [
       "reviews":50,
       "price":"399",
       "sellerTag":"BEST SELLER",
-      "category":"Bath"
+      "category":"Bath",
+      "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+      "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+      "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+      "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+      "pImg4":"",
+      "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+      "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+      "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+      "dtitle1":"Natural Cleansers",
+      "dtitle2":"Tear-Free Formula",
+      "dtitle3":"Nourishes The Body",
+      "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+      "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+      "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
 
    },
    {
@@ -196,7 +421,22 @@ export const Babybest = [
       "reviews":22,
       "price":"399",
       "sellerTag":"MUST TRY",
-      "category":"shampoo"
+      "category":"shampoo",
+      "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+      "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+      "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+      "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+      "pImg4":"",
+      "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+      "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+      "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+      "dtitle1":"Natural Cleansers",
+      "dtitle2":"Tear-Free Formula",
+      "dtitle3":"Nourishes The Body",
+      "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+      "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+      "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
 
    },
    {
@@ -208,7 +448,22 @@ export const Babybest = [
       "reviews":52,
       "price":"399",
       "sellerTag":"BEST SELLER",
-      "category":"oil"
+      "category":"oil",
+      "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+      "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+      "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+      "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+      "pImg4":"",
+      "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+      "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+      "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+      "dtitle1":"Natural Cleansers",
+      "dtitle2":"Tear-Free Formula",
+      "dtitle3":"Nourishes The Body",
+      "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+      "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+      "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
 
    },
    {
@@ -220,7 +475,22 @@ export const Babybest = [
       "reviews":54,
       "price":"399",
       "sellerTag":"BEST SELLER",
-      "category":"Lotion"
+      "category":"Lotion",
+      "description":"Hi! I am Mamaearth Gentle Cleansing Shampoo. I understand that shampooing is not an easy task and involves effort in real cleaning. I also understand that little ones are quite uncomfortable in getting a head bath and the shampoo has to be quick and efficient. That’s why I am here! Let your baby enjoy my thick, soft and instant foam while I gently cleanse hair and scalp. My 100% toxin-free formula gives your baby soft and nourished hair. I take special care not to irritate those sensitive eyes and be gentle on skin. I am also free from harmful chemicals like SLS, Parabens, Sulfates, and other such chemicals, ensuring a safe and happy bath time. Also, I come with MadeSafe Certificatio",
+      "pImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+      "pImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+      "pImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+      "pImg4":"",
+      "dImg1":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/015.jpg",
+      "dImg2":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/016.jpg",
+      "dImg3":"https://mmrth-mg-cs.honasa-production.net/pub/media/wysiwyg/017.jpg",
+      "dtitle1":"Natural Cleansers",
+      "dtitle2":"Tear-Free Formula",
+      "dtitle3":"Nourishes The Body",
+      "dDec1":"Aloe Vera Extract moisturizes and nourishes baby’s delicate scalp skin.",
+      "dDec2":"It is Tear-free, gentle yet efficient, with a 5.6 pH level – best suited for baby skin.",
+      "dDec3":"It is enriched with the goodness of Coconut-based cleansers and Jojoba Oil. They help nourish the skin and increase its moisture content."
+
    }
 
 ]

@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
 import {useNavigate} from "react-router-dom"
-import { Hairdatas } from '../Datas/HairData';
-import {BestSeller as Data} from '../Datas/HomePage';
-import styles from "./Products.module.css";
 
+//import {BestSeller as Data} from '../Datas/HomePage';
+import styles from "./Products.module.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-
+import {BestSeller} from '../Datas/HomePage';
 import { Navigation } from "swiper";
 import { addItem } from '../../Kiran Components/redux/action';
 import { useDispatch } from 'react-redux';
+import { Hairdatas } from '../Datas/HairData';
 
 export const Hair = () => {
 const dispatch = useDispatch()
@@ -109,7 +109,7 @@ const dispatch = useDispatch()
             className="mySwiper"
           >
 
-        {Data.map((item)=> {
+        {BestSeller.map((item)=> {
           return(
             <>
             

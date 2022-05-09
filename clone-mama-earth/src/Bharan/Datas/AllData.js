@@ -1,7 +1,10 @@
+
+import { v4 as uuidv4 } from 'uuid';
+
 export const AllData = [
 
     {
-        "id":H1,
+        "id":uuidv4(),
         "name":"Onion Hair Oil for Hair Regrowth and Hair Fall Control with Redensyl, 150ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-shampoo-250ml-with-ingredient_2.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Boosts Hair Growth | Adds Strengths & Shine",
@@ -13,7 +16,7 @@ export const AllData = [
      },
      
      {
-        "id":H2,
+        "id":uuidv4(),
         "name":"Onion Shampoo with Onion and Plant Keratin for Hair Fall Control - 250ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-shampoo-250ml-with-ingredient_2.jpg?auto=compress&fit=scale&w=200&h=200",
         "pShortDec":"Reduces Hair Fall | Strengthens Hair | SoftensHair",
@@ -26,7 +29,7 @@ export const AllData = [
      },
 
      {
-        "id":H3,
+        "id":uuidv4(),
         "name":"Onion Hair Oil for Hair Regrowth and Hair Fall Control, 250",
         "pImg":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-250ml__1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Boosts Hair Growth | Adds Strength & Shine",
@@ -38,7 +41,7 @@ export const AllData = [
      },
 
      {
-        "id":H4,
+        "id":uuidv4(),
         "name":"Onion Conditioner for Hair Fall Control-250ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-conditioner-250ml-with-ingredient_2.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Reduces Hair Fall | Detangles Hair | Softens Hair",
@@ -51,7 +54,7 @@ export const AllData = [
      },
      
      {
-        "id":H5,
+        "id":uuidv4(),
         "name":"Onion Shampoo with Onion and Plant Keratin for Hair Fall Control - 400ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-shampoo-250ml-with-ingredient_2.jpg?auto=compress&fit=scale&w=200&h=200",
         "pShortDec":"Reduces Hair Fall | Strengthens Hair | SoftensHair",
@@ -64,7 +67,7 @@ export const AllData = [
      },
 
      {
-        "id":H6,
+        "id":uuidv4(),
         "name":"Onion Hair Serum With Onion and Biotin for Strong, Frizz-Free Hair - 100ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-serum1200x1200_ad8hgvjdve7vcczs.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Reduces Frizz & Tangles | Minimizes Hair Breakage",
@@ -76,7 +79,7 @@ export const AllData = [
      },
      
      {
-        "id":H7,
+        "id":uuidv4(),
         "name":"Onion Hair Oil for Hair Regrowth and Hair Fall Control,250ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-250ml__1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Boosts Hair Growth | Adds Strengths & Shine",
@@ -88,7 +91,7 @@ export const AllData = [
      },
 
      {
-        "id":H8,
+        "id":uuidv4(),
         "name":"Onion Conditioner for Hair Fall Control - 250ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-conditioner-250ml-with-ingredient_2.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Reduces Hair Fall | Detangles Hair | Softens Hair",
@@ -101,7 +104,7 @@ export const AllData = [
      },
 
      {
-        "id":H9,
+        "id":uuidv4(),
         "name":"BhringAmla Shampoo with Bhringraj and Amla for Intense Hair Treatment - 250",
         "pImg":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Repairs Damaged Hair | Boosts Hair Growth",
@@ -114,7 +117,7 @@ export const AllData = [
      },
 
      {
-        "id":H10,
+        "id":uuidv4(),
         "name":"Rice Water Shampoo For Damage Repair - 250ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/r/i/rice-shampoo-with-ingredient_1_1_.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Repairs Damaged Hair | Reduces Split Ends",
@@ -127,7 +130,7 @@ export const AllData = [
      },
 
      {
-        "id":H11,
+        "id":uuidv4(),
         "name":"Onion Hair Mask, For Hair Fall Control, With Onion Oil and Organic Bamboo Vinegar, 200ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/n/onion_hair_mask_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Reduces Hair Fall | Repairs Damaged Hair",
@@ -140,7 +143,7 @@ export const AllData = [
      },
 
      {
-        "id":H12,
+        "id":uuidv4(),
         "name":"Onion Scalp Serum with Onion and Niacinamide for Healthy Hair Growth - 50ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/n/onion-scalp-serum-1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Strengthens Hair| Reduces Hair Fall |Healthy Scalp",
@@ -153,7 +156,7 @@ export const AllData = [
      },
 
      {
-        "id":H13,
+        "id":uuidv4(),
         "name":"Rice Water Conditioner with Rice Water and Keratin for Damaged, Dry and Frizzy Hair - 250 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/r/i/rice-conditiner-with-ingredient_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Reduces Split Ends | Prevents Hair Breakage",
@@ -165,7 +168,7 @@ export const AllData = [
 
      },
      {
-        "id":H14,
+        "id":uuidv4(),
         "name":"Argan Hair Mask with Argan, Avocado Oil, and Milk Protein for Frizz-free and Stronger Hair-200ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/a/r/argan-hair-mask-1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Strengthens Hair| Reduces Frizz |Deeply Conditions",
@@ -178,7 +181,7 @@ export const AllData = [
      },
 
      {
-        "id":F1,
+        "id":uuidv4(),
         "name":"Ubtan Face Wash with Turmeric & Saffron for Tan Removal – 100ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Removes Tan | Repairs Sun Damage | Brightens Skin",
@@ -190,7 +193,7 @@ export const AllData = [
      },
 
      {
-        "id":F2,
+        "id":uuidv4(),
         "name":"Bye Bye Blemishes Face Cream for Reducing Pigmentation and Blemishes with Mulberry Extract and Vitamin C -30ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/b/y/bye_bye_blemishes_1_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Evens Skin Tone | Non-Greasy | Reduces Dark Spots",
@@ -202,7 +205,7 @@ export const AllData = [
      },
 
      {
-        "id":F3,
+        "id":uuidv4(),
         "name":"Skin Illuminate Face Serum for Radiant Skin with Vitamin C and Turmeric - 30 g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/s/k/skin-illuminate-face-serum-1.jpg?auto=compress&fit=scale&w=200&h=200",
         "pShortDec":"Highly Potent Vitamin C | Gives A Radiant Glow",
@@ -214,7 +217,7 @@ export const AllData = [
      },
 
      {
-        "id":F4,
+        "id":uuidv4(),
         "name":"Bye Bye Dark Circles Eye Cream with Cucumber and Peptides for Dark Circles - 20ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/b/y/bye_bye_blemishes_2_2.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Reduces Dark Circles | Nourishes Under Eye Skin",
@@ -227,7 +230,7 @@ export const AllData = [
      },
 
      {
-        "id":F5,
+        "id":uuidv4(),
         "name":"Vitamin C Face Mask With Vitamin C and Kaolin Clay for Skin Illumination - 100 g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/v/i/vit_c_face_mask.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Illuminates Skin | Brightens | Evens Skin Tone",
@@ -239,7 +242,7 @@ export const AllData = [
      },
 
      {
-        "id":F6,
+        "id":uuidv4(),
         "name":"Vitamin C Face Scrub for Glowing Skin, With Vitamin C and Walnut For Skin Illumination - 100 g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/2/_/2_5_2.jpeg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Brightens Skin | Gently Exfoliates | Unveils Glow",
@@ -251,7 +254,7 @@ export const AllData = [
      },
 
      {
-        "id":F7,
+        "id":uuidv4(),
         "name":"Ubtan Face Scrub with Turmeric and Walnut for Tan Removal - 100g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan_face_scrub_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Removes Tan | Gently Exfoliates | Evens Skin Tone",
@@ -264,7 +267,7 @@ export const AllData = [
      },
 
      {
-        "id":F8,
+        "id":uuidv4(),
         "name":"Bye Bye Open Pores Face Cream with Rosehip & Niacinamide For Pore Tightening – 30 g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/b/y/bye-bye-open-pores-face-cream_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Tightens Pores | Unclogs Pores | Non-Greasy",
@@ -277,7 +280,7 @@ export const AllData = [
      },
      
      {
-        "id":F9,
+        "id":uuidv4(),
         "name":"Oil-Free Face Wash with Apple Cider Vinegar & Salicylic Acid for Acne-Prone Skin– 100 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/i/oil-free-face-wash_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Removes Excess Oil | Banishes Dirt | Unlocks Glow",
@@ -289,7 +292,7 @@ export const AllData = [
 
      },
      {
-        "id":F10,
+        "id":uuidv4(),
         "name":"Aqua Glow Face Wash With Himalayan Thermal Water and Hyaluronic Acid for Intense Hydration - 100m",
         "pImg":"https://honasa-mamaearth-production.imgix.net/a/q/aqua-glow-face-wash.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Boosts Hydration | Unveils Glow | Keeps Skin Soft",
@@ -302,7 +305,7 @@ export const AllData = [
      },
 
      {
-        "id":BD1,
+        "id":uuidv4(),
         "name":"Charcoal Body Wash With Charcoal and Mint for Deep Cleansing - 300 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/c/h/charcoal-body-wash-1_znn27t24cu3q9szq.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Deeply Cleanses | Rejuvenates & Refreshes",
@@ -313,7 +316,7 @@ export const AllData = [
         "category":"Body"
      },
      {
-        "id":BD2,
+        "id":uuidv4(),
         "name":"Ubtan Body Wash With Turmeric and Saffron for Glowing Skin - 300 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-body-wash-1_c7usn1sqjckdbdg5.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Deeply Cleanses | Unveils Glow | Gently Exfoliates",
@@ -325,7 +328,7 @@ export const AllData = [
      },
 
      {
-        "id":BD3,
+        "id":uuidv4(),
         "name":"Ubtan Nourishing Bathing Soap With Turmeric and Saffron - 375g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-soap-1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Removes Tan | 76% TFM for Extra Moisturization",
@@ -336,7 +339,7 @@ export const AllData = [
         "category":"Body"
      },
      {
-        "id":BD4,
+        "id":uuidv4(),
         "name":"Ubtan Body Care Combo",
         "pImg":"https://honasa-mamaearth-production.imgix.net/c/o/combo_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Deeply Cleanses | Imparts Glow | Moisturizes Skin",
@@ -347,7 +350,7 @@ export const AllData = [
         "category":"Body"
      },
      {
-        "id":BD5,
+        "id":uuidv4(),
         "name":"Charcoal Body Wash With Charcoal and Mint for Deep Cleansing - 300 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/c/h/charcoal-body-wash-1_znn27t24cu3q9szq.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Deeply Cleanses | Rejuvenates & Refreshes",
@@ -358,7 +361,7 @@ export const AllData = [
         "category":"Body"
      },
      {
-        "id":BD6,
+        "id":uuidv4(),
         "name":"Vitamin C Body Wash with Vitamin C and Honey for Skin Illumination - 300ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/v/i/vitamin-c-body-wash-1_1_53czcglrjlhrmufp.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Deeply Cleanses | Brightens Skin |Unlocks Radiance",
@@ -369,7 +372,7 @@ export const AllData = [
         "category":"Body"
      },
      {
-        "id":BD7,
+        "id":uuidv4(),
         "name":"Tea Tree Nourishing Bathing Soap With Tea Tree and Neem for Skin Purification - 5x75g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/_/t/_tea-tree-nourishing-bathing-soap_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Purifies Skin | 76% TFM for Extra Moisturization",
@@ -380,7 +383,7 @@ export const AllData = [
         "category":"Body"
      },
      {
-        "id":BD8,
+        "id":uuidv4(),
         "name":"Natural Nourishing Bathing Soaps - 5x75g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/a/l/all-range-1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Sulfate-Free | 76% TFM for Extra Moisturization",
@@ -391,7 +394,7 @@ export const AllData = [
         "category":"Body"
      },
      {
-        "id":BD9,
+        "id":uuidv4(),
         "name":"CoCo Body Wash With Coffee and Cocoa For Skin Awakening - 300 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/c/o/coco-body-wash-1_1_dc3xrp64r0jvunpp.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Gently Cleanses |Rejuvenates Skin | Awakens Senses",
@@ -402,7 +405,7 @@ export const AllData = [
         "category":"Body"
      },
      {
-        "id":BD10,
+        "id":uuidv4(),
         "name":"Tea Tree Body Wash With Tea Tree and Neem For Skin Purification - 300 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/t/e/tea-tree-body-wash-1_1_vzbz9azcbbuefo72.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Gently Cleanses & Detoxifies Skin | Antibacterial",
@@ -414,7 +417,7 @@ export const AllData = [
      },
      
      {
-        "id":BT1,
+        "id":uuidv4(),
         "name":"Onion Hair Oil for Hair Regrowth and Hair Fall Control with Redensyl, 150ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-shampoo-250ml-with-ingredient_2.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Boosts Hair Growth | Adds Strengths & Shine",
@@ -426,7 +429,7 @@ export const AllData = [
      },
      
      {
-        "id":BT2,
+        "id":uuidv4(),
         "name":"Onion Shampoo with Onion and Plant Keratin for Hair Fall Control - 250ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-shampoo-250ml-with-ingredient_2.jpg?auto=compress&fit=scale&w=200&h=200",
         "pShortDec":"Reduces Hair Fall | Strengthens Hair | SoftensHair",
@@ -439,7 +442,7 @@ export const AllData = [
      },
 
      {
-        "id":BT3,
+        "id":uuidv4(),
         "name":"Onion Hair Oil for Hair Regrowth and Hair Fall Control, 250",
         "pImg":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-250ml__1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Boosts Hair Growth | Adds Strength & Shine",
@@ -451,7 +454,7 @@ export const AllData = [
      },
 
      {
-        "id":BT4,
+        "id":uuidv4(),
         "name":"Onion Conditioner for Hair Fall Control-250ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-conditioner-250ml-with-ingredient_2.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Reduces Hair Fall | Detangles Hair | Softens Hair",
@@ -464,7 +467,7 @@ export const AllData = [
      },
      
      {
-        "id":BT5,
+        "id":uuidv4(),
         "name":"Onion Shampoo with Onion and Plant Keratin for Hair Fall Control - 400ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-shampoo-250ml-with-ingredient_2.jpg?auto=compress&fit=scale&w=200&h=200",
         "pShortDec":"Reduces Hair Fall | Strengthens Hair | SoftensHair",
@@ -477,7 +480,7 @@ export const AllData = [
      },
 
      {
-        "id":BT6,
+        "id":uuidv4(),
         "name":"Onion Hair Serum With Onion and Biotin for Strong, Frizz-Free Hair - 100ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-serum1200x1200_ad8hgvjdve7vcczs.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Reduces Frizz & Tangles | Minimizes Hair Breakage",
@@ -489,7 +492,7 @@ export const AllData = [
      },
      
      {
-        "id":BT7,
+        "id":uuidv4(),
         "name":"Onion Hair Oil for Hair Regrowth and Hair Fall Control,250ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/_/o/_onion-oil-250ml__1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Boosts Hair Growth | Adds Strengths & Shine",
@@ -501,7 +504,7 @@ export const AllData = [
      },
 
      {
-        "id":BT8,
+        "id":uuidv4(),
         "name":"Onion Conditioner for Hair Fall Control - 250ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/n/onion-hair-conditioner-250ml-with-ingredient_2.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Reduces Hair Fall | Detangles Hair | Softens Hair",
@@ -514,7 +517,7 @@ export const AllData = [
      },
 
      {
-        "id":BT9,
+        "id":uuidv4(),
         "name":"BhringAmla Shampoo with Bhringraj and Amla for Intense Hair Treatment - 250",
         "pImg":"https://honasa-mamaearth-production.imgix.net/b/h/bhringamla_shampoo_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Repairs Damaged Hair | Boosts Hair Growth",
@@ -527,7 +530,7 @@ export const AllData = [
      },
 
      {
-        "id":BT10,
+        "id":uuidv4(),
         "name":"Rice Water Shampoo For Damage Repair - 250ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/r/i/rice-shampoo-with-ingredient_1_1_.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Repairs Damaged Hair | Reduces Split Ends",
@@ -540,7 +543,7 @@ export const AllData = [
      },
 
      {
-        "id":BT11,
+        "id":uuidv4(),
         "name":"Onion Hair Mask, For Hair Fall Control, With Onion Oil and Organic Bamboo Vinegar, 200ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/n/onion_hair_mask_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Reduces Hair Fall | Repairs Damaged Hair",
@@ -553,7 +556,7 @@ export const AllData = [
      },
 
      {
-        "id":BT12,
+        "id":uuidv4(),
         "name":"Onion Scalp Serum with Onion and Niacinamide for Healthy Hair Growth - 50ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/n/onion-scalp-serum-1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Strengthens Hair| Reduces Hair Fall |Healthy Scalp",
@@ -566,7 +569,7 @@ export const AllData = [
      },
 
      {
-        "id":BT13,
+        "id":uuidv4(),
         "name":"Rice Water Conditioner with Rice Water and Keratin for Damaged, Dry and Frizzy Hair - 250 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/r/i/rice-conditiner-with-ingredient_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Reduces Split Ends | Prevents Hair Breakage",
@@ -578,7 +581,7 @@ export const AllData = [
 
      },
      {
-        "id":BT14,
+        "id":uuidv4(),
         "name":"Argan Hair Mask with Argan, Avocado Oil, and Milk Protein for Frizz-free and Stronger Hair-200ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/a/r/argan-hair-mask-1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Strengthens Hair| Reduces Frizz |Deeply Conditions",
@@ -591,7 +594,7 @@ export const AllData = [
      },
 
      {
-        "id":BT15,
+        "id":uuidv4(),
         "name":"Ubtan Face Wash with Turmeric & Saffron for Tan Removal – 100ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Removes Tan | Repairs Sun Damage | Brightens Skin",
@@ -603,7 +606,7 @@ export const AllData = [
      },
 
      {
-        "id":BT16,
+        "id":uuidv4(),
         "name":"Bye Bye Blemishes Face Cream for Reducing Pigmentation and Blemishes with Mulberry Extract and Vitamin C -30ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/b/y/bye_bye_blemishes_1_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Evens Skin Tone | Non-Greasy | Reduces Dark Spots",
@@ -615,7 +618,7 @@ export const AllData = [
      },
 
      {
-        "id":BT17,
+        "id":uuidv4(),
         "name":"Skin Illuminate Face Serum for Radiant Skin with Vitamin C and Turmeric - 30 g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/s/k/skin-illuminate-face-serum-1.jpg?auto=compress&fit=scale&w=200&h=200",
         "pShortDec":"Highly Potent Vitamin C | Gives A Radiant Glow",
@@ -627,7 +630,7 @@ export const AllData = [
      },
 
      {
-        "id":BT18,
+        "id":uuidv4(),
         "name":"Bye Bye Dark Circles Eye Cream with Cucumber and Peptides for Dark Circles - 20ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/b/y/bye_bye_blemishes_2_2.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Reduces Dark Circles | Nourishes Under Eye Skin",
@@ -640,7 +643,7 @@ export const AllData = [
      },
 
      {
-        "id":BT19,
+        "id":uuidv4(),
         "name":"Vitamin C Face Mask With Vitamin C and Kaolin Clay for Skin Illumination - 100 g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/v/i/vit_c_face_mask.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Illuminates Skin | Brightens | Evens Skin Tone",
@@ -652,7 +655,7 @@ export const AllData = [
      },
 
      {
-        "id":BT20,
+        "id":uuidv4(),
         "name":"Vitamin C Face Scrub for Glowing Skin, With Vitamin C and Walnut For Skin Illumination - 100 g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/2/_/2_5_2.jpeg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Brightens Skin | Gently Exfoliates | Unveils Glow",
@@ -664,7 +667,7 @@ export const AllData = [
      },
 
      {
-        "id":BT21,
+        "id":uuidv4(),
         "name":"Ubtan Face Scrub with Turmeric and Walnut for Tan Removal - 100g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan_face_scrub_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Removes Tan | Gently Exfoliates | Evens Skin Tone",
@@ -677,7 +680,7 @@ export const AllData = [
      },
 
      {
-        "id":BT22,
+        "id":uuidv4(),
         "name":"Bye Bye Open Pores Face Cream with Rosehip & Niacinamide For Pore Tightening – 30 g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/b/y/bye-bye-open-pores-face-cream_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Tightens Pores | Unclogs Pores | Non-Greasy",
@@ -690,7 +693,7 @@ export const AllData = [
      },
      
      {
-        "id":BT23,
+        "id":uuidv4(),
         "name":"Oil-Free Face Wash with Apple Cider Vinegar & Salicylic Acid for Acne-Prone Skin– 100 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/i/oil-free-face-wash_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Removes Excess Oil | Banishes Dirt | Unlocks Glow",
@@ -702,7 +705,7 @@ export const AllData = [
 
      },
      {
-        "id":BT24,
+        "id":uuidv4(),
         "name":"Aqua Glow Face Wash With Himalayan Thermal Water and Hyaluronic Acid for Intense Hydration - 100m",
         "pImg":"https://honasa-mamaearth-production.imgix.net/a/q/aqua-glow-face-wash.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Boosts Hydration | Unveils Glow | Keeps Skin Soft",
@@ -716,7 +719,7 @@ export const AllData = [
 
 
      {
-        "id":BT25,
+        "id":uuidv4(),
         "name":"Charcoal Body Wash With Charcoal and Mint for Deep Cleansing - 300 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/c/h/charcoal-body-wash-1_znn27t24cu3q9szq.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Deeply Cleanses | Rejuvenates & Refreshes",
@@ -727,7 +730,7 @@ export const AllData = [
         "category":"Body"
      },
      {
-        "id":BT26,
+        "id":uuidv4(),
         "name":"Ubtan Body Wash With Turmeric and Saffron for Glowing Skin - 300 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-body-wash-1_c7usn1sqjckdbdg5.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Deeply Cleanses | Unveils Glow | Gently Exfoliates",
@@ -739,7 +742,7 @@ export const AllData = [
      },
 
      {
-        "id":BT27,
+        "id":uuidv4(),
         "name":"Ubtan Nourishing Bathing Soap With Turmeric and Saffron - 375g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-soap-1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Removes Tan | 76% TFM for Extra Moisturization",
@@ -750,7 +753,7 @@ export const AllData = [
         "category":"Body"
      },
      {
-        "id":BT28,
+        "id":uuidv4(),
         "name":"Ubtan Body Care Combo",
         "pImg":"https://honasa-mamaearth-production.imgix.net/c/o/combo_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Deeply Cleanses | Imparts Glow | Moisturizes Skin",
@@ -761,7 +764,7 @@ export const AllData = [
         "category":"Body"
      },
      {
-        "id":BT29,
+        "id":uuidv4(),
         "name":"Charcoal Body Wash With Charcoal and Mint for Deep Cleansing - 300 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/c/h/charcoal-body-wash-1_znn27t24cu3q9szq.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Deeply Cleanses | Rejuvenates & Refreshes",
@@ -772,7 +775,7 @@ export const AllData = [
         "category":"Body"
      },
      {
-        "id":BT30,
+        "id":uuidv4(),
         "name":"Vitamin C Body Wash with Vitamin C and Honey for Skin Illumination - 300ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/v/i/vitamin-c-body-wash-1_1_53czcglrjlhrmufp.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Deeply Cleanses | Brightens Skin |Unlocks Radiance",
@@ -783,7 +786,7 @@ export const AllData = [
         "category":"Body"
      },
      {
-        "id":BT31,
+        "id":uuidv4(),
         "name":"Tea Tree Nourishing Bathing Soap With Tea Tree and Neem for Skin Purification - 5x75g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/_/t/_tea-tree-nourishing-bathing-soap_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Purifies Skin | 76% TFM for Extra Moisturization",
@@ -794,7 +797,7 @@ export const AllData = [
         "category":"Body"
      },
      {
-        "id":BT32,
+        "id":uuidv4(),
         "name":"Natural Nourishing Bathing Soaps - 5x75g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/a/l/all-range-1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Sulfate-Free | 76% TFM for Extra Moisturization",
@@ -805,7 +808,7 @@ export const AllData = [
         "category":"Body"
      },
      {
-        "id":BT33,
+        "id":uuidv4(),
         "name":"CoCo Body Wash With Coffee and Cocoa For Skin Awakening - 300 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/c/o/coco-body-wash-1_1_dc3xrp64r0jvunpp.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Gently Cleanses |Rejuvenates Skin | Awakens Senses",
@@ -816,7 +819,7 @@ export const AllData = [
         "category":"Body"
      },
      {
-        "id":BT34,
+        "id":uuidv4(),
         "name":"Tea Tree Body Wash With Tea Tree and Neem For Skin Purification - 300 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/t/e/tea-tree-body-wash-1_1_vzbz9azcbbuefo72.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Gently Cleanses & Detoxifies Skin | Antibacterial",
@@ -828,8 +831,7 @@ export const AllData = [
      },
      
      {
-        "id":B1,
-        "name":"Milky Soft Face Cream With Murumuru Butter for Babies, 60 ml",
+        "id":uuidv4(),       "name":"Milky Soft Face Cream With Murumuru Butter for Babies, 60 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/_/m/_milky_soft_face_cream_.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Moisturizes | Soothes | Heals Chapped Skin",
         "rating":4.9,
@@ -840,7 +842,7 @@ export const AllData = [
 
      },
      {
-        "id":B2,
+        "id":uuidv4(),
         "name":"Moisturizing Bathing Bar Soap For Babies, pack of 2*75g",
         "pImg":"https://honasa-mamaearth-production.imgix.net/f/d/fds_9573-props_qwhqvlzshodrynok.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Retains Moisture | Cleanses Gently | pH Balanced",
@@ -852,7 +854,7 @@ export const AllData = [
 
      },
      {
-        "id":B3,
+        "id":uuidv4(),
         "name":"Deeply Nourishing Body Wash for babies, 400ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/b/o/body-wash_probs_ui8gwmtjnj2sahbz.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Natural Cleansers | Tear-Free Formula",
@@ -864,7 +866,7 @@ export const AllData = [
 
      },
      {
-        "id":B4,
+        "id":uuidv4(),
         "name":"Milky Soft Shampoo with Oats, Milk and Calendula for Babies - 400 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/m/i/milky-soft-shampoo-1_1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Gently Cleanses Hair | Balances Scalp pH",
@@ -876,7 +878,7 @@ export const AllData = [
 
      },
      {
-        "id":B5,
+        "id":uuidv4(),
         "name":"Nourishing Hair Oil for Babies with Almond and Avocado Oil - 200 ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/b/a/baby_hair_oil_200_ml_1200x1200__yh1i6qtlgyc253s5.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Treats Dry Scalp | Stimulates New Hair Growth",
@@ -888,7 +890,7 @@ export const AllData = [
 
      },
      {
-        "id":B6,
+        "id":uuidv4(),
         "name":"Milky Soft Body Lotion for Babies with Oats, Milk and Calendula - 400ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/_/m/_milky-soft-body-lotion__1.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Deeply Nourishes Skin | 24-Hour Moisturization",
@@ -899,7 +901,7 @@ export const AllData = [
         "category":"Lotion"
      },
      {
-        "id":B7,
+        "id":uuidv4(),
         "name":"Original Orange Body Lotion For Kids With Orange & Shea Butter - 400 ml (Pack of 2)",
         "pImg":"https://honasa-mamaearth-production.imgix.net/o/r/original-orange-body-lotion.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Gently Nourishes Skin | Makes Skin Soft & Supple",
@@ -912,7 +914,7 @@ export const AllData = [
      },
 
      {
-        "id":B8,
+        "id":uuidv4(),
         "name":"Major Mango Body Wash For Kids with Mango & Oat Protein - 300 ml (Pack of 2)",
         "pImg":"https://honasa-mamaearth-production.imgix.net/m/a/mango-body-wash.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Gently Cleanses | Sulfate-Free | Keeps Skin Soft",
@@ -924,7 +926,7 @@ export const AllData = [
 
      },
      {
-        "id":B9,
+        "id":uuidv4(),
         "name":"Gentle Cleansing Shampoo, 400ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/s/h/shampo_props_ky0ozlvydza60eyc.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Natural Cleansers | Tear-Free Formula",
@@ -936,7 +938,7 @@ export const AllData = [
      },
 
      {
-        "id":B10,
+        "id":uuidv4(),
         "name":"Deeply Nourishing Body Wash for Babies 400ml and Gentle Cleansing Shampoo 400ml Combo",
         "pImg":"https://honasa-mamaearth-production.imgix.net/b/a/baby_wash_shampoo_400ml__1_1_hwl1d0hyj5mzwzsz.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Natural Cleansers | Tear-Free Formula",
@@ -948,7 +950,7 @@ export const AllData = [
      },
      
      {
-        "id":B11,
+        "id":uuidv4(),
         "name":"Soothing Massage Oil for Babies with Sesame, Almond and Jojoba Oil - 200ml",
         "pImg":"https://honasa-mamaearth-production.imgix.net/b/a/baby_massage_oil_200_ml__1200x1200__i0oy2adtieurwcls.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Sesame Power | Mild & Safe | Light Oil",
@@ -961,7 +963,7 @@ export const AllData = [
      },
 
      {
-        "id":B12,
+        "id":uuidv4(),
         "name":"Welcome Baby Essential Kit",
         "pImg":"https://honasa-mamaearth-production.imgix.net/w/e/welcome-baby-essential-kit_iov2mdbdmdyyv6vu.jpg?auto=compress&fit=scale&w=400&h=400",
         "pShortDec":"Crafted for Gentle Care | Relieves Discomfort",

@@ -53,7 +53,7 @@ const Header = () => {
   };
 
   return (
-    <div>
+    <div style={{position: "sticky",zIndex:'2',}}>
       <div id="firstLine">
         <p
           className={underline}
