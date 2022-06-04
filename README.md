@@ -1,4 +1,4 @@
-# Clone_MamaEart
+# Clone_MamaEarth
 I would like to share a project that I and my team have made during the construct week of unit-4 at Masai school. Our target is to clone the original site within 5days.
 
 ## Prerequisites
@@ -11,8 +11,10 @@ The above picture is of the landing page that is created by Shubham Paswan which
 
 ![](https://miro.medium.com/max/1400/1*Qn8e5bQoIEwMfMv7h0bFRg.jpeg)
 Navbar Page
+
 ![](https://miro.medium.com/max/1400/1*i7TG2s6ekhBqTh1Q9nUCyA.jpeg)
 Signup Page
+
 The above picture is of the Signup page that is created by Rohit Kumar Gupta and Sachin Ingale which is almost similar to the Signup page of Mama Earth. They involved in all the HTML, CSS, JavaScript, JSON, and DOM-related parts of the page and validation of the data given by the user, and storing the data in the local storage. After filling in all the inputs Click on Sign-Up. Now this page will redirect to the Login-in Page as shown below picture.
 
 ![](https://miro.medium.com/max/1400/1*uWfLoUsKOyLlys_iea9tWw.jpeg)
@@ -21,12 +23,16 @@ Give your Number which was given in the signup page and click on Login with OTP 
 
 ![](https://miro.medium.com/max/1400/1*uQcx0gKOVpi8LEPOBX8DJg.jpeg)
 Baby Care Page
+
 ![](https://miro.medium.com/max/1400/1*kSuws1qiskV2oMOMMNMDCQ.jpeg)
 Beauty Care Page
+
 ![](https://miro.medium.com/max/1400/1*43OQRQId7dJJcOlSYhC88Q.jpeg)
 Hair Care Page
+
 ![](https://miro.medium.com/max/1400/1*we_41XnEFc5LlKAPlv2V8w.jpeg)
 Skin Care Page
+
 ![](https://miro.medium.com/max/1400/1*7txBMn7QxPXoEeU2ra6R8Q.jpeg)
 Body Care Page
 
