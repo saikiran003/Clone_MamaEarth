@@ -4,7 +4,7 @@
   height: 45px;
   width: 100%;
   background: transparent;
-  borderradius: 5px;
+  border-radius: 5px;
 }
 
 .addToCart:hover {
