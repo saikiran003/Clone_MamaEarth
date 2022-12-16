@@ -23,7 +23,7 @@ const Frontpage = () => {
       <div>
         <Crousel />
       </div>
-      <div 
+      <div
         style={{
           height: "600px",
           width: "90%%",
@@ -34,7 +34,7 @@ const Frontpage = () => {
           marginTop: "3%",
         }}
       >
-        <div 
+        <div
           style={{
             margin: "auto",
             height: "250px",
@@ -92,8 +92,7 @@ const Frontpage = () => {
             height: "250px",
             width: "300px",
             marginLeft: "25%",
-            marginTop:"50%"
-            
+            marginTop: "50%",
           }}
         >
           <h4 style={{ textAlign: "center" }}>Mamaearth Lightning Sale</h4>
@@ -187,7 +186,6 @@ const Frontpage = () => {
           display: "grid",
           gridTemplateColumns: "25% 75%",
           marginRight: "3%",
-          
         }}
       >
         <div
@@ -238,7 +236,6 @@ const Frontpage = () => {
           display: "grid",
           gridTemplateColumns: "25% 75%",
           marginRight: "3%",
-          
         }}
       >
         <div
@@ -289,7 +286,6 @@ const Frontpage = () => {
           display: "grid",
           gridTemplateColumns: "25% 75%",
           marginRight: "3%",
-         
         }}
       >
         <div
@@ -341,7 +337,6 @@ const Frontpage = () => {
           display: "grid",
           gridTemplateColumns: "25% 75%",
           marginRight: "3%",
-         
         }}
       >
         <div
@@ -390,7 +385,6 @@ const Frontpage = () => {
             display: "grid",
             gridTemplateColumns: "25% 75%",
             marginRight: "3%",
-         
           }}
         >
           <div
@@ -443,7 +437,6 @@ const Frontpage = () => {
           display: "grid",
           gridTemplateColumns: "25% 75%",
           marginRight: "3%",
-         
         }}
       >
         <div
@@ -496,14 +489,13 @@ const Frontpage = () => {
       <div style={{ marginTop: "10%" }}>
         <Standard />
       </div>
-      <div style={{marginTop:"4%"}}>
+      <div style={{ marginTop: "4%" }}>
         <Customer />
       </div>
       {/* <div>
         <Footer/>
       </div> */}
     </div>
-    
   );
 };
 

@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import { Link } from "react-router-dom";
 import "../Kiran Components/Styles/Header.css";
 import Cart from "./Cart";
-
 
 const Header = () => {
   const [style, setStyle] = useState("cont");
@@ -15,8 +14,8 @@ const Header = () => {
 
   const [underline, setUnderline] = useState("notUnderlined");
 
-  const name = JSON.parse(localStorage.getItem("signupForm"))
-  //console.log(name.firstName)
+  const name = JSON.parse(localStorage.getItem("signupForm"));
+  // console.log(name.firstName)
 
   const hoverUnderline = () => {
     setUnderline("underlined");
@@ -53,7 +52,7 @@ const Header = () => {
   };
 
   return (
-    <div style={{position: "sticky",zIndex:'2',}}>
+    <div style={{ position: "sticky", zIndex: "2" }}>
       <div id="firstLine">
         <p
           className={underline}
@@ -183,7 +182,7 @@ const Header = () => {
                 <li className="nav-item dropdown">
                   <Link
                     to="/login"
-                    style={{ fontsize: "0.0vh",zIndex:"-1" }}
+                    style={{ fontsize: "0.0vh", zIndex: "-1" }}
                     className="nav-link dropdown-toggle"
                     id="navbarDropdown"
                     role="button"
@@ -217,8 +216,9 @@ const Header = () => {
                       ></circle>
                     </svg>
                     {/* {(name===null) ? "Login" : name.firstName + " " + name.lastname} */}
-                    {name ===null ? "Login" : name.firstName + " "+ name.lastname}
-                   
+                    {name === null
+                      ? "Login"
+                      : name.firstName + " " + name.lastname}
                   </Link>
 
                   <ul

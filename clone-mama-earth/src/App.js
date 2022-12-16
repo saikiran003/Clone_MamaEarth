@@ -16,7 +16,6 @@ import Login from "./Sachin Components/login/Login";
 import Signup from "./Sachin Components/login/Signup";
 import Otp from "./Sachin Components/login/Otp";
 
-
 function App() {
   return (
     <div className="App">
@@ -30,10 +29,10 @@ function App() {
         <Route path="/face" element={<Face />} />
         <Route path="/body" element={<Body />} />
         <Route path="/allproducts" element={<Products />} />
-        <Route path="/checkout" element={<Payment/>}/>
-        <Route path="/profile" element={<Login/>}/>
-        <Route path="/signup" element={<Signup/>}/>
-        <Route path="/otp" element={<Otp/>}/>
+        <Route path="/checkout" element={<Payment />} />
+        <Route path="/profile" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/otp" element={<Otp />} />
       </Routes>
 
       <Footer />

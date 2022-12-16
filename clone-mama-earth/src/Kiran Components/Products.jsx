@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { AllProducts } from "../Kiran Components/KiranData/Products";
 import { addItem } from "../Kiran Components/redux/action";
-import "../Kiran Components/Styles/Header.css"
+import "../Kiran Components/Styles/Header.css";
 
 const Products = () => {
   const [filter, setFilter] = useState(AllProducts);
@@ -31,7 +31,7 @@ const Products = () => {
   };
   const handleCart = (item) => {
     dispatch(addItem(item));
-    alert("Product has been added to cart")
+    alert("Product has been added to cart");
   };
 
   return (
@@ -39,7 +39,8 @@ const Products = () => {
       <div>
         <img
           src="https://images.ctfassets.net/66mrrren2unf/5p5pVTewrOIcFmKeO0vbEP/d886f4c2e472aee62bc560a49fcca57d/Website_Banner.jpg?q=40"
-          alt="shetty" style={{width:"100%"}}
+          alt="shetty"
+          style={{ width: "100%" }}
         />
       </div>
       <div className="egg">

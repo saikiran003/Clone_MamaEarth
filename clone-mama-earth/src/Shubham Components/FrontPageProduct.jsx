@@ -21,7 +21,6 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addItem } from "../Kiran Components/redux/action";
 
-
 export const Slider = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -32,9 +31,7 @@ export const Slider = () => {
   };
   const handleCart = (item) => {
     dispatch(addItem(item));
-   alert("Product has been added to Cart")
-   
-    
+    alert("Product has been added to Cart");
   };
   return (
     <>
@@ -159,7 +156,7 @@ export const Onion = () => {
   };
   const handleCart = (item) => {
     dispatch(addItem(item));
-   alert("Product has been added to Cart")
+    alert("Product has been added to Cart");
   };
   return (
     <>
@@ -199,7 +196,7 @@ export const Onion = () => {
                   >
                     <p style={{ fontSize: "14px" }}>{item.sellerTag}</p>
                   </div>
-                  <div  onClick={() => handleClick(item)}>
+                  <div onClick={() => handleClick(item)}>
                     <a>
                       <img
                         alt="ecommerce"
@@ -259,7 +256,12 @@ export const Onion = () => {
                     ₹{item.price}
                   </p>
                 </div>
-                <button onClick={()=>handleCart(item)} className={styles.addToCart}>Add To cart</button>
+                <button
+                  onClick={() => handleCart(item)}
+                  className={styles.addToCart}
+                >
+                  Add To cart
+                </button>
               </div>
             </SwiperSlide>
           );
@@ -279,7 +281,7 @@ export const Vitamin = () => {
   };
   const handleCart = (item) => {
     dispatch(addItem(item));
-   alert("Product has been added to Cart")
+    alert("Product has been added to Cart");
   };
   return (
     <>
@@ -299,7 +301,7 @@ export const Vitamin = () => {
       >
         {VitaminRange.map((item) => {
           return (
-            <SwiperSlide >
+            <SwiperSlide>
               <div key={item.id}>
                 <div>
                   <div
@@ -379,7 +381,12 @@ export const Vitamin = () => {
                     ₹{item.price}
                   </p>
                 </div>
-                <button onClick={()=>handleCart(item)} className={styles.addToCart}>Add To cart</button>
+                <button
+                  onClick={() => handleCart(item)}
+                  className={styles.addToCart}
+                >
+                  Add To cart
+                </button>
               </div>
             </SwiperSlide>
           );
@@ -399,7 +406,7 @@ export const Tan = () => {
   };
   const handleCart = (item) => {
     dispatch(addItem(item));
-   alert("Product has been added to Cart")
+    alert("Product has been added to Cart");
   };
 
   return (
@@ -420,7 +427,7 @@ export const Tan = () => {
       >
         {UbtanRange.map((item) => {
           return (
-            <SwiperSlide >
+            <SwiperSlide>
               <div key={item.id}>
                 <div>
                   <div
@@ -500,7 +507,12 @@ export const Tan = () => {
                     ₹{item.price}
                   </p>
                 </div>
-                <button onClick={()=>handleCart(item)} className={styles.addToCart}>Add To cart</button>
+                <button
+                  onClick={() => handleCart(item)}
+                  className={styles.addToCart}
+                >
+                  Add To cart
+                </button>
               </div>
             </SwiperSlide>
           );
@@ -520,7 +532,7 @@ export const Launches = () => {
   };
   const handleCart = (item) => {
     dispatch(addItem(item));
-   alert("Product has been added to Cart")
+    alert("Product has been added to Cart");
   };
   return (
     <>
@@ -540,7 +552,7 @@ export const Launches = () => {
       >
         {Newlaunches.map((item) => {
           return (
-            <SwiperSlide >
+            <SwiperSlide>
               <div key={item.id}>
                 <div>
                   <div
@@ -620,7 +632,12 @@ export const Launches = () => {
                     ₹{item.price}
                   </p>
                 </div>
-                <button onClick={()=>handleCart(item)} className={styles.addToCart}>Add To cart</button>
+                <button
+                  onClick={() => handleCart(item)}
+                  className={styles.addToCart}
+                >
+                  Add To cart
+                </button>
               </div>
             </SwiperSlide>
           );
@@ -641,7 +658,7 @@ export const Summer = () => {
 
   const handleCart = (item) => {
     dispatch(addItem(item));
-   alert("Product has been added to Cart")
+    alert("Product has been added to Cart");
   };
   return (
     <>
@@ -681,7 +698,7 @@ export const Summer = () => {
                   >
                     <p style={{ fontSize: "14px" }}>{item.sellerTag}</p>
                   </div>
-                  <div  onClick={() => handleClick(item)}>
+                  <div onClick={() => handleClick(item)}>
                     <a>
                       <img
                         alt="ecommerce"
@@ -741,7 +758,12 @@ export const Summer = () => {
                     ₹{item.price}
                   </p>
                 </div>
-                <button onClick={()=>handleCart(item)} className={styles.addToCart}>Add To cart</button>
+                <button
+                  onClick={() => handleCart(item)}
+                  className={styles.addToCart}
+                >
+                  Add To cart
+                </button>
               </div>
             </SwiperSlide>
           );
@@ -760,7 +782,7 @@ export const Color = () => {
   };
   const handleCart = (item) => {
     dispatch(addItem(item));
-   alert("Product has been added to Cart")
+    alert("Product has been added to Cart");
   };
   return (
     <>
@@ -781,126 +803,6 @@ export const Color = () => {
         {Colorcare.map((item) => {
           return (
             <SwiperSlide>
-              <div key={item.id}>
-                <div>
-                  <div
-                    style={{
-                      width: "fit-content",
-                      height: "fit-content",
-                      position: "absolute",
-                      color: "white",
-                      backgroundColor: "indianred",
-                      width: "90px",
-                      height: "25px",
-                      textAlign: "center",
-                      borderTopRightRadius: "5px",
-                      borderBottomRightRadius: "5px",
-                      paddingTop: "2px",
-                    }}
-                  >
-                    <p style={{ fontSize: "14px" }}>{item.sellerTag}</p>
-                  </div>
-                  <div  onClick={() => handleClick(item)}>
-                    <a>
-                      <img
-                        alt="ecommerce"
-                        style={{
-                          height: "250px",
-                          width: "95%",
-                          marginTop: "5%",
-                        }}
-                        src={item.pImg}
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div style={{ height: "50px", marginBottom: "15px" }}>
-                  <p style={{ textAlign: "center", fontSize: "15px" }}>
-                    {item.name}
-                  </p>
-                </div>
-                <div>
-                  <p style={{ textAlign: "center", color: "green" }}>
-                    {item.pShortDec}
-                  </p>
-                  <div
-                    style={{
-                      display: "flex",
-                      width: "300px",
-                      marginLeft: "20%",
-                      gap: "10px",
-                    }}
-                  >
-                    <p
-                      style={{
-                        textAlign: "center",
-                        fontSize: "12px",
-                        fontWeight: "100",
-                      }}
-                    >
-                      ⭐{item.rating}
-                    </p>
-                    <p
-                      style={{
-                        textAlign: "center",
-                        fontSize: "12px",
-                        fontWeight: "100",
-                      }}
-                    >
-                      <img
-                        src="https://image.emojisky.com/478/2537478-small.png"
-                        style={{ height: "20px", width: "20px" }}
-                      />
-                      `{item.reviews} Reviews`
-                    </p>
-                  </div>
-
-                  <p style={{ textAlign: "center", fontSize: "18px" }}>
-                    {" "}
-                    ₹{item.price}
-                  </p>
-                </div>
-                <button onClick={()=>handleCart(item)} className={styles.addToCart}>Add To cart</button>
-              </div>
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
-    </>
-  );
-};
-
-export const Baby = () => {
-  const dispatch = useDispatch();
-  const navigate = useNavigate();
-  const handleClick = (e) => {
-    localStorage.setItem("productdesp", JSON.stringify(e));
-
-    navigate("/ProductDesp");
-  };
-  const handleCart = (item) => {
-    dispatch(addItem(item));
-   alert("Product has been added to Cart")
-  };
-  return (
-    <>
-      <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        slidesPerGroup={3}
-        loop={true}
-        loopFillGroupWithBlank={true}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Pagination, Navigation]}
-        className="mySwiper"
-        style={{ height: "550px" }}
-      >
-        {BabyCare.map((item) => {
-          return (
-            <SwiperSlide >
               <div key={item.id}>
                 <div>
                   <div
@@ -980,7 +882,137 @@ export const Baby = () => {
                     ₹{item.price}
                   </p>
                 </div>
-                <button onClick={()=>handleCart(item)} className={styles.addToCart}>Add To cart</button>
+                <button
+                  onClick={() => handleCart(item)}
+                  className={styles.addToCart}
+                >
+                  Add To cart
+                </button>
+              </div>
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
+    </>
+  );
+};
+
+export const Baby = () => {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const handleClick = (e) => {
+    localStorage.setItem("productdesp", JSON.stringify(e));
+
+    navigate("/ProductDesp");
+  };
+  const handleCart = (item) => {
+    dispatch(addItem(item));
+    alert("Product has been added to Cart");
+  };
+  return (
+    <>
+      <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        slidesPerGroup={3}
+        loop={true}
+        loopFillGroupWithBlank={true}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Pagination, Navigation]}
+        className="mySwiper"
+        style={{ height: "550px" }}
+      >
+        {BabyCare.map((item) => {
+          return (
+            <SwiperSlide>
+              <div key={item.id}>
+                <div>
+                  <div
+                    style={{
+                      width: "fit-content",
+                      height: "fit-content",
+                      position: "absolute",
+                      color: "white",
+                      backgroundColor: "indianred",
+                      width: "90px",
+                      height: "25px",
+                      textAlign: "center",
+                      borderTopRightRadius: "5px",
+                      borderBottomRightRadius: "5px",
+                      paddingTop: "2px",
+                    }}
+                  >
+                    <p style={{ fontSize: "14px" }}>{item.sellerTag}</p>
+                  </div>
+                  <div onClick={() => handleClick(item)}>
+                    <a>
+                      <img
+                        alt="ecommerce"
+                        style={{
+                          height: "250px",
+                          width: "95%",
+                          marginTop: "5%",
+                        }}
+                        src={item.pImg}
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div style={{ height: "50px", marginBottom: "15px" }}>
+                  <p style={{ textAlign: "center", fontSize: "15px" }}>
+                    {item.name}
+                  </p>
+                </div>
+                <div>
+                  <p style={{ textAlign: "center", color: "green" }}>
+                    {item.pShortDec}
+                  </p>
+                  <div
+                    style={{
+                      display: "flex",
+                      width: "300px",
+                      marginLeft: "20%",
+                      gap: "10px",
+                    }}
+                  >
+                    <p
+                      style={{
+                        textAlign: "center",
+                        fontSize: "12px",
+                        fontWeight: "100",
+                      }}
+                    >
+                      ⭐{item.rating}
+                    </p>
+                    <p
+                      style={{
+                        textAlign: "center",
+                        fontSize: "12px",
+                        fontWeight: "100",
+                      }}
+                    >
+                      <img
+                        src="https://image.emojisky.com/478/2537478-small.png"
+                        style={{ height: "20px", width: "20px" }}
+                      />
+                      `{item.reviews} Reviews`
+                    </p>
+                  </div>
+
+                  <p style={{ textAlign: "center", fontSize: "18px" }}>
+                    {" "}
+                    ₹{item.price}
+                  </p>
+                </div>
+                <button
+                  onClick={() => handleCart(item)}
+                  className={styles.addToCart}
+                >
+                  Add To cart
+                </button>
               </div>
             </SwiperSlide>
           );

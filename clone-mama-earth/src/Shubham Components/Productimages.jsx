@@ -14,7 +14,7 @@ import "swiper/css/thumbs";
 import { FreeMode, Navigation, Thumbs } from "swiper";
 
 export default function Productimages() {
-//   const [thumbsSwiper, setThumbsSwiper] = useState(true);
+  //   const [thumbsSwiper, setThumbsSwiper] = useState(true);
 
   return (
     <>

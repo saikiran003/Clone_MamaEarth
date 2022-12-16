@@ -7,46 +7,41 @@ import Signup from "./Signup";
 const Login = () => {
   const [back, setBack] = useState(true);
   const [mobile, setMobile] = useState("");
-  const [goSignup, setGoSignup] = useState(false);
-  const navigate = useNavigate()
-
-  const goBackToHome = () => {
-    setBack(false);
-  };
-
-  const loginWithOtp = (e) => {
-    setMobile(e.target.value);
-  };
+  const navigate = useNavigate();
+  var signup = JSON.parse(localStorage.getItem("signupForm"));
 
   const submitLogin = (e) => {
     e.preventDefault();
-    if (mobile === "" || mobile < 10) {
-      alert("Please enter a mobile number");
+    if (mobile === "" || mobile.length < 10) {
+      alert("Please enter 10 digit mobile number");
+    } else {
+      if (mobile !== signup.phone) {
+        alert("Enter a Registered mobile number");
+      } else {
+        navigate("/otp");
+      }
     }
-    else{
-        setGoSignup(true);
-    }
-    navigate("/otp")
   };
-
   return (
     <>
-     
-      {!goSignup? ( <div className={styles.Alogin}>
+      <div className={styles.Alogin}>
         <div className={styles.ALoginheading}>Log in to get started</div>
         {back && (
           <Link to="/">
             <img
               src="https://mamaearth.in/static/mamaearth/close.svg"
-              onClick={goBackToHome}
+              onClick={() => setBack(false)}
               className={styles.AloginBack}
-              alt=""
+              alt="mama"
             />
           </Link>
         )}
         <div className="Aintero">
           <div>
-            <img src="https://mamaearth.in/static/mamaearth/login.svg" alt="" />
+            <img
+              src="https://mamaearth.in/static/mamaearth/login.svg"
+              alt="mama"
+            />
           </div>
           <div className={styles.Atext}>
             Get access to your orders, track previous order & Redeem Mama Cash
@@ -56,11 +51,11 @@ const Login = () => {
           <form onSubmit={submitLogin} className={styles.AloginForm}>
             <div className={styles.AinputDiv}>
               <input
-                onChange={loginWithOtp}
+                onChange={(e) => setMobile(e.target.value)}
                 type="number"
                 placeholder="Phone Number"
                 value={mobile}
-                className={styles.ALoginInput} 
+                className={styles.ALoginInput}
                 required
               />
               <div className={styles.Apopup}></div>
@@ -70,32 +65,29 @@ const Login = () => {
               By Continuing, you agree to Mamaearth's{" "}
               <span>terms and Conditions</span> and <span>Privacy Policy</span>
             </div>
-            <Link to ="/otp">
             <input
-                  type="submit"
-                  value="Login with OTP"
-                  className={styles.AloginButton}
-                  placeholder="Login with OTP"
-                  required
-                />
-                </Link>
-            
+              type="submit"
+              value="Login with OTP"
+              className={styles.AloginButton}
+              placeholder="Login with OTP"
+              required
+            />
           </form>
-          
         </div>
         <hr />
         <div className={styles.AGuest}>
           <p>If you are not registered yet, you can SignUp</p>
           <Link to="/signup">
-          <button type="button" className="btn btn-primary" onClick={()=>navigate("/signup")}>Sign Up</button>
+            <button
+              type="button"
+              className="btn btn-primary"
+              onClick={() => navigate("/signup")}
+            >
+              Sign Up
+            </button>
           </Link>
         </div>
-      </div>) :
-
-
-         <Signup/>
-           
-     }
+      </div>
     </>
   );
 };

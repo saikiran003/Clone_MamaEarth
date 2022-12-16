@@ -22,9 +22,6 @@ const Signup = () => {
 
     navigate("/profile");
   };
-
-  console.log(formData);
-
   return (
     <>
       <div className={styles.Bsignup}>
@@ -129,6 +126,7 @@ const Signup = () => {
               <div className={styles.BgendeR}></div>
             </div>
             <div>
+              <p style={{ marginBottom: "0px" }}>Date of Birth</p>
               <input
                 required
                 onChange={handleChange}

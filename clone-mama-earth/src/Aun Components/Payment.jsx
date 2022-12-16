@@ -13,7 +13,7 @@ const Payment = () => {
   const [city, setCity] = useState("");
   const [state, setState] = useState("");
   const data = useSelector((state) => state.cart);
-  const user = JSON.parse(localStorage.getItem("signupForm"))
+  const user = JSON.parse(localStorage.getItem("signupForm"));
   var total = 0;
 
   const showSuccess = () => {
@@ -32,7 +32,9 @@ const Payment = () => {
         {/* div partition */}
         <div className={styles.pageDiv}>
           <div className={styles.leftDiv}>
-            <div className={styles.welcome}>Hi {user.firstName + " "+ user.lastname}, Welcome to Mamaearth</div>
+            <div className={styles.welcome}>
+              Hi {user.firstName + " " + user.lastname}, Welcome to Mamaearth
+            </div>
             <div className={styles.address}>New Delivery Address</div>
             <form>
               <div className={styles.firstFlx}>
@@ -186,23 +188,24 @@ const Payment = () => {
                 <div className={styles.r1}>Order Summary </div>
                 <div className={styles.r2}>CHANGE</div>
               </div>
-              {data.map((item) => {
-                  total = total + Number(item.qty) * Number(item.price);
+              {data.map((item, index) => {
+                total = total + Number(item.qty) * Number(item.price);
                 return (
                   <>
-                    <div className={`${styles.itemDetails} `}>
+                    <div className={`${styles.itemDetails} `} key={index}>
                       <div>
                         <img
-                          src={item.pImg} alt={item.name}
+                          src={item.pImg}
+                          alt={item.name}
                           className={styles.itmImg}
                         />
                       </div>
                       <div>
-                        <p>
-                         {item.name}
-                        </p>
+                        <p>{item.name}</p>
                         <div className={styles.prcFlx}>
-                          <div style={{ fontWeight: "bold" }}>₹{item.price}</div>
+                          <div style={{ fontWeight: "bold" }}>
+                            ₹{item.price}
+                          </div>
                           <div>Qty:{item.qty}</div>
                         </div>
                       </div>
@@ -214,12 +217,18 @@ const Payment = () => {
 
             {/* Price Summary */}
             <div className="heaven">
-            <img src="https://mamaearth.in/static/mamaearth/ruppee.svg"alt="rupee"/>
-            <span class="savings">
-              You save <span style={{color:"#59A30E"}}>₹{(0.05 * total).toFixed(2)}</span> on
-              this order
-            </span>
-          </div>
+              <img
+                src="https://mamaearth.in/static/mamaearth/ruppee.svg"
+                alt="rupee"
+              />
+              <span className="savings">
+                You save{" "}
+                <span style={{ color: "#59A30E" }}>
+                  ₹{(0.05 * total).toFixed(2)}
+                </span>{" "}
+                on this order
+              </span>
+            </div>
             <div className={styles.priceSumm}>Price Summary</div>
             <div className={styles.ordTot}>
               <div>Order Total</div>

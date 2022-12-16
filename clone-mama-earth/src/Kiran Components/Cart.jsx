@@ -2,17 +2,16 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { addItem, delItem } from "../Kiran Components/redux/action";
-import "./Styles/Header.css"
+import "./Styles/Header.css";
 
 // import { loadData } from "../utils/localStorage";
 // import { Link } from "react-router-dom";
 
 const Cart = () => {
-  const signup=localStorage.getItem("signupForm")
-  console.log(signup)
+  const signup = localStorage.getItem("signupForm");
   const dispatch = useDispatch();
   const state = useSelector((state) => state.cart);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   var total = 0;
   const openCart = () => {
@@ -23,13 +22,12 @@ const Cart = () => {
     document.querySelector(".effort").style.display = "none";
   }
   const checkOut = () => {
-    if(signup===null){
-      alert("Please Login First")
+    if (signup === null) {
+      alert("Please Login First");
       navigate("/profile");
+    } else {
+      navigate("/checkout");
     }
-   else{
-    navigate("/checkout")
-   }
   };
   const IncQuant = (item) => {
     dispatch(delItem(item));
@@ -71,100 +69,113 @@ const Cart = () => {
 
       {/* cart pop-up */}
       <div className="effort">
-        <div className="faith" >
-          <div className="fox" >
+        <div className="faith">
+          <div className="fox">
             <div className="fish" onClick={closeCart}>
-            <i class="fa-solid fa-arrow-left"></i>
+              <i class="fa-solid fa-arrow-left"></i>
             </div>
             <div className="fin">My Cart</div>
-           
           </div>
-          {(state.length===0)?(
-               <div id="myCartContent">
-               <img src="https://mamaearthp.imgix.net/wysiwyg/bags2x.png?auto=format" alt="" />
-               <h4>Your cart is empty !</h4>
-               <p>It's a good day to buy the items you saved for later</p>
-               <button id="shopNowBtn">SHOP NOW</button>
-             </div>
-          ):(<>
-               <h6 style={{textAlign:"left",marginTop:"20px"}}>Order Summary</h6>
-          {state.map((item) => {
-            total = total + Number(item.qty) * Number(item.price);
-            return (
-              <>
-                <div className="follower">
-                  <div>
-                    <img src={item.pImg} alt={item.name} className="flock" />
-                  </div>
+          {state.length === 0 ? (
+            <div id="myCartContent">
+              <img
+                src="https://mamaearthp.imgix.net/wysiwyg/bags2x.png?auto=format"
+                alt=""
+              />
+              <h4>Your cart is empty !</h4>
+              <p>It's a good day to buy the items you saved for later</p>
+              <button id="shopNowBtn">SHOP NOW</button>
+            </div>
+          ) : (
+            <>
+              <h6 style={{ textAlign: "left", marginTop: "20px" }}>
+                Order Summary
+              </h6>
+              {state.map((item) => {
+                total = total + Number(item.qty) * Number(item.price);
+                return (
+                  <>
+                    <div className="follower">
+                      <div>
+                        <img
+                          src={item.pImg}
+                          alt={item.name}
+                          className="flock"
+                        />
+                      </div>
 
-                  <div>
-                    <p className="hat" style={{ textAlign: "left" }}>
-                      {item.name}
-                    </p>
-                    <div className="hall">
-                      <div>₹{item.price}</div>
-                      <div className="heat">
-                        <button onClick={() => IncQuant(item)}>-</button>
-                        <p>{item.qty}</p>
-                        <button onClick={() => decQuant(item)}>+</button>
+                      <div>
+                        <p className="hat" style={{ textAlign: "left" }}>
+                          {item.name}
+                        </p>
+                        <div className="hall">
+                          <div>₹{item.price}</div>
+                          <div className="heat">
+                            <button onClick={() => IncQuant(item)}>-</button>
+                            <p>{item.qty}</p>
+                            <button onClick={() => decQuant(item)}>+</button>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                    <hr style={{ marginTop: "-10px" }}></hr>
+                  </>
+                );
+              })}
+              <div className="heaven">
+                <img
+                  src="https://mamaearth.in/static/mamaearth/ruppee.svg"
+                  alt="rupee"
+                />
+                <span class="savings">
+                  You save{" "}
+                  <span style={{ color: "#59A30E" }}>
+                    ₹{(0.05 * total).toFixed(2)}
+                  </span>{" "}
+                  on this order
+                </span>
+              </div>
+              <h5 style={{ textAlign: "left" }}>Price Summary</h5>
+              <hr style={{ border: "0.0001px solid rgb(221, 216, 216)" }}></hr>
+              <div className="hell">
+                <div>Order Total</div>
+                <div style={{ fontWeight: "700" }}>₹{total.toFixed(2)}</div>
+              </div>
+              <hr style={{ marginTop: "-10px" }}></hr>
+              <div className="hell">
+                <div>Shipping</div>
+                <div style={{ color: "green", fontWeight: "500" }}>Free</div>
+              </div>
+              <hr style={{ marginTop: "-10px" }}></hr>
+              <div className="hell">
+                <div>5% online payment discount</div>
+                <div style={{ color: "green", fontWeight: "500" }}>
+                  -₹{(0.05 * total).toFixed(2)}
                 </div>
-                <hr style={{ marginTop: "-10px" }}></hr>
-              </>
-            );
-          })}
-          <div className="heaven">
-            <img src="https://mamaearth.in/static/mamaearth/ruppee.svg"alt="rupee"/>
-            <span class="savings">
-              You save <span style={{color:"#59A30E"}}>₹{(0.05 * total).toFixed(2)}</span> on
-              this order
-            </span>
-          </div>
-          <h5 style={{textAlign:"left"}}>Price Summary</h5>
-          <hr style={{ border: "0.0001px solid rgb(221, 216, 216)" }}></hr>
-          <div className="hell">
-            <div>Order Total</div>
-            <div style={{ fontWeight: "700" }}>₹{total.toFixed(2)}</div>
-          </div>
-          <hr style={{ marginTop: "-10px" }}></hr>
-          <div className="hell">
-            <div>Shipping</div>
-            <div style={{ color: "green", fontWeight: "500" }}>Free</div>
-          </div>
-          <hr style={{ marginTop: "-10px" }}></hr>
-          <div className="hell">
-            <div>5% online payment discount</div>
-            <div style={{ color: "green", fontWeight: "500" }}>
-              -₹{(0.05 * total).toFixed(2)}
-            </div>
-          </div>
-          <hr style={{ marginTop: "-10px" }}></hr>
-          <div className="hell" style={{ marginBottom: "60px" }}>
-            <div>Grand Total</div>
-            <div style={{ fontWeight: "700" }}>
-              ₹{(total - (0.05 * total).toFixed(2)).toFixed(2)}
-            </div>
-          </div>
-          <div class="footer__container">
-            <div class="fine">
-              <div class="fit">
-                <div class="forest">
-                  {" "}
+              </div>
+              <hr style={{ marginTop: "-10px" }}></hr>
+              <div className="hell" style={{ marginBottom: "60px" }}>
+                <div>Grand Total</div>
+                <div style={{ fontWeight: "700" }}>
                   ₹{(total - (0.05 * total).toFixed(2)).toFixed(2)}
                 </div>
-                <div class="fernando">View Details</div>
               </div>
-              <button class="fakhris" onClick={checkOut}>
-                Continue
-              </button>
-            </div>
-          </div>
-          </>)
-
-          }
-         
+              <div class="footer__container">
+                <div class="fine">
+                  <div class="fit">
+                    <div class="forest">
+                      {" "}
+                      ₹{(total - (0.05 * total).toFixed(2)).toFixed(2)}
+                    </div>
+                    <div class="fernando">View Details</div>
+                  </div>
+                  <button class="fakhris" onClick={checkOut}>
+                    Continue
+                  </button>
+                </div>
+              </div>
+            </>
+          )}
         </div>
       </div>
     </div>
